@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commit - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commit c36f21</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <span class="cur"><a href="?a=commit&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">Commit</a></span> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=2c00898ae20a544862059bca1e82e6842c48be86&amp;hb=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="c36f21f22ab69bdc840751846a2f0aa9a2195cb4" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>v2.2: Auto TimeZone and DST detection added</h1>
+
+<table class="commit">
+<tbody>
+<tr>
+	<td>Author</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Author date</td>
+	<td>2011-03-17 05:50:02</td>
+</tr>
+<tr>
+	<td>Author local date</td>
+	<td>2011-03-17 01:50:02 -0400</td>
+</tr>
+<tr>
+	<td>Committer</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Committer date</td>
+	<td>2011-03-17 05:50:02</td>
+</tr>
+<tr>
+	<td>Committer local date</td>
+	<td>2011-03-17 01:50:02 -0400</td>
+</tr>
+<tr>
+	<td>Commit</td>
+	<td>c36f21f22ab69bdc840751846a2f0aa9a2195cb4</td>
+</tr>
+<tr>
+	<td>Tree</td>
+	<td><a href="?a=tree&amp;p=PrayTimes&amp;h=2c00898ae20a544862059bca1e82e6842c48be86&amp;hb=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">2c00898ae20a544862059bca1e82e6842c48be86</a></td>
+</tr>
+<tr>
+	<td>Parent</td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22">83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="commitmessage"><pre>v2.2: Auto TimeZone and DST detection added
+</pre></div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Affected files:</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=ca4429a46b3b7137b147b6b6a25bbb394dbb1f2a&amp;f=v2/js/PrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=f5ac3741b8e7632225fb6ad5b0c7adbb35119ff2&amp;f=v2/js/examples/monthly.htm">v2/js/examples/monthly.htm</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=a28f614433fbda63ef96acfec3b6d69f686e6ab8&amp;f=v2/js/examples/simple.htm">v2/js/examples/simple.htm</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=359ca8f39142aba2bba306c96b88d8361fb619fe&amp;f=v2/js/examples/yearly.htm">v2/js/examples/yearly.htm</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

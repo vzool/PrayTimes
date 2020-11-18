@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Blob - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Blob 213e70 / <a href="?a=tree&amp;p=PrayTimes&amp;h=b23faa99cb9c02ed969c4dafcef6de57cb4b32bf&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1">v1</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=1813a18e0baf2d02503ebc3e54f3ade4b3354f8a&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1/js">js</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=99ecab23923afdd6db79dd913c4849112598f9f3&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1/js/examples">examples</a> / <a href="?a=viewblob&amp;p=PrayTimes&amp;h=213e703df222ef7cb12daca856866a6dd47b2058&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1/js/examples/simple.htm">simple.htm</a> </div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commit</a> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="17ee68cff3d814bae3fcf7dc55beaf3e49909889" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h2>Last commit for v1/js/examples/simple.htm: <a href="?a=commit&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24">1c500fff7f21d1993f205d3e36dc17ee56efdf24</a></h2>
+<h1>JavaScript ver 2.0 uploaded</h1>
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2010-10-29 05:14:09]</div>
+<div class="commitmessage">
+<pre>
+JavaScript ver 2.0 uploaded
+</pre>
+</div>
+<div class="file">
+<pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt; Daily Prayer Timetable &lt;/title&gt;
+&lt;style&gt;
+	body, td, th {font-family: verdana; font-size: 12px; color: #404040;}
+	#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray;}
+	#timetable td, #timetable th {border-width: 1px; border-spacing: 1px; padding: 2px; border-style: inset; border-color: #CCCCCC;}
+	#timetable th {color:black; text-align: center; font-weight: bold; background-color: #F8F7F4;}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;br&gt;
+&lt;p align=&quot;center&quot;&gt;Waterloo, ON, Canada&lt;p&gt;
+&lt;div align=&quot;center&quot; id=&quot;table&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;../PrayTime.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+	var date = new Date(); // today
+	var times = prayTime.getPrayerTimes(date, 43, -80, -5);
+
+	var str = '&lt;table id=&quot;timetable&quot;&gt;';
+	str += '&lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;'+ date.toLocaleDateString()+ '&lt;/th&gt;&lt;/tr&gt;';
+	for(var i = 0; i &lt; times.length; i++)
+	{
+		str += '&lt;tr&gt;&lt;td&gt;'+ prayTime.timeNames[i]+ '&lt;/td&gt;';
+		str += '&lt;td&gt;'+ times[i]+ '&lt;/td&gt;&lt;/tr&gt;';
+	}
+	str += '&lt;/table&gt;';
+	document.getElementById('table').innerHTML = str;
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</div>
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

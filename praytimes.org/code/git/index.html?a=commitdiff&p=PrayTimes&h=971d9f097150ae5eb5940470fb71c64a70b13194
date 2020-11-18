@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commitdiff - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commitdiff 971d9f</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194">Commit</a> | <span class="cur"><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194">Commitdiff</a></span> | <a href="?a=tree&amp;p=PrayTimes&amp;h=f109b49bfe8d8ca0b89f7f0c493a0c236e447c27&amp;hb=971d9f097150ae5eb5940470fb71c64a70b13194">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="971d9f097150ae5eb5940470fb71c64a70b13194" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>v2.3: Fixed midinght for Jafari method</h1>
+
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2011-04-17 05:48:00]</div>
+
+<div class="commitmessage">
+<pre>
+v2.3: Fixed midinght for Jafari method
+</pre>
+</div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Filename</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#v2%2Fjs%2FPrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr>
+<tr>
+<td><a href="#v2%2Fpython%2Fpraytimes.py">v2/python/praytimes.py</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="diff">
+<pre>
+<span class="diffline"><a name="v2%2Fjs%2FPrayTimes.js">diff --git a/v2/js/PrayTimes.js b/v2/js/PrayTimes.js</a></span>
+<span class="etc">index ca4429a..ab1c603 100644</span>
+<span class="del">--- a/v2/js/PrayTimes.js</span>
+<span class="add">+++ b/v2/js/PrayTimes.js</span>
+<span class="pos">@@ -1,7 +1,7 @@</span>
+<span class="etc"> //--------------------- Copyright Block ----------------------</span>
+<span class="etc"> /*</span>
+<span class="etc">
+<span class="del">-PrayTimes.js: Prayer Times Calculator (ver 2.2)</span></span>
+<span class="add">+PrayTimes.js: Prayer Times Calculator (ver 2.3)</span>
+<span class="etc"> Copyright (C) 2007-2011 PrayTimes.org</span>
+<span class="etc">
+ Developer: Hamid Zarrabi-Zadeh</span>
+<span class="pos">@@ -126,7 +126,7 @@ function PrayTimes(method) {</span>
+<span class="etc"> 	// Midnight Mode</span>
+<span class="etc"> 	midnightMethods = [</span>
+<span class="etc"> 		'Standard',    // Mid Sunset to Sunrise</span>
+<span class="del">-		'Jafari'       // Mid Maghrib to Fajr</span>
+<span class="add">+		'Jafari'       // Mid Sunset to Fajr</span>
+<span class="etc"> 	],</span>
+<span class="etc">
+</span><span class="etc">
+<span class="pos">@@ -269,8 +269,8 @@ function PrayTimes(method) {</span></span>
+<span class="etc"> 		var hours = Math.floor(time);</span>
+<span class="etc"> 		var minutes = Math.floor((time- hours)* 60);</span>
+<span class="etc"> 		var suffix = (format == '12h') ? suffixes[hours &lt; 12 ? 0 : 1] : '';</span>
+<span class="del">-		hours = (format == '24h') ? this.twoDigitsFormat(hours) : ((hours+ 12 -1)% 12+ 1);</span>
+<span class="del">-		return hours+ ':'+ this.twoDigitsFormat(minutes)+ (suffix ? ' '+ suffix : '');</span>
+<span class="add">+		var hour = (format == '24h') ? this.twoDigitsFormat(hours) : ((hours+ 12 -1)% 12+ 1);</span>
+<span class="add">+		return hour+ ':'+ this.twoDigitsFormat(minutes)+ (suffix ? ' '+ suffix : '');</span>
+<span class="etc"> 	},</span>
+<span class="etc">
+</span><span class="etc">
+<span class="pos">@@ -377,7 +377,7 @@ function PrayTimes(method) {</span></span>
+<span class="etc">
+ 		// add midnight time</span>
+<span class="etc"> 		times.midnight = (setting.midnight == 'Jafari') ?</span>
+<span class="del">-				times.maghrib+ this.timeDiff(times.maghrib, times.fajr)/ 2 :</span>
+<span class="add">+				times.sunset+ this.timeDiff(times.sunset, times.fajr)/ 2 :</span>
+<span class="etc"> 				times.sunset+ this.timeDiff(times.sunset, times.sunrise)/ 2;</span>
+<span class="etc">
+ 		times = this.tuneTimes(times);</span>
+<span class="diffline"><a name="v2%2Fpython%2Fpraytimes.py">diff --git a/v2/python/praytimes.py b/v2/python/praytimes.py</a></span>
+<span class="etc">index 10a1170..ce20d8c 100644</span>
+<span class="del">--- a/v2/python/praytimes.py</span>
+<span class="add">+++ b/v2/python/praytimes.py</span>
+<span class="pos">@@ -7,7 +7,7 @@ import re</span>
+<span class="etc"> '''</span>
+<span class="etc"> --------------------- Copyright Block ----------------------</span>
+<span class="etc">
+<span class="del">-praytimes.py: Prayer Times Calculator (ver 2.1)</span></span>
+<span class="add">+praytimes.py: Prayer Times Calculator (ver 2.3)</span>
+<span class="etc"> Copyright (C) 2007-2011 PrayTimes.org</span>
+<span class="etc">
+ Python Code: Saleem Shafi, Hamid Zarrabi-Zadeh</span>
+<span class="pos">@@ -291,7 +291,7 @@ class PrayTimes():</span>
+<span class="etc"> 		times = self.adjustTimes(times)</span>
+<span class="etc"> 		# add midnight time</span>
+<span class="etc"> 		if self.settings['midnight'] == 'Jafari':</span>
+<span class="del">-			times['midnight'] = times['maghrib'] + self.timeDiff(times['maghrib'], times['fajr']) / 2</span>
+<span class="add">+			times['midnight'] = times['sunset'] + self.timeDiff(times['sunset'], times['fajr']) / 2</span>
+<span class="etc"> 		else:</span>
+<span class="etc"> 			times['midnight'] = times['sunset'] + self.timeDiff(times['sunset'], times['sunrise']) / 2</span>
+<span class="etc">
+<span class="pos">@@ -428,6 +428,6 @@ if __name__ == "__main__":</span></span>
+<span class="etc"> 	from datetime import date</span>
+<span class="etc"> 	print('Prayer Times for today in Waterloo/Canada\n'+ ('='* 41))</span>
+<span class="etc"> 	times = prayTimes.getTimes(date.today(), (43, -80), -5);</span>
+<span class="del">-	for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha']:</span>
+<span class="add">+	for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight']:</span>
+<span class="etc"> 		print(i+ ': '+ times[i.lower()])</span>
+</pre>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

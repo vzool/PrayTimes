@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commitdiff - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commitdiff c8f144</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commit</a> | <span class="cur"><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commitdiff</a></span> | <a href="?a=tree&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="c8f1442d28ba10d1f4b8a99d4e826307d3af2a45" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>ver 2.1: Licence changed to LGPL v3.0</h1>
+
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2010-11-24 04:37:21]</div>
+
+<div class="commitmessage">
+<pre>
+ver 2.1: Licence changed to LGPL v3.0
+</pre>
+</div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Filename</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#v2%2Fjs%2FPrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="diff">
+<pre>
+<span class="diffline"><a name="v2%2Fjs%2FPrayTimes.js">diff --git a/v2/js/PrayTimes.js b/v2/js/PrayTimes.js</a></span>
+<span class="etc">index d4d81d8..dece204 100644</span>
+<span class="del">--- a/v2/js/PrayTimes.js</span>
+<span class="add">+++ b/v2/js/PrayTimes.js</span>
+<span class="pos">@@ -1,11 +1,11 @@</span>
+<span class="etc"> //--------------------- Copyright Block ----------------------</span>
+<span class="etc"> /*</span>
+<span class="etc">
+<span class="del">-PrayTimes.js: Prayer Times Calculator (ver 2.0)</span></span>
+<span class="add">+PrayTimes.js: Prayer Times Calculator (ver 2.1)</span>
+<span class="etc"> Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc">
+ Developer: Hamid Zarrabi-Zadeh</span>
+<span class="del">-License: GNU General Public License, ver 3</span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="etc"> 	Permission is granted to use this code, with or</span>
+<span class="pos">@@ -99,7 +99,7 @@ function PrayTimes(method) {</span>
+<span class="etc"> 			params: { fajr: 18, isha: 18 } },</span>
+<span class="etc"> 		Tehran: {</span>
+<span class="etc"> 			name: 'Institute of Geophysics, University of Tehran',</span>
+<span class="del">-			params: { fajr: 17.7, isha: 14, maghrib: 4.5, midnight: 'Jafari' } },  // isha is not explicitely specified in this method</span>
+<span class="add">+			params: { fajr: 17.7, isha: 14, maghrib: 4.5, midnight: 'Jafari' } },  // isha is not explicitly specified in this method</span>
+<span class="etc"> 		Jafari: {</span>
+<span class="etc"> 			name: 'Shia Ithna-Ashari, Leva Institute, Qum',</span>
+<span class="etc"> 			params: { fajr: 16, isha: 14, maghrib: 4, midnight: 'Jafari' } }</span>
+<span class="pos">@@ -241,8 +241,8 @@ function PrayTimes(method) {</span>
+<span class="etc">
+ 	// return prayer times for a given date</span>
+<span class="etc"> 	getTimes: function(date, coords, timezone, dst, format) {</span>
+<span class="del">-		lng = 1* coords[0];</span>
+<span class="del">-		lat = 1* coords[1];</span>
+<span class="add">+		lat = 1* coords[0];</span>
+<span class="add">+		lng = 1* coords[1];</span>
+<span class="etc"> 		elv = coords[2] ? 1* coords[2] : 0;</span>
+<span class="etc"> 		timeFormat = format || timeFormat;</span>
+<span class="etc"> 		if (date.constructor === Date)</span></pre>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

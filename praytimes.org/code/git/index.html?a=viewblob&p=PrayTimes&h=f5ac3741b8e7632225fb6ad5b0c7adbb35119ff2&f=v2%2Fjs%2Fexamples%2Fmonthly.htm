@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Blob - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Blob f5ac37 / <a href="?a=tree&amp;p=PrayTimes&amp;h=dcb3eabed973653f0b97064059b0ff02ef59d01a&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2">v2</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=53c61df6a25e71053188504754fe6cf44c132200&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2/js">js</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=ca6b5efa2ac06b19b978c8a514b442c6e8b3d635&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2/js/examples">examples</a> / <a href="?a=viewblob&amp;p=PrayTimes&amp;h=f5ac3741b8e7632225fb6ad5b0c7adbb35119ff2&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2/js/examples/monthly.htm">monthly.htm</a> </div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commit</a> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="17ee68cff3d814bae3fcf7dc55beaf3e49909889" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h2>Last commit for v2/js/examples/monthly.htm: <a href="?a=commit&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">c36f21f22ab69bdc840751846a2f0aa9a2195cb4</a></h2>
+<h1>v2.2: Auto TimeZone and DST detection added</h1>
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2011-03-17 05:50:02]</div>
+<div class="commitmessage">
+<pre>
+v2.2: Auto TimeZone and DST detection added
+</pre>
+</div>
+<div class="file">
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt; Monthly Prayer Timetable &lt;/title&gt;
+	&lt;style&gt;
+		body, tr, form {font-family: tahoma; font-size: 12px; color: #404040; text-align: center; margin: 0; padding: 0}
+		pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}
+		input {font-size: 12px;}
+		.header {background:#eef; border-bottom: 1px solid #ddd; padding: 7px;}
+		.caption {font-size: 20px; color: #d95722; text-align: center; width: 10em;}
+		.arrow {font-weight: bold; text-decoration: none; color: #3D3D3D; }
+		.arrow:hover {text-decoration: underline;}
+		.command {font-weight: bold; text-decoration: none; color: #AAAAAA; }
+		.command:hover {text-decoration: underline;}
+		.timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; margin: 0 auto;}
+		.timetable td {border-width: 1px; border-spacing: 1px; padding: 1px; border-style: inset; border-color: #CCCCCC;}
+		.head-row {color: black; background-color: #eef;}
+		.today-row {background-color: #F8F7F4; color: black}
+	&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;../PrayTimes.js&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;header&quot;&gt;
+&lt;form class=&quot;form&quot; action=&quot;javascript:update();&quot;&gt;
+	Latitude: &lt;input type=&quot;text&quot; value=&quot;43&quot; id=&quot;latitude&quot; size=&quot;2&quot; onchange=&quot;update();&quot; /&gt;&amp;nbsp;
+	Longitude: &lt;input type=&quot;text&quot; value=&quot;-80&quot; id=&quot;longitude&quot; size=&quot;2&quot; onchange=&quot;update();&quot; /&gt;&amp;nbsp;
+	Time Zone: &lt;input type=&quot;text&quot; value=&quot;-5&quot; id=&quot;timezone&quot; size=&quot;2&quot; onchange=&quot;update();&quot; /&gt;&amp;nbsp;
+	DST:
+	&lt;select id=&quot;dst&quot; size=&quot;1&quot; style=&quot;font-size: 12px;&quot; onchange=&quot;update()&quot;&gt;
+		&lt;option value=&quot;auto&quot; selected=&quot;selected&quot;&gt;Auto&lt;/option&gt;
+		&lt;option value=&quot;0&quot;&gt;0&lt;/option&gt;
+		&lt;option value=&quot;1&quot;&gt;1&lt;/option&gt;
+    &lt;/select&gt;&amp;nbsp;
+	Method:
+	&lt;select id=&quot;method&quot; size=&quot;1&quot; style=&quot;font-size: 12px;&quot; onchange=&quot;update()&quot;&gt;
+		&lt;option value=&quot;MWL&quot; selected=&quot;selected&quot;&gt;Muslim World League (MWL)&lt;/option&gt;
+		&lt;option value=&quot;ISNA&quot;&gt;Islamic Society of North America (ISNA)&lt;/option&gt;
+		&lt;option value=&quot;Egypt&quot;&gt;Egyptian General Authority of Survey&lt;/option&gt;
+		&lt;option value=&quot;Makkah&quot;&gt;Umm al-Qura University, Makkah&lt;/option&gt;
+		&lt;option value=&quot;Karachi&quot;&gt;University of Islamic Sciences, Karachi&lt;/option&gt;
+		&lt;option value=&quot;Jafari&quot;&gt;Shia Ithna-Ashari (Jafari)&lt;/option&gt;
+		&lt;option value=&quot;Tehran&quot;&gt;Institute of Geophysics, University of Tehran&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;a href=&quot;javascript:displayMonth(-1)&quot; class=&quot;arrow&quot;&gt;&amp;lt;&amp;lt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td id=&quot;table-title&quot; class=&quot;caption&quot;&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href=&quot;javascript:displayMonth(+1)&quot; class=&quot;arrow&quot;&gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;br/&gt;
+&lt;table id=&quot;timetable&quot; class=&quot;timetable&quot;&gt;
+	&lt;tbody&gt;&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div align=&quot;center&quot; style=&quot;margin-top: 7px&quot;&gt;
+	Source: &lt;a href=&quot;http://praytimes.org/&quot; class=&quot;command&quot;&gt;PrayTimes.org&lt;/a&gt; |
+	Time Format: &lt;a id=&quot;time-format&quot; href=&quot;javascript:switchFormat(1)&quot; title=&quot;Change clock format&quot; class=&quot;command&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+	var currentDate = new Date();
+	var timeFormat = 1;
+	switchFormat(0);
+
+	// display monthly timetable
+	function displayMonth(offset) {
+		var lat = $('latitude').value;
+		var lng = $('longitude').value;
+		var timeZone = $('timezone').value;
+		var dst = $('dst').value;
+		var method = $('method').value;
+
+		prayTimes.setMethod(method);
+		currentDate.setMonth(currentDate.getMonth()+ 1* offset);
+		var month = currentDate.getMonth();
+		var year = currentDate.getFullYear();
+		var title = monthFullName(month)+ ' '+ year;
+		$('table-title').innerHTML = title;
+		makeTable(year, month, lat, lng, timeZone, dst);
+	}
+
+	// make monthly timetable
+	function makeTable(year, month, lat, lng, timeZone, dst) {
+		var items = {day: 'Day', fajr: 'Fajr', sunrise: 'Sunrise',
+					dhuhr: 'Dhuhr', asr: 'Asr', // sunset: 'Sunset',
+					maghrib: 'Maghrib', isha: 'Isha'};
+
+		var tbody = document.createElement('tbody');
+		tbody.appendChild(makeTableRow(items, items, 'head-row'));
+
+		var date = new Date(year, month, 1);
+		var endDate = new Date(year, month+ 1, 1);
+		var format = timeFormat ? '12hNS' : '24h';
+
+		while (date &lt; endDate) {
+			var times = prayTimes.getTimes(date, [lat, lng], timeZone, dst, format);
+			times.day = date.getDate();
+			var today = new Date();
+			var isToday = (date.getMonth() == today.getMonth()) &amp;&amp; (date.getDate() == today.getDate());
+			var klass = isToday ? 'today-row' : '';
+			tbody.appendChild(makeTableRow(times, items, klass));
+			date.setDate(date.getDate()+ 1);  // next day
+		}
+		removeAllChild($('timetable'));
+		$('timetable').appendChild(tbody);
+	}
+
+	// make a table row
+	function makeTableRow(data, items, klass) {
+		var row = document.createElement('tr');
+		for (var i in items) {
+			var cell = document.createElement('td');
+			cell.innerHTML = data[i];
+			cell.style.width = i=='day' ? '2.5em' : '3.7em';
+			row.appendChild(cell);
+		}
+		row.className = klass;
+		return row;
+	}
+
+	// remove all children of a node
+	function removeAllChild(node) {
+		if (node == undefined || node == null)
+			return;
+
+		while (node.firstChild)
+			node.removeChild(node.firstChild);
+	}
+
+	// switch time format
+	function switchFormat(offset) {
+		var formats = ['24-hour', '12-hour'];
+		timeFormat = (timeFormat+ offset)% 2;
+		$('time-format').innerHTML = formats[timeFormat];
+		update();
+	}
+
+	// update table
+	function update() {
+		displayMonth(0);
+	}
+
+	// return month full name
+	function monthFullName(month) {
+		var monthName = new Array('January', 'February', 'March', 'April', 'May', 'June',
+						'July', 'August', 'September', 'October', 'November', 'December');
+		return monthName[month];
+	}
+
+	function $(id) {
+		return document.getElementById(id);
+	}
+
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+</pre>
+</div>
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

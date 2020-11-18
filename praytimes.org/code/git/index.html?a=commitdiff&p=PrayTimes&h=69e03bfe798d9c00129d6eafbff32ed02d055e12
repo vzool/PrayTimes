@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commitdiff - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commitdiff 69e03b</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=69e03bfe798d9c00129d6eafbff32ed02d055e12">Commit</a> | <span class="cur"><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=69e03bfe798d9c00129d6eafbff32ed02d055e12">Commitdiff</a></span> | <a href="?a=tree&amp;p=PrayTimes&amp;h=af74d8914bfea2cc4c63b8030df2b0a685e89315&amp;hb=69e03bfe798d9c00129d6eafbff32ed02d055e12">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="69e03bfe798d9c00129d6eafbff32ed02d055e12" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>Small bug fix in php v1</h1>
+
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2010-12-08 06:30:14]</div>
+
+<div class="commitmessage">
+<pre>
+Small bug fix in php v1
+</pre>
+</div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Filename</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#v1%2Fphp%2FPrayTime.php">v1/php/PrayTime.php</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fphp%2Fsample.php">v1/php/sample.php</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="diff">
+<pre>
+<span class="diffline"><a name="v1%2Fphp%2FPrayTime.php">diff --git a/v1/php/PrayTime.php b/v1/php/PrayTime.php</a></span>
+<span class="etc">index 3800a64..91c59f0 100644</span>
+<span class="del">--- a/v1/php/PrayTime.php</span>
+<span class="add">+++ b/v1/php/PrayTime.php</span>
+<span class="pos">@@ -3,12 +3,10 @@</span>
+<span class="etc"> //--------------------- Copyright Block ----------------------</span>
+<span class="etc"> /*</span>
+<span class="etc">
+<span class="del">-PrayTime.php: Prayer Times Calculator (ver 1.2.1)</span></span>
+<span class="add">+PrayTime.php: Prayer Times Calculator (ver 1.2.2)</span>
+<span class="etc"> Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc">
+<span class="del">-PHP Code By: Hamid Zarrabi-Zadeh</span></span>
+<span class="del">-Original JS Code By: Hamid Zarrabi-Zadeh</span>
+<span class="del">-</span>
+<span class="add">+Developer: Hamid Zarrabi-Zadeh</span>
+<span class="etc"> License: GNU General Public License, ver 3</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="pos">@@ -199,7 +197,7 @@ class PrayTime</span>
+<span class="etc">     function getPrayerTimes($timestamp, $latitude, $longitude, $timeZone)</span>
+<span class="etc">     {</span>
+<span class="etc">         $date = @getdate($timestamp);</span>
+<span class="del">-        return $this-&gt;getDatePrayerTimes($date[year], $date[mon], $date[mday],</span>
+<span class="add">+        return $this-&gt;getDatePrayerTimes($date['year'], $date['mon'], $date['mday'],</span>
+<span class="etc">                     $latitude, $longitude, $timeZone);</span>
+<span class="etc">     }</span>
+<span class="etc">
+<span class="pos">@@ -504,7 +502,7 @@ class PrayTime</span></span>
+<span class="etc">     // add a leading 0 if necessary</span>
+<span class="etc">     function twoDigitsFormat($num)</span>
+<span class="etc">     {</span>
+<span class="del">-        return ($num &lt;10) ? '0'+ $num : $num;</span>
+<span class="add">+        return ($num &lt;10) ? '0'. $num : $num;</span>
+<span class="etc">     }</span>
+<span class="etc">
+</span><span class="etc">
+<span class="diffline"><a name="v1%2Fphp%2Fsample.php">diff --git a/v1/php/sample.php b/v1/php/sample.php</span></a></span>
+<span class="etc">index a7a1c86..2174353 100644</span>
+<span class="del">--- a/v1/php/sample.php</span>
+<span class="add">+++ b/v1/php/sample.php</span>
+<span class="pos">@@ -1,13 +1,14 @@</span>
+<span class="del">-&lt;?</span>
+<span class="add">+&lt;?php</span>
+<span class="add">+</span>
+<span class="etc"> 	// Prayer Time Calculator</span>
+<span class="etc"> 	// By: Hamid Zarrabi-Zadeh</span>
+<span class="del">-	// Inputs : $method, $year, $lat, $lng, $timeZone</span>
+<span class="add">+	// Inputs : $method, $year, $latitude, $longitude, $timeZone</span>
+<span class="etc">
+<span class="del">-	import_request_variables("gpc");</span></span>
+<span class="add">+	import_request_variables("p");</span>
+<span class="etc"> 	include('PrayTime.php');</span>
+<span class="etc">
+ 	if (!isset($method) || !isset($year) )</span>
+<span class="del">-		list($method, $year, $lat, $lng, $timeZone) = array(0, 2007, 43, -80, -5);</span>
+<span class="add">+		list($method, $year, $latitude, $longitude, $timeZone) = array(0, 2007, 43, -80, -5);</span>
+<span class="etc"> ?&gt;</span>
+<span class="etc"> &lt;html&gt;</span>
+<span class="etc"> &lt;head&gt;</span>
+<span class="pos">@@ -20,15 +21,15 @@</span>
+<span class="etc"> &lt;body&gt;</span>
+<span class="etc">
+ &lt;h1&gt; Prayer Timetable &lt;/h1&gt;</span>
+<span class="del">-&lt;form name=form method="post" action="" onSubmit="submit_form();"&gt;</span>
+<span class="add">+&lt;form name="form" method="post" action="&lt;?php echo $PHP_SELF ?&gt;"&gt;</span>
+<span class="etc"> &lt;div style="padding:10px; background-color: #F8F7F4; border: 1px dashed #EAE9CD;"&gt;</span>
+<span class="etc">
+<span class="del">-	Latitude: &lt;input type="text" value="&lt;?= $lat ?&gt;" id="latitude" size="4"&gt;</span></span>
+<span class="del">-	Longitude: &lt;input type="text" value="&lt;?= $lng ?&gt;" id="longitude" size="4"&gt;</span>
+<span class="del">-	Time Zone: &lt;input type="text" value="&lt;?= $timeZone ?&gt;" id="timezone" size="2"&gt;</span>
+<span class="del">-	Year: &lt;input type="text" value="&lt;?= $year ?&gt;" id="year" size="4"&gt; &lt;br&gt;</span>
+<span class="add">+	Latitude: &lt;input type="text" value="&lt;?php echo $latitude ?&gt;" name="latitude" size="4"&gt;</span>
+<span class="add">+	Longitude: &lt;input type="text" value="&lt;?php echo $longitude ?&gt;" name="longitude" size="4"&gt;</span>
+<span class="add">+	Time Zone: &lt;input type="text" value="&lt;?php echo $timeZone ?&gt;" name="timeZone" size="2"&gt;</span>
+<span class="add">+	Year: &lt;input type="text" value="&lt;?php echo $year ?&gt;" name="year" size="4"&gt; &lt;br&gt;</span>
+<span class="etc"> 	Method:</span>
+<span class="del">-	&lt;select id="method" name="method" size="1"&gt;</span>
+<span class="add">+	&lt;select id="method" name="method" size="1" onchange="document.form.submit()"&gt;</span>
+<span class="etc"> 		&lt;option value="0"&gt;Shia Ithna-Ashari&lt;/option&gt;</span>
+<span class="etc"> 		&lt;option value="1"&gt;University of Islamic Sciences, Karachi&lt;/option&gt;</span>
+<span class="etc"> 		&lt;option value="2"&gt;Islamic Society of North America (ISNA)&lt;/option&gt;</span>
+<span class="pos">@@ -37,7 +38,7 @@</span>
+<span class="etc"> 		&lt;option value="5"&gt;Egyptian General Authority of Survey&lt;/option&gt;</span>
+<span class="etc"> 		&lt;option value="7"&gt;Institute of Geophysics, University of Tehran&lt;/option&gt;</span>
+<span class="etc">     &lt;/select&gt;</span>
+<span class="del">-	&lt;input type="submit" value="Make Timetable" onclick="submit_form();"&gt;</span>
+<span class="add">+	&lt;input type="submit" value="Make Timetable"&gt;</span>
+<span class="etc">
+ &lt;/div&gt;</span>
+<span class="etc"> &lt;/form&gt;</span>
+<span class="pos">@@ -45,7 +46,7 @@</span>
+<span class="etc"> &lt;pre&gt;</span>
+<span class="etc">  Date   Fajr   Sunrise  Dhuhr    Asr   Sunset  Maghrib  Isha</span>
+<span class="etc"> -------------------------------------------------------------</span>
+<span class="del">-&lt;?</span>
+<span class="add">+&lt;?php</span>
+<span class="etc">
+ 	$prayTime = new PrayTime($method);</span>
+<span class="etc">
+<span class="pos">@@ -54,7 +55,7 @@</span></span>
+<span class="etc">
+ 	while ($date &lt; $endDate)</span>
+<span class="etc"> 	{</span>
+<span class="del">-		$times = $prayTime-&gt;getPrayerTimes($date, $lat, $lng, $timeZone);</span>
+<span class="add">+		$times = $prayTime-&gt;getPrayerTimes($date, $latitude, $longitude, $timeZone);</span>
+<span class="etc"> 		$day = date('M d', $date);</span>
+<span class="etc"> 		print $day. "\t". implode("\t", $times). "\n";</span>
+<span class="etc"> 		$date += 24* 60* 60;  // next day</span>
+<span class="pos">@@ -64,21 +65,9 @@</span>
+<span class="etc"> &lt;/pre&gt;</span>
+<span class="etc">
+ &lt;script type="text/javascript"&gt;</span>
+<span class="del">-</span>
+<span class="del">-	function submit_form()</span>
+<span class="del">-	{</span>
+<span class="del">-		var lat = document.getElementById('latitude').value;</span>
+<span class="del">-		var lng = document.getElementById('longitude').value;</span>
+<span class="del">-		var timeZone = document.getElementById('timezone').value;</span>
+<span class="del">-		var year = document.getElementById('year').value;</span>
+<span class="del">-		var method = document.getElementById('method').value;</span>
+<span class="del">-		var table = document.getElementById('timetable');</span>
+<span class="del">-		var link = '&lt;?= $PHP_SELF ?&gt;'+ '?method='+ method+ '&amp;year='+ year+ '&amp;lat='+ lat+ '&amp;lng='+ lng+ '&amp;timeZone='+ timeZone;</span>
+<span class="del">-		document.form.action = link;</span>
+<span class="del">-		document.form.submit();</span>
+<span class="del">-	}</span>
+<span class="del">-</span>
+<span class="del">-	document.getElementById('method').selectedIndex = &lt;?= $method ?&gt;;</span>
+<span class="add">+</span>
+<span class="add">+	var method = &lt;?php echo $method ?&gt;;</span>
+<span class="add">+	document.getElementById('method').selectedIndex = Math.min(method, 6);</span>
+<span class="etc">
+ &lt;/script&gt;</span>
+</pre>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

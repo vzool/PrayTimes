@@ -1,0 +1,566 @@
+
+
+
+
+
+
+<script type="text/javascript">
+
+</script>
+<style type="text/css">
+	#home { 
+		background: url('https://www.hyderi.org.uk/wp-content/uploads/2014/06/hussain_shrine.png') 50% 0 fixed; 
+		height: 320px; position: relative;}
+.home .row.news img{max-width:100%; height:auto;}
+
+	/* Non-essential demo stuff */
+	.hero-unit {
+		background-color: #fff;
+	    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	}
+	.media-object { width: 64px; height: 64px; padding-bottom: 30px }
+</style>
+
+<!DOCTYPE HTML> 
+<html lang=en>
+
+<head profile="https://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Hyderi Islamic Centre  </title>
+
+<link rel="stylesheet" href="https://www.hyderi.org.uk/wp-content/themes/Hyderi/style.css" type="text/css" media="screen, print" />
+<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="https://www.hyderi.org.uk/wp-content/themes/Hyderi/favicon.png">
+
+<script type="text/javascript">var templateDir = "https://www.hyderi.org.uk/wp-content/themes/Hyderi";</script>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Hyderi Islamic Centre &raquo; Home Comments Feed" href="https://www.hyderi.org.uk/home/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.12.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+<!-- No UA code set -->
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.hyderi.org.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.1"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='blue-skin-css'  href='https://www.hyderi.org.uk/wp-content/plugins/hyderi-audio/assets/css/jplayer.blue.monday.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hyderi-audio-styles-css'  href='https://www.hyderi.org.uk/wp-content/plugins/hyderi-audio/assets/css/hyderi-audio-styles.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-common-skeleton-style-css'  href='https://www.hyderi.org.uk/wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css?ver=4.12.10' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-tooltip-css'  href='https://www.hyderi.org.uk/wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min.css?ver=4.12.10' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.hyderi.org.uk/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.hyderi.org.uk/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=4.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=4.6.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=4.6.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='woocommerce-nyp-css'  href='https://www.hyderi.org.uk/wp-content/plugins/woocommerce-name-your-price/assets/css/name-your-price.css?ver=2.11.7' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-dark-css'  href='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/templates/dark/style.css?ver=2.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-default-css'  href='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/templates/default/style.css?ver=2.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-standard-css'  href='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/templates/standard/style.css?ver=2.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-thumbnails-css'  href='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/templates/thumbnails/style.css?ver=2.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='hyderi-responsive-css'  href='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/css/responsive.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hyderi-bootstrap-css-css'  href='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/css/bootstrap.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='slicknav-css-css'  href='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/css/slicknav.css?ver=5.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/hyderi-audio/assets/js/jplayer/jquery.jplayer.min.js?ver=5.5.1' id='jplayer-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/hyderi-audio/assets/js/hyderi-audio-scripts.js?ver=5.5.1' id='hyderi-audio-scripts-js'></script>
+<link rel="https://api.w.org/" href="https://www.hyderi.org.uk/wp-json/" /><link rel="alternate" type="application/json" href="https://www.hyderi.org.uk/wp-json/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.hyderi.org.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.hyderi.org.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.1" />
+<meta name="generator" content="WooCommerce 4.6.0" />
+<link rel="canonical" href="https://www.hyderi.org.uk/" />
+<link rel='shortlink' href='https://www.hyderi.org.uk/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.hyderi.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hyderi.org.uk%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.hyderi.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hyderi.org.uk%2F&#038;format=xml" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.hyderi.org.uk"><link rel="https://theeventscalendar.com/" href="https://www.hyderi.org.uk/wp-json/tribe/events/v1/" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	</head>
+<body data-rsssl=1 class="home page-template page-template-template-home page-template-template-home-php page page-id-9 theme-Hyderi woocommerce-no-js tribe-no-js">
+<!-- DONATE LINK -->
+<a class="donate-btn" href="https://www.hyderi.org.uk/product-category/donations/">DONATE</a>
+<div class="container">
+	<div class="row current-date">
+		<div class="col-sm-12">
+			<span class="gorgian-date">Wednesday 18th November 2020</span><br>
+<span class="lunar-date"></span>
+
+
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div class="row header">
+		<div class="col-md-4 adress-details-box">
+			<div class="adress-detail address">
+				26 Estreham Road. Streatham, London, SW16 5PQ</br>
+				Registered Charity No 287686
+			</div>
+			<div class="adress-detail phone">
+				Ans: 0208 769 0046
+			</div>
+			<div class="adress-detail phone">
+				Tel: 0208 769 7553
+			</div>
+		</div>
+		<div class="col-md-4 logo-wrap">
+			<a href="/"><img src="https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/images/logo.png" alt="logo" /></a>
+		</div>
+		<div class="col-md-4 socials">
+			<div class="social-icons-header">
+				<a href="http://www.youtube.com/user/HyderiIslamic" class="social youtube-icon" target="_blank"><i class="fa fa-youtube"></i></a>
+				<a href="https://www.facebook.com/pages/Hyderi-Islamic-Centre/153551224667032" class="social facebook-icon" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/HyderiCentre" class="social twitter-icon" target="_blank"><i class="fa fa-twitter"></i></a>
+				
+				<div class="search">
+					<a class="social search-icon"><i class="fa fa-search"></i></a>
+					<form action="https://www.hyderi.org.uk/" method="get">
+						<input type="text" class="field" name="s" value="Search..." title="Search..." />
+						<input type="submit" value="Go" />
+					</form>
+				</div>
+			</div>
+				
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div class="row main-menu">
+		<div id="main-nav" class="col-sm-12 menu-wrap full">
+			<div id="mobileSlickNav"></div>
+			
+			<ul id="mobileNav" class="menu"><li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-12"><a href="https://www.hyderi.org.uk/" aria-current="page">Home</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="/news">News</a></li>
+<li id="menu-item-3259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3259"><a href="http://www.youtube.com/c/hyderi">Live Stream</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35"><a href="/events">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="/events">List of Events</a></li>
+	<li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77"><a href="/events/month/">Monthly Calendar</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3892"><a href="https://www.hyderi.org.uk/wp-content/uploads/2018/09/DoE_Feb_Apr19_-2.pdf">PDF Diary of Events</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1677"><a target="_blank" rel="noopener noreferrer" href="http://www.youtube.com/user/HyderiIslamic">Video Recordings</a></li>
+	<li id="menu-item-3252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3252"><a href="https://www.hyderi.org.uk/news/subscribing-diary-events-mobile-device/">Subscribe on your mobile device</a></li>
+</ul>
+</li>
+<li id="menu-item-9804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9804"><a href="https://www.hyderi.org.uk/managing-committee/">Managing  Committee</a>
+<ul class="sub-menu">
+	<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-86"><a href="https://www.hyderi.org.uk/sub-committees/">Sub-Committees</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2168"><a href="https://www.hyderi.org.uk/sub-committees/">List of Sub-Committees</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-10872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10872"><a href="https://www.hyderi.org.uk/values/">Our Values</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://www.hyderi.org.uk/mailing-list/">Mailing List</a></li>
+<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-89"><a href="https://www.hyderi.org.uk/contact-us/">Contact Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="https://www.hyderi.org.uk/about-us/">About Us</a></li>
+	<li id="menu-item-3954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3954"><a href="https://www.hyderi.org.uk/contact-us/hyderi-nursery-school/">Hyderi Nursery</a></li>
+	<li id="menu-item-2169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2169"><a href="https://www.hischool.co.uk/">Hyderi Islamic School</a></li>
+	<li id="menu-item-2175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2175"><a href="https://www.hyderi.org.uk/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-item-2167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2167"><a href="https://www.hyderi.org.uk/product-category/donations/">Make a Donation</a>
+<ul class="sub-menu">
+	<li id="menu-item-17493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17493"><a href="https://www.hyderi.org.uk/gift-aid/">Gift Aid</a></li>
+</ul>
+</li>
+</ul>
+			<div class="shell"><ul id="menu-main-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-12"><a href="https://www.hyderi.org.uk/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="/news">News</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3259"><a href="http://www.youtube.com/c/hyderi">Live Stream</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35"><a href="/events">Events</a>
+<section class="dropdown"><ul>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="/events">List of Events</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77"><a href="/events/month/">Monthly Calendar</a>
+	<section class="dropdown"><ul>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3892"><a href="https://www.hyderi.org.uk/wp-content/uploads/2018/09/DoE_Feb_Apr19_-2.pdf">PDF Diary of Events</a></li>
+	</ul></section>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1677"><a target="_blank" rel="noopener noreferrer" href="http://www.youtube.com/user/HyderiIslamic">Video Recordings</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3252"><a href="https://www.hyderi.org.uk/news/subscribing-diary-events-mobile-device/">Subscribe on your mobile device</a></li>
+</ul></section>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9804"><a href="https://www.hyderi.org.uk/managing-committee/">Managing  Committee</a>
+<section class="dropdown"><ul>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-86"><a href="https://www.hyderi.org.uk/sub-committees/">Sub-Committees</a>
+	<section class="dropdown"><ul>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2168"><a href="https://www.hyderi.org.uk/sub-committees/">List of Sub-Committees</a></li>
+	</ul></section>
+</li>
+</ul></section>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10872"><a href="https://www.hyderi.org.uk/values/">Our Values</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://www.hyderi.org.uk/mailing-list/">Mailing List</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-89"><a href="https://www.hyderi.org.uk/contact-us/">Contact Us</a>
+<section class="dropdown"><ul>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="https://www.hyderi.org.uk/about-us/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3954"><a href="https://www.hyderi.org.uk/contact-us/hyderi-nursery-school/">Hyderi Nursery</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2169"><a href="https://www.hischool.co.uk/">Hyderi Islamic School</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2175"><a href="https://www.hyderi.org.uk/contact-us/">Contact Us</a></li>
+</ul></section>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2167"><a href="https://www.hyderi.org.uk/product-category/donations/">Make a Donation</a>
+<section class="dropdown"><ul>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17493"><a href="https://www.hyderi.org.uk/gift-aid/">Gift Aid</a></li>
+</ul></section>
+</li>
+</ul></div>			<div id="mobile-menu"></div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	
+</div>
+
+<div class="container main">
+	<div class="row slider">
+		<div class="col-md-12">
+			<div class="cycloneslider cycloneslider-template-default cycloneslider-width-responsive" id="cycloneslider-home-page-slider-1" style="max-width:1200px" > <div class="cycloneslider-slides cycle-slideshow" data-cycle-allow-wrap="true" data-cycle-dynamic-height="off" data-cycle-auto-height="1200:350" data-cycle-auto-height-easing="null" data-cycle-auto-height-speed="250" data-cycle-delay="0" data-cycle-easing="" data-cycle-fx="fade" data-cycle-hide-non-active="true" data-cycle-log="false" data-cycle-next="#cycloneslider-home-page-slider-1 .cycloneslider-next" data-cycle-pager="#cycloneslider-home-page-slider-1 .cycloneslider-pager" data-cycle-pause-on-hover="true" data-cycle-prev="#cycloneslider-home-page-slider-1 .cycloneslider-prev" data-cycle-slides="&gt; div" data-cycle-speed="1000" data-cycle-swipe="false" data-cycle-tile-count="7" data-cycle-tile-delay="100" data-cycle-tile-vertical="true" data-cycle-timeout="4000" > <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="https://www.hyderi.org.uk/wp-content/uploads/2014/08/hyderi-banner-1200x350.jpg" alt="" title="" /> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="https://www.hyderi.org.uk/wp-content/uploads/2014/08/IMG-20201001-WA0009-1200x350.jpg" alt="" title="" /> </div> </div> <div class="cycloneslider-pager"></div> <a href="#" class="cycloneslider-prev"></a> <a href="#" class="cycloneslider-next"></a> </div>		</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div class="row timetable">
+		<div class="col-md-12">
+							<div class="prayerbox"><span class="prayertitle">Imsaak</span> <span class="prayertime">5:35</span></div>
+									<div class="prayerbox"><span class="prayertitle">Fajr</span> <span class="prayertime">5:45</span></div>
+									<div class="prayerbox"><span class="prayertitle">Sunrise</span> <span class="prayertime">7:24</span></div>
+									<div class="prayerbox"><span class="prayertitle">Dhohr</span> <span class="prayertime">11:46</span></div>
+									<div class="prayerbox"><span class="prayertitle">Sunset</span> <span class="prayertime">4:07</span></div>
+									<div class="prayerbox"><span class="prayertitle">Maghrib</span> <span class="prayertime">4:22</span></div>
+						</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="timmings-add">TIMINGS IN ACCORDANCE WITH NAJAF.ORG</div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div style="clear: both; height: 5px;"></div>
+	    	<script type="text/javascript">var d = 19;</script>
+    	<script type="text/javascript">var m = 11;</script>
+    	<script type="text/javascript">var y = 2020;</script>
+    	<script type="text/javascript">var h = 19;</script>
+    	<script type="text/javascript">var i = 30;</script>
+    	<script type="text/javascript">var s = 00;</script>
+    	
+	 
+	<div style="clear: both; height: 10px;"></div>
+	<div class="row events">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<h2 class="centered schedule-title"><span>Next Event In</span></h2>
+
+			<div class="countdown"></div>
+			<div style="clear: both; height: 40px;"></div>
+			<h2 class="centered schedule-title"><span>Weekly Events</span></h2>
+			<div class="clearfix" style="position:relative;">
+				<a href="#" class="fg-schedule-prev-week fg-schedule-week-change bx-btn" data="2020/11/11"><i class="fa fa-arrow-left"></i><span>&nbsp;&nbsp;&nbsp;Previous Week</span></a>
+				<a href="#" class="fg-schedule-next-week fg-schedule-week-change bx-btn" data="2020/11/25"><span>Next Week&nbsp;&nbsp;&nbsp;</span><i class="fa fa-arrow-right"></i></a>
+				<div style="clear: both;"></div>
+				<div id="schedule-block" class="ajax-wrapper"><div class="spinner"></div></div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+		<div style="clear: both;"></div>
+	</div>
+	<div class="row news">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<h2 class="centered schedule-title"><span>Latest News</span></h2>
+								<div class="col-md-4">
+						<article role="article">
+							<header class="article-header">
+								<h4 class="post-title">
+									<a href="https://www.hyderi.org.uk/news/thursday-19th-november-online-lecture-by-sayed-ammar/" rel="bookmark" title="Thursday 19th November: Online Lecture by Sayed Ammar">
+									<b>Thursday 19th November: Online Lecture by Sayed Ammar</b>
+									</a>
+								</h4>
+								<div class="post-meta">
+						            <!--<span><i class="fa fa-calendar"></i> Monday 16th November 2020</span>-->
+						          </div>
+								<div style="clear: both; height: 10px;"></div>
+							</header>
+							<section class="entry-content cf">
+								<a href="https://www.hyderi.org.uk/wp-content/uploads/2020/11/Thursday-19th-November.jpg"><img class="alignleft size-large wp-image-19361" src="https://www.hyderi.org.uk/wp-content/uploads/2020/11/Thursday-19th-November-723x1024.jpg" alt="" width="723" height="1024" data-id="19361" /></a>...
+								<div style="clear: both;"></div>
+								<a href="https://www.hyderi.org.uk/news/thursday-19th-november-online-lecture-by-sayed-ammar/" class="more-link">Continue Reading</a>
+                                <div style="clear: both;"></div>
+							</section>
+							<footer class="article-footer">
+								<div class="gdl-divider"></div>
+							</footer>
+						</article>
+						<div style="clear: both; height: 40px;"></div>
+					</div>
+					                    					<div class="col-md-4">
+						<article role="article">
+							<header class="article-header">
+								<h4 class="post-title">
+									<a href="https://www.hyderi.org.uk/news/rabi-ul-awaal-to-jamadi-ul-aakher-22nd-october-2020-to-28th-january-2021/" rel="bookmark" title="Rabi ul Awaal to Jamadi ul Aakher ( 22nd October 2020 to 28th January 2021)">
+									<b>Rabi ul Awaal to Jamadi ul Aakher ( 22nd October 2020 to 28th January 2021)</b>
+									</a>
+								</h4>
+								<div class="post-meta">
+						            <!--<span><i class="fa fa-calendar"></i> Sunday 18th October 2020</span>-->
+						          </div>
+								<div style="clear: both; height: 10px;"></div>
+							</header>
+							<section class="entry-content cf">
+								<a href="https://www.hyderi.org.uk/wp-content/uploads/2020/10/Rabi-ul-Awaal-Jamadiul-Aakhar-1442-Diary.pdf">Rabi ul Awaal - Jamadiul Aakhar 1442 Diary</a>...
+								<div style="clear: both;"></div>
+								<a href="https://www.hyderi.org.uk/news/rabi-ul-awaal-to-jamadi-ul-aakher-22nd-october-2020-to-28th-january-2021/" class="more-link">Continue Reading</a>
+                                <div style="clear: both;"></div>
+							</section>
+							<footer class="article-footer">
+								<div class="gdl-divider"></div>
+							</footer>
+						</article>
+						<div style="clear: both; height: 40px;"></div>
+					</div>
+					                    					<div class="col-md-4">
+						<article role="article">
+							<header class="article-header">
+								<h4 class="post-title">
+									<a href="https://www.hyderi.org.uk/news/development-of-new-hyderi-islamic-centre-into-multipurpose-comple/" rel="bookmark" title="DEVELOPMENT OF NEW HYDERI ISLAMIC CENTRE INTO MULTIPURPOSE COMPLEX (KHUMS IJAZA OBTAINED)">
+									<b>DEVELOPMENT OF NEW HYDERI ISLAMIC CENTRE INTO MULTIPURPOSE COMPLEX (KHUMS IJAZA OBTAINED)</b>
+									</a>
+								</h4>
+								<div class="post-meta">
+						            <!--<span><i class="fa fa-calendar"></i> Saturday 26th September 2020</span>-->
+						          </div>
+								<div style="clear: both; height: 10px;"></div>
+							</header>
+							<section class="entry-content cf">
+								<a href="https://www.hyderi.org.uk/wp-content/uploads/2020/09/New-HIC-Develpment.jpg"><img class="alignleft size-large wp-image-19070" src="https://www.hyderi.org.uk/wp-content/uploads/2020/09/New-HIC-Develpment-726x1024.jpg" alt="" width="726" height="1024" data-id="19070" /></a>...
+								<div style="clear: both;"></div>
+								<a href="https://www.hyderi.org.uk/news/development-of-new-hyderi-islamic-centre-into-multipurpose-comple/" class="more-link">Continue Reading</a>
+                                <div style="clear: both;"></div>
+							</section>
+							<footer class="article-footer">
+								<div class="gdl-divider"></div>
+							</footer>
+						</article>
+						<div style="clear: both; height: 40px;"></div>
+					</div>
+					<div style="clear: both;"></div>                    					<div class="col-md-4">
+						<article role="article">
+							<header class="article-header">
+								<h4 class="post-title">
+									<a href="https://www.hyderi.org.uk/news/final-draft-constitution-2019/" rel="bookmark" title="REVISED  Constitution: APPROVED at the SGM on 16th NOV 2019">
+									<b>REVISED  Constitution: APPROVED at the SGM on 16th NOV 2019</b>
+									</a>
+								</h4>
+								<div class="post-meta">
+						            <!--<span><i class="fa fa-calendar"></i> Sunday 29th December 2019</span>-->
+						          </div>
+								<div style="clear: both; height: 10px;"></div>
+							</header>
+							<section class="entry-content cf">
+								Revised<a href="https://www.hyderi.org.uk/wp-content/uploads/2019/12/Final-Draft-Constitution-2019.pdf"> Constitution </a>Approved at the SGM on 16th N0vember 2019...
+								<div style="clear: both;"></div>
+								<a href="https://www.hyderi.org.uk/news/final-draft-constitution-2019/" class="more-link">Continue Reading</a>
+                                <div style="clear: both;"></div>
+							</section>
+							<footer class="article-footer">
+								<div class="gdl-divider"></div>
+							</footer>
+						</article>
+						<div style="clear: both; height: 40px;"></div>
+					</div>
+					                    		</div>
+		<div class="col-md-1"></div>
+		<div style="clear: both; height: 4px; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;"></div>
+			<div style="text-align: center;"><a href="/news" class="more-link" style="margin: 0 auto; margin-top: 20px; float: none;">VIEW All NEWS POSTS</a></div>
+		<div style="clear: both; height: 20px;"></div>
+	</div>
+
+	<div id="home" class="row parallax" data-speed="4" data-type="background">
+		<h5 class="parallax-head">Hadith of the Day</h5>
+		
+	</div>
+	<div class="row twitter-sidebar">
+		<div class="col-sm-1" style="height: 250px;">
+			<a id="prev-tweet"><</a>
+		</div>
+		<div class="col-sm-10" style="height: 250px;">
+			<div class="row">
+				<div class="col-sm-12"><h2 class="tweeter-header">Recent Tweets</h2></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 twitter-body">
+									      <ul id="sidebar-twitter2">
+				        <li id="reallysimpletwitterwidgethome-2" class="widget widget_reallysimpletwitterwidgethome">
+			<ul id="really_simple_twitter_widget_home" class="really_simple_twitter_widget_home"><li>Thursday 19th November 2020 online Majlis with Sayed Ammar Nakshawni see poster for link and details <a href="http://twitter.com/#!/search/%23yourhyderi" class="twitter-link" >#yourhyderi</a> <a href="https://t.co/SE8hnwVUMc" class="twitter-link" >https://t.co/SE8hnwVUMc</a><br /><br /> <span class="twitter-timestamp" title="2020/11/16 12:48">Nov 16 via <a href="http://twitter.com/hydericentre" >@HyderiCentre</a></span></li><li>Thursday 12th November 2020 online Majlis with Sayed Ammar Nakshawni Lockdown: 8 tips for increasing Rizq see poste… <a href="https://t.co/Juf8h7L9OV" class="twitter-link" >https://t.co/Juf8h7L9OV</a><br /><br /> <span class="twitter-timestamp" title="2020/11/09 19:32">Nov 9 via <a href="http://twitter.com/hydericentre" >@HyderiCentre</a></span></li><li>Tuesday 3rd and Thursday 5th November 2020 in celebration of the birth of our Prophet Mohamad (saws) and Imam Al Sa… <a href="https://t.co/3c3bcRR2bX" class="twitter-link" >https://t.co/3c3bcRR2bX</a><br /><br /> <span class="twitter-timestamp" title="2020/11/01 15:06">Nov 1 via <a href="http://twitter.com/hydericentre" >@HyderiCentre</a></span></li><li>Thursday 29th October 2020 online Majlis with Sayed Ammar Nakshwani topic: Charlie Hebdo; freedom of speech &amp; Islam… <a href="https://t.co/pqfDymp6D5" class="twitter-link" >https://t.co/pqfDymp6D5</a><br /><br /> <span class="twitter-timestamp" title="2020/10/27 13:42">Oct 27 via <a href="http://twitter.com/hydericentre" >@HyderiCentre</a></span></li><li>Monday 26th October 2020 Eid e Zahra (as) online Majlis with Sayed Ammar Nakshwani see poster for link and details… <a href="https://t.co/PsZdf8ZbT2" class="twitter-link" >https://t.co/PsZdf8ZbT2</a><br /><br /> <span class="twitter-timestamp" title="2020/10/25 16:59">Oct 25 via <a href="http://twitter.com/hydericentre" >@HyderiCentre</a></span></li></ul></li>
+				      </ul>
+				    				</div>
+			</div>
+		</div>
+		<div class="col-sm-1" style="height: 250px;">
+			<a id="next-tweet">></a>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="row footer-widgets">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="row">
+				<div class="col-md-4">
+					<h3 class="footer-headers">Quick Menu Links</h3>
+					<div class="footer-links"><ul id="menu-main-menu-1" class="footer-links"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-12"><a href="https://www.hyderi.org.uk/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="/news">News</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3259"><a href="http://www.youtube.com/c/hyderi">Live Stream</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35"><a href="/events">Events</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="/events">List of Events</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77"><a href="/events/month/">Monthly Calendar</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3892"><a href="https://www.hyderi.org.uk/wp-content/uploads/2018/09/DoE_Feb_Apr19_-2.pdf">PDF Diary of Events</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1677"><a target="_blank" rel="noopener noreferrer" href="http://www.youtube.com/user/HyderiIslamic">Video Recordings</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3252"><a href="https://www.hyderi.org.uk/news/subscribing-diary-events-mobile-device/">Subscribe on your mobile device</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9804"><a href="https://www.hyderi.org.uk/managing-committee/">Managing  Committee</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-86"><a href="https://www.hyderi.org.uk/sub-committees/">Sub-Committees</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2168"><a href="https://www.hyderi.org.uk/sub-committees/">List of Sub-Committees</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10872"><a href="https://www.hyderi.org.uk/values/">Our Values</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://www.hyderi.org.uk/mailing-list/">Mailing List</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-89"><a href="https://www.hyderi.org.uk/contact-us/">Contact Us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="https://www.hyderi.org.uk/about-us/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3954"><a href="https://www.hyderi.org.uk/contact-us/hyderi-nursery-school/">Hyderi Nursery</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2169"><a href="https://www.hischool.co.uk/">Hyderi Islamic School</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2175"><a href="https://www.hyderi.org.uk/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2167"><a href="https://www.hyderi.org.uk/product-category/donations/">Make a Donation</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17493"><a href="https://www.hyderi.org.uk/gift-aid/">Gift Aid</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				<div class="col-md-4 donations">
+					<h3 class="footer-headers">Donations</h3>
+					<p>
+					Your donations ensure the running of the
+					Hyderi Islamic Centre.<br />
+					Click below to donate via PayPal:<br />
+					</p>
+					<a href="/product-category/donations/"><img src="https://www.hyderi.org.uk/wp-content/themes/mnmlist3/assets/images/paypal.png" /></a>
+					
+
+
+				</div>
+				<div class="col-md-4">
+					<h3 class="footer-headers">Control Room Twitter Feed</h3>
+									      <ul id="sidebar-twitter2">
+				        <li id="reallysimpletwitterwidget-3" class="widget widget_reallysimpletwitterwidget">
+			<ul class="really_simple_twitter_widget"><li>Thursday 19th November 2020 online Majlis with Sayed Ammar Nakshawni see poster for link and details <a href="http://twitter.com/#!/search/%23yourhyderi" class="twitter-link" >#yourhyderi</a> <a href="https://t.co/SE8hnwVUMc" class="twitter-link" >https://t.co/SE8hnwVUMc</a><span class="rstw_comma">,</span> <span class="twitter-timestamp" title="2020/11/16 12:48">Nov 16</span></li><li>Thursday 12th November 2020 online Majlis with Sayed Ammar Nakshawni Lockdown: 8 tips for increasing Rizq see poste… <a href="https://t.co/Juf8h7L9OV" class="twitter-link" >https://t.co/Juf8h7L9OV</a><span class="rstw_comma">,</span> <span class="twitter-timestamp" title="2020/11/09 19:32">Nov 9</span></li></ul></li>
+				      </ul>
+				    				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+		<div style="clear: both;"></div>
+	</div>
+	<div class="row footer">
+		<div class="row">
+			<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-6">
+							<span class="copyright" style="width: 100% !important; text-align: left;">Copyright &copy; 2020 Hyderi Islamic Centre</span>
+						</div>
+						<div class="col-md-6">
+							<span class="copyright" style="width: 100% !important; text-align: right;">Developed by <a href="http://www.webintrix.com/" target="_blank">Webintrix</a></span>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+			<div class="col-md-1"></div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+</div>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<div id="ae382e9"><ul><li><a href="https://www.hyderi.org.uk/modele-ulefone/" title="Modele ulefone" >Modele ulefone</a></li> <li><a href="https://www.hyderi.org.uk/modele-seat-altea-xl/" title="Modele seat altea xl" >Modele seat altea xl</a></li> <li><a href="https://www.hyderi.org.uk/modele-plus-plus/" title="Modele plus plus" >Modele plus plus</a></li> <li><a href="https://www.hyderi.org.uk/modele-log/" title="Modele log" >Modele log</a></li> <li><a href="https://www.hyderi.org.uk/modele-lettre-de-bapteme/" title="Modele lettre de bapteme" >Modele lettre de bapteme</a></li> <li><a href="https://www.hyderi.org.uk/modele-garde-manger-bois/" title="Modele garde manger bois" >Modele garde manger bois</a></li> <li><a href="https://www.hyderi.org.uk/modele-discours-mariage-original/" title="Modele discours mariage original" >Modele discours mariage original</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-tpe-premiere-es/" title="Modele de tpe premiere es" >Modele de tpe premiere es</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-rochii-pentru-femei-cu-sanii-mari/" title="Modele de rochii pentru femei cu sanii mari" >Modele de rochii pentru femei cu sanii mari</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-perdele-turcesti/" title="Modele de perdele turcesti" >Modele de perdele turcesti</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-lettre-pour-rh/" title="Modele de lettre pour rh" >Modele de lettre pour rh</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-lettre-demploie/" title="Modele de lettre d`emploie" >Modele de lettre d`emploie</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-felicitare-de-anul-nou/" title="Modele de felicitare de anul nou" >Modele de felicitare de anul nou</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-cox-pour-les-nuls/" title="Modele de cox pour les nuls" >Modele de cox pour les nuls</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-case-cu-etaj-si-mansarda/" title="Modele de case cu etaj si mansarda" >Modele de case cu etaj si mansarda</a></li> <li><a href="https://www.hyderi.org.uk/modele-dorigami-gratuit-imprimer/" title="Modele d`origami gratuit imprimer" >Modele d`origami gratuit imprimer</a></li> <li><a href="https://www.hyderi.org.uk/modele-competente-digitale-2016/" title="Modele competente digitale 2016" >Modele competente digitale 2016</a></li> <li><a href="https://www.hyderi.org.uk/modele-low-cost-aerien/" title="Modèle low cost aérien" >Modèle low cost aérien</a></li> <li><a href="https://www.hyderi.org.uk/modele-lettre-de-demission-association-loi-1901/" title="Modèle lettre de démission association loi 1901" >Modèle lettre de démission association loi 1901</a></li> <li><a href="https://www.hyderi.org.uk/modele-de-propagande-chomsky/" title="Modèle de propagande chomsky" >Modèle de propagande chomsky</a></li> </ul><div><script type="text/javascript"> document.getElementById("ae382e9").style.display="none"; </script><script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script>	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})()
+	</script>
+	<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.hyderi.org.uk\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.2' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.6.0' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_17ac8ca614f24a7645fe2d0e22424462","fragment_name":"wc_fragments_17ac8ca614f24a7645fe2d0e22424462","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.6.0' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.min.js?ver=2.8.4' id='jquery-cycle2-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.carousel.min.js?ver=2.8.4' id='jquery-cycle2-carousel-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.swipe.min.js?ver=2.8.4' id='jquery-cycle2-swipe-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.tile.min.js?ver=2.8.4' id='jquery-cycle2-tile-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.video.min.js?ver=2.8.4' id='jquery-cycle2-video-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/templates/dark/script.js?ver=2.8.4' id='cyclone-template-script-dark-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/templates/thumbnails/script.js?ver=2.8.4' id='cyclone-template-script-thumbnails-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/plugins/cyclone-slider-2/js/client.js?ver=2.8.4' id='cyclone-client-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/jquery.easing.js?ver=5.5.1' id='jquery-easing-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/bootstrap.min.js?ver=5.5.1' id='hyderi-bootstrap-js-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/spin.min.js?ver=5.5.1' id='hyderi-spin-js-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/spin.jquery.js?ver=5.5.1' id='hyderi-spin-js2-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/jquery.carouFredSel-6.2.1.js?ver=5.5.1' id='carousel-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/jquery.countdown.min.js?ver=5.5.1' id='countdown-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/scripts.js?ver=5.5.1' id='hyderi-js-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-content/themes/Hyderi/assets/js/jquery.slicknav.min.js?ver=5.5.1' id='slicknav-js-js'></script>
+<script type='text/javascript' src='https://www.hyderi.org.uk/wp-includes/js/wp-embed.min.js?ver=5.5.1' id='wp-embed-js'></script>
+
+</body>
+</html>

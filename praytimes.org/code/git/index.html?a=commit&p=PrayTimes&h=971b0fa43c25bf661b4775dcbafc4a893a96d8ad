@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commit - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commit 971b0f</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <span class="cur"><a href="?a=commit&amp;p=PrayTimes&amp;h=971b0fa43c25bf661b4775dcbafc4a893a96d8ad">Commit</a></span> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=971b0fa43c25bf661b4775dcbafc4a893a96d8ad">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=035f00cf4630058f3f304a5ae9b98a6e84716b51&amp;hb=971b0fa43c25bf661b4775dcbafc4a893a96d8ad">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="971b0fa43c25bf661b4775dcbafc4a893a96d8ad" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>Python v2.1 added</h1>
+
+<table class="commit">
+<tbody>
+<tr>
+	<td>Author</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Author date</td>
+	<td>2011-02-20 05:09:26</td>
+</tr>
+<tr>
+	<td>Author local date</td>
+	<td>2011-02-20 00:09:26 -0500</td>
+</tr>
+<tr>
+	<td>Committer</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Committer date</td>
+	<td>2011-02-20 05:09:26</td>
+</tr>
+<tr>
+	<td>Committer local date</td>
+	<td>2011-02-20 00:09:26 -0500</td>
+</tr>
+<tr>
+	<td>Commit</td>
+	<td>971b0fa43c25bf661b4775dcbafc4a893a96d8ad</td>
+</tr>
+<tr>
+	<td>Tree</td>
+	<td><a href="?a=tree&amp;p=PrayTimes&amp;h=035f00cf4630058f3f304a5ae9b98a6e84716b51&amp;hb=971b0fa43c25bf661b4775dcbafc4a893a96d8ad">035f00cf4630058f3f304a5ae9b98a6e84716b51</a></td>
+</tr>
+<tr>
+	<td>Parent</td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=69e03bfe798d9c00129d6eafbff32ed02d055e12">69e03bfe798d9c00129d6eafbff32ed02d055e12</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="commitmessage"><pre>Python v2.1 added
+js v2.1 slightly modified
+</pre></div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Affected files:</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=24819242cc7a3492cf86bbcbe05ef5f9629e354c&amp;f=v2/js/PrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=10a1170d3af71ea51a1f453855ee28ad3e9ae998&amp;f=v2/python/praytimes.py">v2/python/praytimes.py</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

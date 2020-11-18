@@ -1,0 +1,756 @@
+From 1c500fff7f21d1993f205d3e36dc17ee56efdf24 Mon Sep 17 00:00:00 2001
+From: Hamid <admin@praytimes>
+Date: Fri, 29 Oct 2010 01:14:09 -0400
+Subject: [PATCH] JavaScript ver 2.0 uploaded
+
+---
+ v1/csharp/sample.cs        |  56 ++++-----
+ v1/js/examples/monthly.htm | 294 ++++++++++++++++++++++-----------------------
+ v1/js/examples/simple.htm  |  76 ++++++------
+ v1/js/examples/yearly.htm  | 170 +++++++++++++-------------
+ v2/js/PrayTimes.js         |  38 +++---
+ 5 files changed, 319 insertions(+), 315 deletions(-)
+
+diff --git a/v1/csharp/sample.cs b/v1/csharp/sample.cs
+index c0b5b43..d086dd4 100644
+--- a/v1/csharp/sample.cs
++++ b/v1/csharp/sample.cs
+@@ -1,29 +1,29 @@
+-
+-// Pray Times Example
+-// By: Jandost Khoso
+-
+-class Program
+-{
+-    static void Main ( string [ ] args )
+-    {
+-        PrayerTime p = new PrayTime();
+-        double lo = 25;
+-        double la = 55;
+-        int y = 0 , m = 0 , d = 0 , tz = 0;
+-
+-        DateTime cc = DateTime.Now;
+-        y = cc.Year;
+-        m = cc.Month;
+-        d = cc.Day;
+-        tz = TimeZone.CurrentTimeZone.GetUtcOffset(new DateTime (y,m,d)).Hours;
+-        String [] s ;
+-
+-        p.setCalcMethod ( 2 );
+-        p . setAsrMethod ( 0 );
+-        s = p . getDatePrayerTimes ( y , m , d , lo , la , tz );
+-        for(int i = 0 ; i < s.Length ; ++i )
+-        {
+-            Console . WriteLine ( s [ i ] );
+-        }
+-    }
++
++// Pray Times Example
++// By: Jandost Khoso
++
++class Program
++{
++    static void Main ( string [ ] args )
++    {
++        PrayerTime p = new PrayTime();
++        double lo = 25;
++        double la = 55;
++        int y = 0 , m = 0 , d = 0 , tz = 0;
++
++        DateTime cc = DateTime.Now;
++        y = cc.Year;
++        m = cc.Month;
++        d = cc.Day;
++        tz = TimeZone.CurrentTimeZone.GetUtcOffset(new DateTime (y,m,d)).Hours;
++        String [] s ;
++
++        p.setCalcMethod ( 2 );
++        p . setAsrMethod ( 0 );
++        s = p . getDatePrayerTimes ( y , m , d , lo , la , tz );
++        for(int i = 0 ; i < s.Length ; ++i )
++        {
++            Console . WriteLine ( s [ i ] );
++        }
++    }
+ }
+\ No newline at end of file
+diff --git a/v1/js/examples/monthly.htm b/v1/js/examples/monthly.htm
+index d2f2d55..f6e9f62 100644
+--- a/v1/js/examples/monthly.htm
++++ b/v1/js/examples/monthly.htm
+@@ -1,147 +1,147 @@
+-<html>
+-<head>
+-<title> Monthly Prayer Timetable </title>
+-<style>
+-	body, td {font-family: tahoma; font-size: 11px; color: #404040; text-align: center; }
+-	pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}
+-	input {font-size: 12px;}
+-	.form {padding:10px; background-color: #F8F7F4; border: 1px dashed #EAE9CD;}
+-	.caption {font-size: 20px; color: #d95722; text-align: center; width: 200px;}
+-	.arrow {font-weight: bold; text-decoration: none; color: #3D3D3D; }
+-	.arrow:hover {text-decoration: underline;}
+-	.command {font-weight: bold; text-decoration: none; color: #AAAAAA; }
+-	.command:hover {text-decoration: underline;}
+-	#head-row {color: black; background-color: #F8F7F4;}
+-	#today-row-disabled {background-color: #FCFAFA;}
+-	#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray;}
+-	#timetable td {border-width: 1px; border-spacing: 1px; padding: 1px; border-style: inset; border-color: #CCCCCC;}
+-</style>
+-</head>
+-
+-<body>
+-
+-<form class="form" action="javascript:viewMonth(0);">
+-	Latitude: <input type="text" value="43" id="latitude" size="2" >
+-	Longitude: <input type="text" value="-80" id="longitude" size="2">
+-	Time Zone: <input type="text" value="-5" id="timezone" size="2"> &nbsp;
+-	<input type="submit" value=" Go " onclick="viewMonth(0);">
+-</form>
+-
+-<table align="center">
+-<tbody>
+-<tr>
+-<td><a href="javascript:viewMonth(-1)" class="arrow">&lt;&lt;</a></td>
+-<td id="table-title" class="caption"></td>
+-<td><a href="javascript:viewMonth(+1)" class="arrow">&gt;&gt;</a></td>
+-</tr>
+-</tbody>
+-</table>
+-
+-<br>
+-<table id="timetable" align="center">
+-<tbody></tbody>
+-</table>
+-
+-<div align="center" style="margin-top: 7px">
+-	Time Format: <a id="time-format" href="javascript:switchFormat(1)" class="command"></a>
+-</div>
+-<br><br>
+-
+-<script type="text/javascript" src="../PrayTime.js"></script>
+-
+-<script type="text/javascript">
+-
+-	var currentDate = new Date();
+-	var timeFormat = 0;
+-	switchFormat(0);
+-
+-	function viewMonth(offset)
+-	{
+-		var lat = document.getElementById('latitude').value;
+-		var lng = document.getElementById('longitude').value;
+-		var timeZone = document.getElementById('timezone').value;
+-
+-		currentDate.setMonth(currentDate.getMonth()+ 1* offset);
+-		var month = currentDate.getMonth();
+-		var year = currentDate.getFullYear();
+-		var title = monthFullName(month)+ ' '+ year;
+-		document.getElementById('table-title').innerHTML = title;
+-		makeTable(year, month, lat, lng, timeZone);
+-	}
+-
+-	// make monthly timetable
+-	function makeTable(year, month, lat, lng, timeZone)
+-	{
+-		var table = document.getElementById('timetable'); 
+-		var tbody = document.createElement('tbody');
+-		
+-		var timeTags = prayTime.timeNames.slice(0);
+-		timeTags.unshift('Day');
+-		tbody.appendChild(makeTableRow(timeTags, 'head-row'));
+-
+-		var date = new Date(year, month, 1);
+-		var endDate = new Date(year, month+ 1, 1);
+-
+-		while (date < endDate)
+-		{
+-			var times = prayTime.getPrayerTimes(date, lat, lng, timeZone);
+-			times.unshift(date.getDate()); // add day number
+-			var today = new Date(); 
+-			var isToday = (date.getMonth() == today.getMonth()) && (date.getDate() == today.getDate());
+-			tbody.appendChild(makeTableRow(times, isToday ? 'today-row' : ''));
+-			date.setDate(date.getDate()+ 1);  // next day
+-		}
+-		removeChildrenOfNode(table);
+-		table.appendChild(tbody);
+-	}
+-
+-	// make a table row
+-	function makeTableRow(items, id)
+-	{
+-		var row = document.createElement('tr');
+-		for (var i=0; i< items.length; i++)
+-		{
+-			var cell = document.createElement('td');
+-			cell.innerHTML = items[i];
+-			cell.setAttribute('id', id);
+-			cell.width = i==0 ? 25 : 40;
+-			row.appendChild(cell);
+-		}
+-		return row;		
+-	}
+-
+-	// remove all children of a node
+-	function removeChildrenOfNode(node)
+-	{
+-		if (node == undefined || node == null)
+-			return;
+-
+-		while (node.firstChild)
+-			node.removeChild(node.firstChild);
+-	}
+-
+-	// switch time format
+-	function switchFormat(offset)
+-	{
+-		var formats = new Array('24-hour', '12-hour');
+-		timeFormat = (timeFormat+ offset)% 2;
+-		document.getElementById('time-format').innerHTML = formats[timeFormat];
+-		prayTime.setTimeFormat(timeFormat == 0 ? prayTime.Time24 : prayTime.Time12NS);
+-		viewMonth(0);
+-	}
+-
+-	// return month full name
+-	function monthFullName(month)
+-	{
+-		var monthName = new Array('January', 'February', 'March', 'April', 'May', 'June', 
+-						'July', 'August', 'September', 'October', 'November', 'December');
+-		return monthName[month];
+-	}
+-
+-</script>
+-
+-</body>
+-</html>
+-
+-
+-
++<html>
++<head>
++<title> Monthly Prayer Timetable </title>
++<style>
++	body, td {font-family: tahoma; font-size: 11px; color: #404040; text-align: center; }
++	pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}
++	input {font-size: 12px;}
++	.form {padding:10px; background-color: #F8F7F4; border: 1px dashed #EAE9CD;}
++	.caption {font-size: 20px; color: #d95722; text-align: center; width: 200px;}
++	.arrow {font-weight: bold; text-decoration: none; color: #3D3D3D; }
++	.arrow:hover {text-decoration: underline;}
++	.command {font-weight: bold; text-decoration: none; color: #AAAAAA; }
++	.command:hover {text-decoration: underline;}
++	#head-row {color: black; background-color: #F8F7F4;}
++	#today-row-disabled {background-color: #FCFAFA;}
++	#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray;}
++	#timetable td {border-width: 1px; border-spacing: 1px; padding: 1px; border-style: inset; border-color: #CCCCCC;}
++</style>
++</head>
++
++<body>
++
++<form class="form" action="javascript:viewMonth(0);">
++	Latitude: <input type="text" value="43" id="latitude" size="2" >
++	Longitude: <input type="text" value="-80" id="longitude" size="2">
++	Time Zone: <input type="text" value="-5" id="timezone" size="2"> &nbsp;
++	<input type="submit" value=" Go " onclick="viewMonth(0);">
++</form>
++
++<table align="center">
++<tbody>
++<tr>
++<td><a href="javascript:viewMonth(-1)" class="arrow">&lt;&lt;</a></td>
++<td id="table-title" class="caption"></td>
++<td><a href="javascript:viewMonth(+1)" class="arrow">&gt;&gt;</a></td>
++</tr>
++</tbody>
++</table>
++
++<br>
++<table id="timetable" align="center">
++<tbody></tbody>
++</table>
++
++<div align="center" style="margin-top: 7px">
++	Time Format: <a id="time-format" href="javascript:switchFormat(1)" class="command"></a>
++</div>
++<br><br>
++
++<script type="text/javascript" src="../PrayTime.js"></script>
++
++<script type="text/javascript">
++
++	var currentDate = new Date();
++	var timeFormat = 0;
++	switchFormat(0);
++
++	function viewMonth(offset)
++	{
++		var lat = document.getElementById('latitude').value;
++		var lng = document.getElementById('longitude').value;
++		var timeZone = document.getElementById('timezone').value;
++
++		currentDate.setMonth(currentDate.getMonth()+ 1* offset);
++		var month = currentDate.getMonth();
++		var year = currentDate.getFullYear();
++		var title = monthFullName(month)+ ' '+ year;
++		document.getElementById('table-title').innerHTML = title;
++		makeTable(year, month, lat, lng, timeZone);
++	}
++
++	// make monthly timetable
++	function makeTable(year, month, lat, lng, timeZone)
++	{
++		var table = document.getElementById('timetable'); 
++		var tbody = document.createElement('tbody');
++		
++		var timeTags = prayTime.timeNames.slice(0);
++		timeTags.unshift('Day');
++		tbody.appendChild(makeTableRow(timeTags, 'head-row'));
++
++		var date = new Date(year, month, 1);
++		var endDate = new Date(year, month+ 1, 1);
++
++		while (date < endDate)
++		{
++			var times = prayTime.getPrayerTimes(date, lat, lng, timeZone);
++			times.unshift(date.getDate()); // add day number
++			var today = new Date(); 
++			var isToday = (date.getMonth() == today.getMonth()) && (date.getDate() == today.getDate());
++			tbody.appendChild(makeTableRow(times, isToday ? 'today-row' : ''));
++			date.setDate(date.getDate()+ 1);  // next day
++		}
++		removeChildrenOfNode(table);
++		table.appendChild(tbody);
++	}
++
++	// make a table row
++	function makeTableRow(items, id)
++	{
++		var row = document.createElement('tr');
++		for (var i=0; i< items.length; i++)
++		{
++			var cell = document.createElement('td');
++			cell.innerHTML = items[i];
++			cell.setAttribute('id', id);
++			cell.width = i==0 ? 25 : 40;
++			row.appendChild(cell);
++		}
++		return row;		
++	}
++
++	// remove all children of a node
++	function removeChildrenOfNode(node)
++	{
++		if (node == undefined || node == null)
++			return;
++
++		while (node.firstChild)
++			node.removeChild(node.firstChild);
++	}
++
++	// switch time format
++	function switchFormat(offset)
++	{
++		var formats = new Array('24-hour', '12-hour');
++		timeFormat = (timeFormat+ offset)% 2;
++		document.getElementById('time-format').innerHTML = formats[timeFormat];
++		prayTime.setTimeFormat(timeFormat == 0 ? prayTime.Time24 : prayTime.Time12NS);
++		viewMonth(0);
++	}
++
++	// return month full name
++	function monthFullName(month)
++	{
++		var monthName = new Array('January', 'February', 'March', 'April', 'May', 'June', 
++						'July', 'August', 'September', 'October', 'November', 'December');
++		return monthName[month];
++	}
++
++</script>
++
++</body>
++</html>
++
++
++
+diff --git a/v1/js/examples/simple.htm b/v1/js/examples/simple.htm
+index 9d26267..213e703 100644
+--- a/v1/js/examples/simple.htm
++++ b/v1/js/examples/simple.htm
+@@ -1,38 +1,38 @@
+-<html>
+-<head>
+-<title> Daily Prayer Timetable </title>
+-<style>
+-	body, td, th {font-family: verdana; font-size: 12px; color: #404040;}
+-	#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray;}
+-	#timetable td, #timetable th {border-width: 1px; border-spacing: 1px; padding: 2px; border-style: inset; border-color: #CCCCCC;}
+-	#timetable th {color:black; text-align: center; font-weight: bold; background-color: #F8F7F4;}
+-</style>
+-</head>
+-
+-<body>
+-
+-<br>
+-<p align="center">Waterloo, ON, Canada<p>
+-<div align="center" id="table"></div>
+-
+-<script type="text/javascript" src="../PrayTime.js"></script>
+-
+-<script type="text/javascript">
+-	
+-	var date = new Date(); // today
+-	var times = prayTime.getPrayerTimes(date, 43, -80, -5);
+-
+-	var str = '<table id="timetable">';
+-	str += '<tr><th colspan="2">'+ date.toLocaleDateString()+ '</th></tr>';
+-	for(var i = 0; i < times.length; i++)
+-	{
+-		str += '<tr><td>'+ prayTime.timeNames[i]+ '</td>';
+-		str += '<td>'+ times[i]+ '</td></tr>';
+-	}
+-	str += '</table>';
+-	document.getElementById('table').innerHTML = str;
+-
+-</script>
+-
+-</body>
+-</html>
++<html>
++<head>
++<title> Daily Prayer Timetable </title>
++<style>
++	body, td, th {font-family: verdana; font-size: 12px; color: #404040;}
++	#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray;}
++	#timetable td, #timetable th {border-width: 1px; border-spacing: 1px; padding: 2px; border-style: inset; border-color: #CCCCCC;}
++	#timetable th {color:black; text-align: center; font-weight: bold; background-color: #F8F7F4;}
++</style>
++</head>
++
++<body>
++
++<br>
++<p align="center">Waterloo, ON, Canada<p>
++<div align="center" id="table"></div>
++
++<script type="text/javascript" src="../PrayTime.js"></script>
++
++<script type="text/javascript">
++	
++	var date = new Date(); // today
++	var times = prayTime.getPrayerTimes(date, 43, -80, -5);
++
++	var str = '<table id="timetable">';
++	str += '<tr><th colspan="2">'+ date.toLocaleDateString()+ '</th></tr>';
++	for(var i = 0; i < times.length; i++)
++	{
++		str += '<tr><td>'+ prayTime.timeNames[i]+ '</td>';
++		str += '<td>'+ times[i]+ '</td></tr>';
++	}
++	str += '</table>';
++	document.getElementById('table').innerHTML = str;
++
++</script>
++
++</body>
++</html>
+diff --git a/v1/js/examples/yearly.htm b/v1/js/examples/yearly.htm
+index d71b741..f1e7434 100644
+--- a/v1/js/examples/yearly.htm
++++ b/v1/js/examples/yearly.htm
+@@ -1,85 +1,85 @@
+-<html>
+-<head>
+-<title> Yearly Prayer Timetable </title>
+-<style>
+-	body, td {font-family: tahoma; font-size: 11px; color: #404040; text-align: center; }
+-	pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}
+-	.form {padding:10px; background-color: #F8F7F4; border: 1px dashed #EAE9CD;}
+-</style>
+-</head>
+-
+-<body>
+-
+-<h2> Yearly Prayer Timetable </h2>
+-<div class="form">
+-	Latitude: <input type="text" value="43" id="latitude" size="4">
+-	Longitude: <input type="text" value="-80" id="longitude" size="4">
+-	Time Zone: <input type="text" value="-5" id="timezone" size="2"> 
+-	Year: <input type="text" value="2007" id="year" size="4"> <br>
+-	Method: 
+-	<select id="method" name="method" size="1">
+-		<option value="0">Shia Ithna-Ashari</option>
+-		<option value="1">University of Islamic Sciences, Karachi</option>
+-		<option value="2">Islamic Society of North America (ISNA)</option>
+-		<option selected="selected" value="3">Muslim World League (MWL)</option>
+-		<option value="4">Umm al-Qura, Makkah</option>
+-		<option value="5">Egyptian General Authority of Survey</option>
+-    </select>	
+-	<input type="submit" value="Make Timetable" onclick="run();">
+-</div>
+-
+-<pre>
+-
+- Date   Fajr   Sunrise  Dhuhr    Asr   Sunset  Maghrib  Isha 
+--------------------------------------------------------------
+-</pre>
+-
+-<div id="timetable">
+-</div>
+-
+-<script type="text/javascript" src="../PrayTime.js"></script>
+-
+-<script type="text/javascript">
+-
+-	function run()
+-	{
+-		var lat = document.getElementById('latitude').value;
+-		var lng = document.getElementById('longitude').value;
+-		var timeZone = document.getElementById('timezone').value;
+-		var year = document.getElementById('year').value;
+-		var method = document.getElementById('method').value;
+-		var table = document.getElementById('timetable');
+-		var str = makeTable(method, year, lat, lng, timeZone);
+-		table.innerHTML = '<pre>'+ str+ '</pre>';
+-	}
+-
+-
+-	function makeTable(method, year, lat, lng, timeZone)
+-	{
+-		var table = ''; 
+-		var monthNames = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May',
+-				'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+-		var date = new Date(year, 0, 1);
+-		var endDate = new Date(1*year+ 1, 0, 1);
+-		prayTime.setCalcMethod(method);
+-
+-		while (date < endDate)
+-		{
+-			var times = prayTime.getPrayerTimes(date, lat, lng, timeZone);
+-			var day = date.getDate();
+-			day = (day <10) ? '0'+ day : day;
+-			table += monthNames[date.getMonth()]+ ' '+ day+ "\t"+ times.join("\t")+ "\n";
+-			date.setDate(date.getDate()+ 1);  // next day
+-		}
+-		return table;
+-	}
+-
+-	run();
+-
+-</script>
+-
+-</body>
+-</html>
+-
+-
+-
++<html>
++<head>
++<title> Yearly Prayer Timetable </title>
++<style>
++	body, td {font-family: tahoma; font-size: 11px; color: #404040; text-align: center; }
++	pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}
++	.form {padding:10px; background-color: #F8F7F4; border: 1px dashed #EAE9CD;}
++</style>
++</head>
++
++<body>
++
++<h2> Yearly Prayer Timetable </h2>
++<div class="form">
++	Latitude: <input type="text" value="43" id="latitude" size="4">
++	Longitude: <input type="text" value="-80" id="longitude" size="4">
++	Time Zone: <input type="text" value="-5" id="timezone" size="2"> 
++	Year: <input type="text" value="2007" id="year" size="4"> <br>
++	Method: 
++	<select id="method" name="method" size="1">
++		<option value="0">Shia Ithna-Ashari</option>
++		<option value="1">University of Islamic Sciences, Karachi</option>
++		<option value="2">Islamic Society of North America (ISNA)</option>
++		<option selected="selected" value="3">Muslim World League (MWL)</option>
++		<option value="4">Umm al-Qura, Makkah</option>
++		<option value="5">Egyptian General Authority of Survey</option>
++    </select>	
++	<input type="submit" value="Make Timetable" onclick="run();">
++</div>
++
++<pre>
++
++ Date   Fajr   Sunrise  Dhuhr    Asr   Sunset  Maghrib  Isha 
++-------------------------------------------------------------
++</pre>
++
++<div id="timetable">
++</div>
++
++<script type="text/javascript" src="../PrayTime.js"></script>
++
++<script type="text/javascript">
++
++	function run()
++	{
++		var lat = document.getElementById('latitude').value;
++		var lng = document.getElementById('longitude').value;
++		var timeZone = document.getElementById('timezone').value;
++		var year = document.getElementById('year').value;
++		var method = document.getElementById('method').value;
++		var table = document.getElementById('timetable');
++		var str = makeTable(method, year, lat, lng, timeZone);
++		table.innerHTML = '<pre>'+ str+ '</pre>';
++	}
++
++
++	function makeTable(method, year, lat, lng, timeZone)
++	{
++		var table = ''; 
++		var monthNames = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May',
++				'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
++		var date = new Date(year, 0, 1);
++		var endDate = new Date(1*year+ 1, 0, 1);
++		prayTime.setCalcMethod(method);
++
++		while (date < endDate)
++		{
++			var times = prayTime.getPrayerTimes(date, lat, lng, timeZone);
++			var day = date.getDate();
++			day = (day <10) ? '0'+ day : day;
++			table += monthNames[date.getMonth()]+ ' '+ day+ "\t"+ times.join("\t")+ "\n";
++			date.setDate(date.getDate()+ 1);  // next day
++		}
++		return table;
++	}
++
++	run();
++
++</script>
++
++</body>
++</html>
++
++
++
+diff --git a/v2/js/PrayTimes.js b/v2/js/PrayTimes.js
+index ebdb2d0..d4d81d8 100644
+--- a/v2/js/PrayTimes.js
++++ b/v2/js/PrayTimes.js
+@@ -1,7 +1,7 @@
+ //--------------------- Copyright Block ----------------------
+ /* 
+ 
+-PrayTimes.js: Prayer Times Calculator (ver 2.0b8)
++PrayTimes.js: Prayer Times Calculator (ver 2.0)
+ Copyright (C) 2007-2010 PrayTimes.org
+ 
+ Developer: Hamid Zarrabi-Zadeh
+@@ -50,7 +50,7 @@ http://praytimes.org/calculation
+ 
+ 
+ 	var PT = new PrayTimes('ISNA');
+-	var times = PT.getTimes(new Date(), [43, -80], -5);
++	var times = PT.getTimes(new Date(), [-80, 43], -5);
+ 	document.write('Sunrise = '+ times.sunrise)
+ 
+ 
+@@ -86,7 +86,7 @@ function PrayTimes(method) {
+ 			name: 'Muslim World League',
+ 			params: { fajr: 18, isha: 17 } },
+ 		ISNA: {
+-			name: 'Islamic Society of North America',
++			name: 'Islamic Society of North America (ISNA)',
+ 			params: { fajr: 15, isha: 15 } },
+ 		Egypt: {
+ 			name: 'Egyptian General Authority of Survey',
+@@ -97,20 +97,25 @@ function PrayTimes(method) {
+ 		Karachi: {
+ 			name: 'University of Islamic Sciences, Karachi',
+ 			params: { fajr: 18, isha: 18 } },
+-		Jafari: {
+-			name: 'Shia Ithna-Ashari, Leva Research Institute, Qum',
+-			params: { fajr: 16, maghrib: 4, isha: 14, midnight: 'Jafari' } },
+ 		Tehran: {
+ 			name: 'Institute of Geophysics, University of Tehran',
+-			params: { fajr: 17.7, maghrib: 4.5, midnight: 'Jafari' } }
++			params: { fajr: 17.7, isha: 14, maghrib: 4.5, midnight: 'Jafari' } },  // isha is not explicitely specified in this method
++		Jafari: {
++			name: 'Shia Ithna-Ashari, Leva Institute, Qum',
++			params: { fajr: 16, isha: 14, maghrib: 4, midnight: 'Jafari' } }
+ 	},
+ 
+ 
+ 	// Default Parameters in Calculation Methods
+ 	defaultParams = {
+-		fajr: 15, isha: 15, maghrib: '0 min', midnight: 'Standard'
++		maghrib: '0 min', midnight: 'Standard'
++
+ 	},
+  
++ 
++	//----------------------- Parameter Values ----------------------
++	/*
++	
+ 	// Asr Juristic Methods
+ 	asrJuristics = [ 
+ 		'Standard',    // Shafi`i, Maliki, Ja`fari, Hanbali
+@@ -141,10 +146,7 @@ function PrayTimes(method) {
+ 		'12hNS',       // 12-hour format with no suffix
+ 		'Float'        // floating point number 
+ 	],
+-
+-	timeSuffixes = ['am', 'pm'],
+-	InvalidTime =  '-----',
+-
++	*/	
+ 
+ 
+ 	//---------------------- Default Settings --------------------
+@@ -154,24 +156,25 @@ function PrayTimes(method) {
+ 	// do not change anything here; use adjust method instead
+ 	setting = {  
+ 		imsak    : '10 min',
++		dhuhr    : '0 min',  
+ 		asr      : 'Standard',
+ 		highLats : 'NightMiddle'
+ 	},
+ 
+ 	timeFormat = '24h',
++	timeSuffixes = ['am', 'pm'],
++	InvalidTime =  '-----',
+ 
+ 	numIterations = 1,
+ 	offset = {},
+ 
+ 
+-	//---------------------- Local Variables --------------------
+-
++	//----------------------- Local Variables ---------------------
+ 
+ 	lat, lng, elv,       // coordinates
+ 	timeZone, jDate;     // time variables
+ 	
+ 
+-	
+ 	//---------------------- Initialization -----------------------
+ 	
+ 	
+@@ -238,8 +241,8 @@ function PrayTimes(method) {
+ 
+ 	// return prayer times for a given date
+ 	getTimes: function(date, coords, timezone, dst, format) {
+-		lat = 1* coords[0]; 
+-		lng = 1* coords[1];
++		lng = 1* coords[0];
++		lat = 1* coords[1]; 
+ 		elv = coords[2] ? 1* coords[2] : 0;
+ 		timeFormat = format || timeFormat;
+ 		if (date.constructor === Date)
+@@ -379,6 +382,7 @@ function PrayTimes(method) {
+ 			times.maghrib = times.sunset+ this.eval(params.maghrib)/ 60;
+ 		if (this.isMin(params.isha))
+ 			times.isha = times.maghrib+ this.eval(params.isha)/ 60;
++		times.dhuhr += this.eval(params.dhuhr)/ 60; 
+ 
+ 		return times;
+ 	},
+-- 
+1.7.12.4
+

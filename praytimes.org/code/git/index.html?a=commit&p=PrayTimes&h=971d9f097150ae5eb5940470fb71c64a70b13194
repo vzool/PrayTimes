@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commit - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commit 971d9f</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <span class="cur"><a href="?a=commit&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194">Commit</a></span> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=f109b49bfe8d8ca0b89f7f0c493a0c236e447c27&amp;hb=971d9f097150ae5eb5940470fb71c64a70b13194">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="971d9f097150ae5eb5940470fb71c64a70b13194" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>v2.3: Fixed midinght for Jafari method</h1>
+
+<table class="commit">
+<tbody>
+<tr>
+	<td>Author</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Author date</td>
+	<td>2011-04-17 05:48:00</td>
+</tr>
+<tr>
+	<td>Author local date</td>
+	<td>2011-04-17 01:48:00 -0400</td>
+</tr>
+<tr>
+	<td>Committer</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Committer date</td>
+	<td>2011-04-17 05:48:00</td>
+</tr>
+<tr>
+	<td>Committer local date</td>
+	<td>2011-04-17 01:48:00 -0400</td>
+</tr>
+<tr>
+	<td>Commit</td>
+	<td>971d9f097150ae5eb5940470fb71c64a70b13194</td>
+</tr>
+<tr>
+	<td>Tree</td>
+	<td><a href="?a=tree&amp;p=PrayTimes&amp;h=f109b49bfe8d8ca0b89f7f0c493a0c236e447c27&amp;hb=971d9f097150ae5eb5940470fb71c64a70b13194">f109b49bfe8d8ca0b89f7f0c493a0c236e447c27</a></td>
+</tr>
+<tr>
+	<td>Parent</td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">c36f21f22ab69bdc840751846a2f0aa9a2195cb4</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="commitmessage"><pre>v2.3: Fixed midinght for Jafari method
+</pre></div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Affected files:</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=ab1c60335ec59683f2097d1876172b1dd784e36d&amp;f=v2/js/PrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=ce20d8c41d1d1891f82c3d3ba76e1066e3f85178&amp;f=v2/python/praytimes.py">v2/python/praytimes.py</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

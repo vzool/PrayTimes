@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+		<meta name="generator" content="MediaWiki 1.16.0" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Pray Times (en)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-nc/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Pray Times Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />		<title>Log in / create account - Pray Times</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/w/skins/common/shared.css?270";
+			@import "/w/skins/praytimes/main.css?270";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="?270" />
+		<!--[if lt IE 7]><meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script>
+var skin="praytimes",
+stylepath="/w/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/wiki/$1",
+wgScriptPath="/w",
+wgScriptExtension=".php",
+wgScript="/w/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://praytimes.org",
+wgCanonicalNamespace="Special",
+wgCanonicalSpecialPageName="Userlogin",
+wgNamespaceNumber=-1,
+wgPageName="Special:UserLogin",
+wgTitle="UserLogin",
+wgAction="view",
+wgArticleId=0,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=0,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "Pray Times", "5": "Pray Times talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "pray_times": 4, "pray_times_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "image": 6, "image_talk": 7},
+wgSiteName="Pray Times",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script>                
+		<script type="text/javascript" src="/w/skins/common/wikibits.js?270"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+<script src="/w/skins/common/ajax.js?270"></script>
+		<script type="text/javascript" src="/w/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=praytimes"><!-- site js --></script>
+	</head>
+  <body                 >
+	<div id="titleBar">
+		<div id="titleText"><a href="/" title="Main Page">
+			<span style="color:#173A7B">PrayTimes</span><span style="color:#66f; font-size:smaller;">.org</span>
+		</a></div>
+	</div>
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="contentTop"></a>
+	  	  <h1 class="firstHeading">Log in</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From Pray Times</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    
+<div id="loginstart"></div>
+<div id="userloginForm">
+<form name="userlogin" method="post" action="/w/index.php?title=Special:UserLogin&amp;action=submitlogin&amp;type=login&amp;returnto=Code_Manual_(ver_1)">
+	<h2>Log in</h2>
+	<p id="userloginlink"></p>
+		<div id="userloginprompt"><p>You must have cookies enabled to log in to Pray Times.
+</p></div>
+		<table>
+		<tr>
+			<td class="mw-label"><label for='wpName1'>Username:</label></td>
+			<td class="mw-input">
+				<input class="loginText" id="wpName1" tabindex="1" size="20" name="wpName" />
+			</td>
+		</tr>
+		<tr>
+			<td class="mw-label"><label for='wpPassword1'>Password:</label></td>
+			<td class="mw-input">
+				<input class="loginPassword" id="wpPassword1" tabindex="2" size="20" type="password" name="wpPassword" />
+			</td>
+		</tr>
+			<tr>
+			<td></td>
+			<td class="mw-input">
+				<input tabindex="4" id="wpRemember" type="checkbox" value="1" name="wpRemember" />
+				<label for="wpRemember">Remember my login on this computer</label>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="mw-submit">
+				<input id="wpLoginAttempt" tabindex="5" type="submit" value="Log in" name="wpLoginAttempt" />&nbsp;<input id="wpMailmypassword" tabindex="6" type="submit" value="E-mail new password" name="wpMailmypassword" />
+			</td>
+		</tr>
+	</table>
+<input type="hidden" name="wpLoginToken" value="098067e0560637dfa66547c3ed01fd4c" /></form>
+</div>
+<div id="loginend"></div>
+<div class="printfooter">
+Retrieved from "<a href="http://praytimes.org/wiki/Special:UserLogin">http://praytimes.org/wiki/Special:UserLogin</a>"</div>
+	    <div id="catlinkswrap"><div id='catlinks' class='catlinks catlinks-allhidden'></div></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/w/skins/common/images/wiki.png);"
+	    href="/wiki/Main_Page"
+	    title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-Site'>
+	  <h5>Site</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-Home"><a href="http://praytimes.org/">Home</a></li>
+	     	      <li id="n-Calculation"><a href="http://praytimes.org/calculation">Calculation</a></li>
+	     	      <li id="n-Manual"><a href="http://praytimes.org/manual">Manual</a></li>
+	     	      <li id="n-Code"><a href="http://praytimes.org/code/">Code</a></li>
+	     	      <li id="n-Audio"><a href="http://praytimes.org/audio/">Audio</a></li>
+	     	      <li id="n-About"><a href="http://praytimes.org/about">About</a></li>
+	     	      <li id="n-Contact"><a href="http://praytimes.org/contact">Contact</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/wiki/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Go"
+	        />&nbsp;<input type='submit' name="fulltext"
+	        class="searchButton"
+	        value="Search" />
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		                	      	      	      	      	      	      	      	      	      <li id="t-specialpages"><a href="/wiki/Special:SpecialPages">Special pages</a></li>	      	      	    </ul>
+	  </div>
+	</div>
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-special"
+	       class="selected"	       ><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Code_Manual_(ver_1)">Special page</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-anonuserpage"><a href="/wiki/User:77.30.104.229" class="new">77.30.104.229</a></li><li id="pt-anontalk"><a href="/wiki/User_talk:77.30.104.229" class="new">Talk for this IP address</a></li><li id="pt-anonlogin"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Code_Manual_(ver_1)">Log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<!--
+	-->
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+		<table width = "100%">
+			<tr><td width="5%" align="left" nowrap='nowrap'><div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-nc/3.0/"><img src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" alt="Attribution-NonCommercial 3.0 Unported" width="88" height="31" /></a></div></td>
+				<td align="center">
+	  Copyright &copy; 2007-2020 <a href="http://PrayTimes.org/">PrayTimes.org</a> -
+	   	  	  	  	  <a href="http://www.ipbwiki.com/forums/index.php?showtopic=403">Skin</a> - 
+	  	  <a href="/wiki/Pray_Times:General_disclaimer" title="Pray Times:General disclaimer">Disclaimers</a> - 	  <a href="/wiki/Pray_Times:About" title="Pray Times:About">About Pray Times</a>	</td>
+			<td width="5%" align="right" nowrap='nowrap'><div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/w/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div></td></tr></table>
+      </div>
+    </div>
+    <!-- Served in 0.090 secs. -->  </body>
+</html>

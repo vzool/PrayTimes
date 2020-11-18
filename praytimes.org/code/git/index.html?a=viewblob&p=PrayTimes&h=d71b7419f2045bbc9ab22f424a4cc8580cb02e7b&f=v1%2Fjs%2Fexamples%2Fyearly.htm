@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Blob - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Blob d71b74 / <a href="?a=tree&amp;p=PrayTimes&amp;h=b23faa99cb9c02ed969c4dafcef6de57cb4b32bf&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1">v1</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=1813a18e0baf2d02503ebc3e54f3ade4b3354f8a&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1/js">js</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=99ecab23923afdd6db79dd913c4849112598f9f3&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1/js/examples">examples</a> / <a href="?a=viewblob&amp;p=PrayTimes&amp;h=f1e743475167e028af443f07ab3283645eff7f06&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v1/js/examples/yearly.htm">yearly.htm</a> </div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commit</a> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="17ee68cff3d814bae3fcf7dc55beaf3e49909889" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h2>Last commit for v1/js/examples/yearly.htm: <a href="?a=commit&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24">1c500fff7f21d1993f205d3e36dc17ee56efdf24</a></h2>
+<h1>JavaScript ver 2.0 uploaded</h1>
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2010-10-29 05:14:09]</div>
+<div class="commitmessage">
+<pre>
+JavaScript ver 2.0 uploaded
+</pre>
+</div>
+<div class="file">
+<pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt; Yearly Prayer Timetable &lt;/title&gt;
+&lt;style&gt;
+	body, td {font-family: tahoma; font-size: 11px; color: #404040; text-align: center; }
+	pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}
+	.form {padding:10px; background-color: #F8F7F4; border: 1px dashed #EAE9CD;}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;h2&gt; Yearly Prayer Timetable &lt;/h2&gt;
+&lt;div class=&quot;form&quot;&gt;
+	Latitude: &lt;input type=&quot;text&quot; value=&quot;43&quot; id=&quot;latitude&quot; size=&quot;4&quot;&gt;
+	Longitude: &lt;input type=&quot;text&quot; value=&quot;-80&quot; id=&quot;longitude&quot; size=&quot;4&quot;&gt;
+	Time Zone: &lt;input type=&quot;text&quot; value=&quot;-5&quot; id=&quot;timezone&quot; size=&quot;2&quot;&gt;
+	Year: &lt;input type=&quot;text&quot; value=&quot;2007&quot; id=&quot;year&quot; size=&quot;4&quot;&gt; &lt;br&gt;
+	Method:
+	&lt;select id=&quot;method&quot; name=&quot;method&quot; size=&quot;1&quot;&gt;
+		&lt;option value=&quot;0&quot;&gt;Shia Ithna-Ashari&lt;/option&gt;
+		&lt;option value=&quot;1&quot;&gt;University of Islamic Sciences, Karachi&lt;/option&gt;
+		&lt;option value=&quot;2&quot;&gt;Islamic Society of North America (ISNA)&lt;/option&gt;
+		&lt;option selected=&quot;selected&quot; value=&quot;3&quot;&gt;Muslim World League (MWL)&lt;/option&gt;
+		&lt;option value=&quot;4&quot;&gt;Umm al-Qura, Makkah&lt;/option&gt;
+		&lt;option value=&quot;5&quot;&gt;Egyptian General Authority of Survey&lt;/option&gt;
+    &lt;/select&gt;
+	&lt;input type=&quot;submit&quot; value=&quot;Make Timetable&quot; onclick=&quot;run();&quot;&gt;
+&lt;/div&gt;
+
+&lt;pre&gt;
+
+ Date   Fajr   Sunrise  Dhuhr    Asr   Sunset  Maghrib  Isha
+-------------------------------------------------------------
+&lt;/pre&gt;
+
+&lt;div id=&quot;timetable&quot;&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;../PrayTime.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+	function run()
+	{
+		var lat = document.getElementById('latitude').value;
+		var lng = document.getElementById('longitude').value;
+		var timeZone = document.getElementById('timezone').value;
+		var year = document.getElementById('year').value;
+		var method = document.getElementById('method').value;
+		var table = document.getElementById('timetable');
+		var str = makeTable(method, year, lat, lng, timeZone);
+		table.innerHTML = '&lt;pre&gt;'+ str+ '&lt;/pre&gt;';
+	}
+
+
+	function makeTable(method, year, lat, lng, timeZone)
+	{
+		var table = '';
+		var monthNames = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May',
+				'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+		var date = new Date(year, 0, 1);
+		var endDate = new Date(1*year+ 1, 0, 1);
+		prayTime.setCalcMethod(method);
+
+		while (date &lt; endDate)
+		{
+			var times = prayTime.getPrayerTimes(date, lat, lng, timeZone);
+			var day = date.getDate();
+			day = (day &lt;10) ? '0'+ day : day;
+			table += monthNames[date.getMonth()]+ ' '+ day+ &quot;\t&quot;+ times.join(&quot;\t&quot;)+ &quot;\n&quot;;
+			date.setDate(date.getDate()+ 1);  // next day
+		}
+		return table;
+	}
+
+	run();
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+</pre>
+</div>
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

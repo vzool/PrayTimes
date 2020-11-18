@@ -1,0 +1,1982 @@
+<!DOCTYPE html>
+<html lang="en-gb" prefix="og: http://ogp.me/ns#"  lang="en-gb" xml:lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="applicable-device" content="pc,mobile" />
+
+    
+<meta name="web-experience-app/config/environment" content="%7B%22appVersion%22%3A1%2C%22modulePrefix%22%3A%22web-experience-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history-hash-router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22contentSecurityPolicyMeta%22%3Atrue%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%5B%22'none'%22%5D%2C%22img-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%2C%22*.apple.com%22%2C%22*.googleusercontent.com%22%2C%22data%3A%22%5D%2C%22style-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22*.apple.com%22%5D%2C%22font-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.apple.com%22%2C%22https%3A%2F%2F*.apple.com%22%5D%2C%22media-src%22%3A%5B%22'self'%22%2C%22blob%3A%22%2C%22http%3A%2F%2F*%22%2C%22https%3A%2F%2F*%22%5D%2C%22connect-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22https%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%5D%2C%22script-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22'unsafe-eval'%22%2C%22*.apple.com%22%5D%2C%22frame-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22itmss%3A%22%2C%22itms-appss%3A%22%2C%22itms-bookss%3A%22%2C%22itms-itunesus%3A%22%2C%22itms-messagess%3A%22%2C%22itms-podcasts%3A%22%2C%22itms-watchs%3A%22%2C%22macappstores%3A%22%2C%22musics%3A%22%2C%22apple-musics%3A%22%2C%22podcasts%3A%22%2C%22videos%3A%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Afalse%2C%22_JQUERY_INTEGRATION%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22PROGRESS_BAR_DELAY%22%3A3000%2C%22name%22%3A%22web-experience-app%22%2C%22version%22%3A%222046.5.0%2B8553b8fc%22%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%228CU26MKLS4%22%2C%22keyId%22%3A%22CRF5HNBGPQ%22%2C%22privateKeyPath%22%3A%22ssl%2Fmedia_api_clientside_only.prod.key%22%2C%22ttl%22%3A3024000%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkNSRjVITkJHUFEifQ.eyJpc3MiOiI4Q1UyNk1LTFM0IiwiaWF0IjoxNjA1MDQyMTIwLCJleHAiOjE2MDgwNjYxMjB9.bsgT71SiC_b9YEJp08xuoV1WtuVnukHGjNxAOBrN7IsVE-fEu7t_1gaOudctv5rWjebfG7e9to-JBjeE96jIEQ%22%7D%2C%22routerScroll%22%3A%7B%22targetElement%22%3A%22%23ember-app%22%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en-gb%22%2C%22useDevLoc%22%3Afalse%2C%22pathToLocales%22%3A%22dist%2Flocales%22%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%2C%22includeTimezone%22%3A%22subset%22%7D%2C%22browserify%22%3A%7B%22transform%22%3A%5B%5B%22babelify%22%2C%7B%22presets%22%3A%5B%22env%22%5D%2C%22global%22%3Atrue%2C%22only%22%3A%7B%7D%7D%5D%5D%7D%2C%22API%22%3A%7B%22AppHost%22%3A%22https%3A%2F%2Famp-api.apps.apple.com%22%2C%22MZStore%22%3A%22https%3A%2F%2Fitunes.apple.com%22%2C%22PodcastHost%22%3A%22https%3A%2F%2Famp-api.podcasts.apple.com%22%2C%22StorePlatform%22%3A%22https%3A%2F%2Fuclient-api.itunes.apple.com%2FWebObjects%2FMZStorePlatform.woa%2Fwa%22%2C%22BookHost%22%3A%22https%3A%2F%2Famp-api.books.apple.com%22%2C%22globalElementsPath%22%3A%22%2Fglobal-elements%22%2C%22videoLocalizationPath%22%3A%22%2Fglobal%2Fac_media_player%2Fscripts%2Fac_media_languages%2F%22%2C%22appleAppsDomain%22%3A%22apps.apple.com%22%2C%22applePodcastsDomain%22%3A%22podcasts.apple.com%22%2C%22appleBooksDomain%22%3A%22books.apple.com%22%2C%22appleMusicDomain%22%3A%22music.apple.com%22%2C%22obcMetadataBaseUrl%22%3A%22%2Fapi%2Fbooks-metadata%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%7B%7D%5D%7D%2C%22ember-a11y-testing%22%3A%7B%22componentOptions%22%3A%7B%22turnAuditOff%22%3Atrue%2C%22axeOptions%22%3A%7B%22rules%22%3A%7B%22color-contrast%22%3A%7B%22enabled%22%3Afalse%7D%7D%7D%7D%7D%2C%22ember-short-number%22%3A%7B%22locales%22%3A%5B%22ar-dz%22%2C%22ar-bh%22%2C%22ar-eg%22%2C%22ar-iq%22%2C%22ar-jo%22%2C%22ar-kw%22%2C%22ar-lb%22%2C%22ar-ly%22%2C%22ar-ma%22%2C%22ar-om%22%2C%22ar-qa%22%2C%22ar-sa%22%2C%22ar-sd%22%2C%22ar-sy%22%2C%22ar-tn%22%2C%22ar-ae%22%2C%22ar-ye%22%2C%22he-il%22%2C%22iw-il%22%2C%22ca-es%22%2C%22cs-cz%22%2C%22da-dk%22%2C%22de-ch%22%2C%22de-de%22%2C%22el-gr%22%2C%22en-au%22%2C%22en-ca%22%2C%22en-gb%22%2C%22en-us%22%2C%22es-419%22%2C%22es-es%22%2C%22es-mx%22%2C%22es-xl%22%2C%22et-ee%22%2C%22fi-fi%22%2C%22fr-ca%22%2C%22fr-fr%22%2C%22hi-in%22%2C%22hr-hr%22%2C%22hu-hu%22%2C%22id-id%22%2C%22is-is%22%2C%22it-it%22%2C%22iw-il%22%2C%22ja-jp%22%2C%22ko-kr%22%2C%22lt-lt%22%2C%22lv-lv%22%2C%22ms-my%22%2C%22nl-nl%22%2C%22no-no%22%2C%22no-nb%22%2C%22nb-no%22%2C%22pl-pl%22%2C%22pt-br%22%2C%22pt-pt%22%2C%22ro-ro%22%2C%22ru-ru%22%2C%22sk-sk%22%2C%22sv-se%22%2C%22th-th%22%2C%22tr-tr%22%2C%22uk-ua%22%2C%22vi-vi%22%2C%22vi-vn%22%2C%22zh-cn%22%2C%22zh-hans%22%2C%22zh-hant%22%2C%22zh-hk%22%2C%22zh-tw%22%2C%22ar%22%2C%22ca%22%2C%22cs%22%2C%22da%22%2C%22de%22%2C%22el%22%2C%22en%22%2C%22es%22%2C%22fi%22%2C%22fr%22%2C%22hi%22%2C%22hr%22%2C%22hu%22%2C%22id%22%2C%22is%22%2C%22it%22%2C%22ja%22%2C%22ko%22%2C%22lt%22%2C%22lv%22%2C%22ms%22%2C%22nb%22%2C%22nl%22%2C%22no%22%2C%22pl%22%2C%22pt%22%2C%22ro%22%2C%22ru%22%2C%22sk%22%2C%22sv%22%2C%22th%22%2C%22tr%22%2C%22uk%22%2C%22vi%22%2C%22zh%22%5D%7D%2C%22BREAKPOINTS%22%3A%7B%22large%22%3A%7B%22min%22%3A1069%2C%22max%22%3A1440%2C%22content%22%3A980%7D%2C%22medium%22%3A%7B%22min%22%3A735%2C%22max%22%3A1068%2C%22content%22%3A692%7D%2C%22small%22%3A%7B%22min%22%3A320%2C%22max%22%3A734%2C%22content%22%3A280%7D%7D%2C%22METRICS%22%3A%7B%22appName%22%3A%22web-experience-app%22%2C%22autoTrackingEnabled%22%3Atrue%2C%22constraintProfile%22%3A%22AMPWeb%22%2C%22delegate%22%3A%22web%22%2C%22isEnabled%22%3Atrue%2C%22topic%22%3A%22xp_amp_web_exp%22%2C%22url%22%3A%22https%3A%2F%2Fxp.apple.com%2Freport%22%2C%22performance%22%3A%7B%22enabled%22%3Afalse%7D%7D%2C%22MEDIA_SHELF%22%3A%7B%22GRID_CONFIG%22%3A%7B%22books-brick-row%22%3A%7B%22small%22%3A1%2C%22medium%22%3A2%2C%22large%22%3A3%7D%7D%2C%22MEDIA_QUERIES%22%3A%7B%22small%22%3A%22(max-width%3A%20734px)%22%2C%22medium%22%3A%22(min-width%3A%20735px)%20and%20(max-width%3A%201068px)%22%2C%22large%22%3A%22(min-width%3A%201069px)%22%7D%7D%2C%22SASSKIT_GENERATOR%22%3A%7B%22VIEWPORT_CONFIG%22%3A%7B%22BREAKPOINTS%22%3A%7B%22large%22%3A%7B%22min%22%3A1069%2C%22max%22%3A1440%2C%22content%22%3A980%7D%2C%22medium%22%3A%7B%22min%22%3A735%2C%22max%22%3A1068%2C%22content%22%3A692%7D%2C%22small%22%3A%7B%22min%22%3A320%2C%22max%22%3A734%2C%22content%22%3A280%7D%7D%7D%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' http://*.mzstatic.com *.mzstatic.com *.apple.com *.googleusercontent.com data:; style-src 'self' 'unsafe-inline' *.apple.com; font-src 'self' http://*.apple.com https://*.apple.com; media-src 'self' blob: http://* https://*; connect-src 'self' *.apple.com https://*.mzstatic.com *.mzstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.apple.com; frame-src 'self' *.apple.com itmss: itms-appss: itms-bookss: itms-itunesus: itms-messagess: itms-podcasts: itms-watchs: macappstores: musics: apple-musics: podcasts: videos:; ">
+<!-- EMBER_CLI_FASTBOOT_TITLE --><link rel="stylesheet" name="fonts" href="//www.apple.com/wss/fonts?families=SF+Pro,v2|SF+Pro+Icons,v1|SF+Pro+Rounded,v1|New+York+Small,v1|New+York+Medium,v1" as="style" onload="undefined">  <meta name="ember-cli-head-start" content><title>‎Sky Prayers on the App Store</title>
+<link rel="canonical" href="https://apps.apple.com/sg/app/sky-prayers/id439409680">
+  <meta name="description" content="‎Read reviews, compare customer ratings, see screenshots and learn more about Sky Prayers. Download Sky Prayers and enjoy it on your iPhone, iPad and iPod touch." id="ember53669209" class="ember-view">
+
+  <meta name="keywords" content="Sky Prayers, Ahmed Bukhamsin, Travel, Lifestyle, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes" id="ember53669211" class="ember-view">
+
+  <meta property="og:title" content="‎Sky Prayers" id="ember53669213" class="ember-view">
+
+  <meta property="og:description" content="‎Now compatible with iOS 8 and above.
+
+Have you ever been in an overseas flight wondering about Muslim prayer time and Qibla direction and don't know what to do? 
+
+There is an app for that! 
+
+Sky Prayers is a unique app that will make finding prayer times and Qibla direction in the airplane a trouble…" id="ember53669215" class="ember-view">
+
+  <meta property="og:site_name" content="App Store" id="ember53669217" class="ember-view">
+
+  <meta property="og:url" content="https://apps.apple.com/sg/app/sky-prayers/id439409680" id="ember53669219" class="ember-view">
+
+  <meta property="og:image" content="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/1200x630wa.png" id="ember53669221" class="ember-view">
+
+  <meta property="og:image:alt" content="Sky Prayers on the App Store" id="ember53669223" class="ember-view">
+
+  <meta property="og:image:secure_url" content="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/1200x630wa.png" id="ember53669225" class="ember-view">
+
+  <meta property="og:image:type" content="image/png" id="ember53669227" class="ember-view">
+
+  <meta property="og:image:width" content="1200" id="ember53669229" class="ember-view">
+
+  <meta property="og:image:height" content="630" id="ember53669231" class="ember-view">
+
+  <meta property="og:type" content="website" id="ember53669233" class="ember-view">
+
+  <meta property="og:locale" content="en_GB" id="ember53669235" class="ember-view">
+
+  <meta property="fb:app_id" content="116556461780510" id="ember53669237" class="ember-view">
+
+  <meta name="twitter:title" content="‎Sky Prayers" id="ember53669239" class="ember-view">
+
+  <meta name="twitter:description" content="‎Now compatible with iOS 8 and above.
+
+Have you ever been in an overseas flight wondering about Muslim prayer time and Qibla direction and don't know what to do? 
+
+There is an app for that! 
+
+Sky Prayers is a unique app that will make finding prayer times and Qibla direction in the airplane a trouble…" id="ember53669241" class="ember-view">
+
+  <meta name="twitter:site" content="@AppStore" id="ember53669243" class="ember-view">
+
+  <meta name="twitter:domain" content="AppStore" id="ember53669245" class="ember-view">
+
+  <meta name="twitter:image" content="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/600x600wa.png" id="ember53669247" class="ember-view">
+
+  <meta name="twitter:image:alt" content="Sky Prayers on the App Store" id="ember53669249" class="ember-view">
+
+  <meta name="twitter:card" content="summary_large_image" id="ember53669251" class="ember-view">
+
+  <meta name="apple-itunes-app" content="app-id=375380948, app-argument=https://apps.apple.com/sg/app/sky-prayers/id439409680" id="ember53669253" class="ember-view">
+
+  <script name="schema:software-application" id="ember53669255" class="ember-view" type="application/ld+json">{"@context":"http://schema.org","@type":"SoftwareApplication","name":"Sky Prayers","description":"Now compatible with iOS 8 and above.\n\nHave you ever been in an overseas flight wondering about Muslim prayer time and Qibla direction and don't know what to do? \n\nThere is an app for that! \n\nSky Prayers is a unique app that will make finding prayer times and Qibla direction in the airplane a trouble less experience. \n\nHow it Works? \nThe app comes with offline map where you can choose your location (you can know your location based on plane entertainment screen information). After you pick your location, the shortest path to Makka will be drawn from the plane location which shows the Qibla direction. After that you can see the prayer times at that location as well. \n\nFeatures: \n- Offline Maps with 6 levels zoom. \n- The most accurate Prayer times by moonsighting.com based on map location and device time zone. \n- Prayer times notifications.\n- Compass to find Qibla\n- Show prayer times in different locations using different calculation methods at the same time.\n- Draw Qibla direction on the map.\n- Detects user location while online.\n\nThis app is a must for every Muslim travailing overseas. \n\nمما قيل في البرنامج:\n\"برنامج Sky Prayers يعمل كما هو مسوق له في وصف البرنامج وقمت بتجربة البرنامج في رحلة بالطائرة وعمل بشكل ممتاز جداً بوضع الـ Offline مع الخرائط،\" \nموقع عالم أبل\n\n\"الآن تحققت أمنية كل مسافر مسلم باستخدام هذا البرنامج الذي يعتبر خير معين للمسلم في سفره على طاعة الله والالتزام بمواعيد صلواته من خلال إرشاده إلى اتجاه القبلة ومواعيد الصلوات بطريقة مبتكرة.\"\nموقع أخبار التطبيقات\n\nتم عرض التطبيق في برنامج حياة تك المتميز على قناة المجد\nhttp://youtu.be/QA9gi1UD3HQ\n\nهل سافرت يوما بالطائرة عبر المحيطات ووجدت صعوبة في تحديد اوقات الصلاة واتجاه القبلة ؟ \nهل لاحظت خلل في اوقات الصلاة اليومية في البرامج الأخرى؟\nالآن امنية كل مسافر مسلم أصبحت حقيقة مع هذا البرنامج! \n\nطريقة عمل البرنامج: \nالبرنامج يوفر لك خريطة العالم دون الحاجة للاتصال بالانترنت. كل ماعليك الرجوع لشاشة التسلية في الطائرة لتحديد مكانك على الخارطة ثم تحديده في خارطة البرنامج. سيقوم البرنامج بشكل تلقائي برسم الطريق الأقصر لمكة المكرمة وسيكون هو دليلك لاتجاه القبلة. البرنامج يحوي ايقونة بشكل طائرة يمكن تحريكها لتحديد مكانك على الخارطة ويمكن لفها في كافة الاتجاهات لتسهيل تحديد اتجاه القبلة بالنسبة للطائرة. بعد ذلك يكنك العودة للشاشة الرئيسية لعرض اوقات الصلاة. \n\nمميزات البرنامج: \n- خريطة دون للاتصال بالانترنت مع ستة مستويات تكبير \n- أدق طريقة لحساب وقت الصلاة عن طريق موقع moonsighting.com حسب المكان في الخريطة بناءً على ساعة الجهاز \n- تنبيهات أوقات الصلاة\n- بوصلة لتحديد القبلة\n- أوقات الصلاة لأكثر من مكان بطرق حساب مختلفة في نفس الوقت\n- تحديد اتجاه القبلة على الخريطة \n- تحديد مكانك تلقائيا على الخريطة في حال عمل خدمات تحديد المواقع","screenshot":["https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/300x0w.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/300x0w.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/300x0w.jpg","https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/300x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/300x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/c7/d9/ea/c7d9ea83-d442-51be-350c-dde89a090c41/mzl.oazowuit.jpg/643x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/8e/2d/19/8e2d198a-0160-992d-3c4f-57c1c2bb8d00/pr_source.png/300x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/c7/22/41/c72241bf-8b40-fb5b-ecdc-570c64ca8333/pr_source.png/300x0w.jpg"],"image":"https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/1200x630wa.png","applicationCategory":"Travel","datePublished":"25 May 2011","operatingSystem":"Requires iOS 9.3 and watchOS 3.0 or later. Compatible with iPhone 5S, iPhone 6, iPhone 6 Plus, iPhone 6S, iPhone 6S Plus, iPhone SE (1st generation), iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPhone XS, iPhone XS Max, iPhone XR, iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone SE (2nd generation), iPhone 12 mini, iPhone 12, iPhone 12 Pro, iPhone 12 Pro Max, iPad Air, iPad Air Wi‑Fi + Cellular, iPad mini 2, iPad mini 2 Wi‑Fi + Cellular, iPad Air 2, iPad Air 2 Wi‑Fi + Cellular, iPad mini 3, iPad mini 3 Wi‑Fi + Cellular, iPad mini 4, iPad mini 4 Wi‑Fi + Cellular, iPad Pro (12.9‑inch), iPad Pro (12.9‑inch) Wi‑Fi + Cellular, iPad Pro (9.7‑inch), iPad Pro (9.7‑inch) Wi‑Fi + Cellular, iPad (5th generation), iPad (5th generation) Wi‑Fi + Cellular, iPad Pro (12.9‑inch) (2nd generation), iPad Pro (12.9‑inch) (2nd generation) Wi‑Fi + Cellular, iPad Pro (10.5‑inch), iPad Pro (10.5‑inch) Wi‑Fi + Cellular, iPad (6th generation), iPad (6th generation) Wi‑Fi + Cellular, iPad Pro (11‑inch), iPad Pro (11‑inch) Wi‑Fi + Cellular, iPad Pro (12.9‑inch) (3rd generation), iPad Pro (12.9‑inch) (3rd generation) Wi‑Fi + Cellular, iPad mini (5th generation), iPad mini (5th generation) Wi‑Fi + Cellular, iPad Air (3rd generation), iPad Air (3rd generation) Wi‑Fi + Cellular, iPad (7th generation), iPad (7th generation) Wi‑Fi + Cellular, iPad Pro (11‑inch) (2nd generation), iPad Pro (11‑inch) (2nd generation) Wi‑Fi + Cellular, iPad Pro (12.9‑inch) (4th generation), iPad Pro (12.9‑inch) (4th generation) Wi‑Fi + Cellular, iPad Air (4th generation), iPad Air (4th generation) Wi‑Fi + Cellular, iPad (8th generation), iPad (8th generation) Wi‑Fi + Cellular, iPod touch (6th generation) and iPod touch (7th generation).","author":{"@type":"Person","name":"Ahmed Bukhamsin","url":"https://apps.apple.com/sg/developer/ahmed-bukhamsin/id439219752"},"aggregateRating":{"@type":"AggregateRating","ratingValue":5,"reviewCount":1},"offers":{"@type":"Offer","price":0,"priceCurrency":"SGD","category":"free"}}
+</script>
+  <meta name="apple:content_id" content="439409680" id="ember53669257" class="ember-view">
+
+
+<meta name="ember-cli-head-end" content>
+<link rel="stylesheet" type="text/css" href="/global-elements/2038.1.0/en_SG/ac-global-nav.d915b46b2869cd416cbafe206ca74838.css" data-global-elements-nav-styles>
+<link rel="stylesheet" type="text/css" href="/global-elements/2038.1.0/en_SG/ac-global-footer.9794b123061cd3a64ef4b3225e764a47.css" data-global-elements-footer-styles>
+
+    <meta name="version" content="2046.5.0">
+
+    <link integrity="" rel="stylesheet" href="/assets/web-experience-app-684c08beb9f1c21df59599f9b0082ef9.css" data-rtl="/assets/web-experience-rtl-app-c9d03da5be93dbb4ddb1b5b57f2ba0c5.css">
+
+    
+  </head>
+  <body class="no-js no-touch">
+    <div id="ember-app">
+      <script type="x/boundary" id="fastboot-body-start"></script><aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-SG" dir="ltr" data-strings="{ &apos;exit&apos;: &apos;Exit Store&apos;, &apos;view&apos;: &apos;{%STOREFRONT%} Store Home&apos;, &apos;segments&apos;: { &apos;smb&apos;: &apos;Business Store Home&apos;, &apos;eduInd&apos;: &apos;Education Store Home&apos;, &apos;other&apos;: &apos;Store Home&apos; } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global" data-hires="false" data-analytics-region="global nav" lang="en-SG" dir="ltr" data-www-domain="www.apple.com" data-store-locale="sg" data-store-root-path="/sg" data-store-api="https://www.apple.com/[storefront]/shop/bag/status" data-search-locale="en_SG" data-search-suggestions-api="https://www.apple.com/search-services/suggestions/" data-search-defaultlinks-api="https://www.apple.com/search-services/suggestions/defaultlinks/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Global Nav Open Menu</span>
+				</a>
+				<a href="#" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Global Nav Close Menu</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/sg/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/sg/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Bag" data-string-badge="Shopping Bag with item count :">
+						<span class="ac-gn-link-text">Bag</span>
+					</a>
+					<span class="ac-gn-bag-badge">
+						<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<div class="ac-gn-search-placeholder-container" role="search">
+			<div class="ac-gn-search ac-gn-search-small">
+				<a id="ac-gn-link-search-small" class="ac-gn-link" href="https://www.apple.com/sg/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="Search apple.com">
+					<div class="ac-gn-search-placeholder-bar">
+						<div class="ac-gn-search-placeholder-input">
+							<div class="ac-gn-search-placeholder-input-text" aria-hidden="true">
+								<div class="ac-gn-link-search ac-gn-search-placeholder-input-icon"></div>
+								<span class="ac-gn-search-placeholder">Search apple.com</span>
+							</div>
+						</div>
+						<div class="ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close">
+							<span class="ac-gn-searchview-close-cancel" aria-hidden="true">Cancel</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/sg/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+						<span class="ac-gn-link-text">Apple</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="https://www.apple.com/sg/mac/" data-analytics-title="mac">
+						<span class="ac-gn-link-text">Mac</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="https://www.apple.com/sg/ipad/" data-analytics-title="ipad">
+						<span class="ac-gn-link-text">iPad</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="https://www.apple.com/sg/iphone/" data-analytics-title="iphone">
+						<span class="ac-gn-link-text">iPhone</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="https://www.apple.com/sg/watch/" data-analytics-title="watch">
+						<span class="ac-gn-link-text">Watch</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="https://www.apple.com/sg/tv/" data-analytics-title="tv">
+						<span class="ac-gn-link-text">TV</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="https://www.apple.com/sg/music/" data-analytics-title="music">
+						<span class="ac-gn-link-text">Music</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/en-sg" data-analytics-title="support">
+						<span class="ac-gn-link-text">Support</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="https://www.apple.com/sg/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="Search apple.com"></a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/sg/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Bag" data-string-badge="Shopping Bag with item count : {%BAGITEMCOUNT%}">
+							<span class="ac-gn-link-text">Bag</span>
+						</a>
+					<span class="ac-gn-bag-badge" aria-hidden="true">
+								<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<div class="ac-gn-searchview-bar">
+					<div class="ac-gn-searchview-bar-wrapper">
+						<form id="ac-gn-searchform" class="ac-gn-searchform" action="https://www.apple.com/sg/search" method="get">
+							<div class="ac-gn-searchform-wrapper">
+								<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-owns="quicklinks suggestions">
+								<input id="ac-gn-searchform-src" type="hidden" name="src" value="itunes_serp">
+								<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit Search"></button>
+								<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search">
+										<span class="ac-gn-searchform-reset-background"></span>
+									</button>
+							</div>
+						</form>
+						<button id="ac-gn-searchview-close-small" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="Cancel Search">
+								<span class="ac-gn-searchview-close-cancel" aria-hidden="true">
+									Cancel
+								</span>
+							</button>
+					</div>
+				</div>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cancel Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav>
+<div class="ac-gn-blur"></div>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+<div class="ember-view">
+  <!---->
+
+  <!---->
+
+  <!---->
+
+  <main class="selfclear is-apps-theme">
+    <style id="ember53669258" class="ember-view"><!----></style>
+
+    <!---->
+
+    <div id="ember53669259" class="focusing-outlet ember-view"><div id="ember53669261" class="focusing-outlet ember-view">
+  <input id="localnav-menustate" class="localnav-menustate" type="checkbox">
+<nav id="localnav" class="css-sticky we-localnav localnav we-localnav--app-store" role="navigation" data-sticky data-test-we-localnav="app-store">
+  <div class="localnav-wrapper" data-test-we-localnav-wrapper>
+    <div class="localnav-background we-localnav__background"></div>
+    <div class="localnav-content we-localnav__content">
+      <div class="localnav-title we-localnav__title" data-test-we-localnav-title>
+        <a href="https://www.apple.com/sg/ios/app-store/" data-we-link-to-exclude><span class="we-localnav__title__product" data-test-we-localnav-store-title>App Store</span></a> <span class="we-localnav__title__qualifier" data-test-we-localnav-preview-title>Preview</span>
+      </div>
+      <div data-test-localnav-menu class="localnav-menu we-localnav__menu we-localnav__menu--apps">
+<!---->        <div class="localnav-actions we-localnav__actions" data-test-we-localnav-actions>
+<!---->            
+<!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<span class="we-localnav__shim" aria-hidden="true"></span>
+<label id="localnav-curtain" for="localnav-menustate"></label>
+
+
+
+<div id="ember53669264" class="animation-wrapper is-visible ember-view">
+<!---->
+    <div id="ember53669265" style="display: none;" class="ember-view"><div class="l-content-width we-banner" role="alert">
+    <p class="we-banner__copy" data-test-we-banner-message="availability">This app is available only on the App Store for iPhone, iPad and Apple Watch.</p>
+</div>
+</div>
+
+  <div id="ember53669266" class="ember-view"><section id="ember53669267" class="l-content-width section section--hero product-hero ember-view"><div class="l-row">
+  <div class="product-hero__media l-column small-5 medium-4 large-3 small-valign-top">
+      <picture id="ember53669268" class="we-artwork ember-view product-hero__artwork we-artwork--fullwidth we-artwork--ios-app-icon" data-test-product-hero-artwork>
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/230x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/460x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/230x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/460x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/217x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/434x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/217x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/246x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/492x0w.webp 2x" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/246x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/03/d9/a4/03d9a423-66f8-9cca-8c6a-4e571a95492e/mzl.bfubsogw.png/492x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember53669268" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="246" width="246">
+    <style>
+      .ember53669268, #ember53669268::before {
+          width: 246px;
+          height: 246px;
+        }
+        .ember53669268::before {
+          padding-top: 100%;
+        }
+.ember53669268, #ember53669268::before {
+          width: 246px;
+          height: 246px;
+        }
+        .ember53669268::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember53669268, #ember53669268::before {
+          width: 217px;
+          height: 217px;
+        }
+        .ember53669268::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669268, #ember53669268::before {
+          width: 217px;
+          height: 217px;
+        }
+        .ember53669268::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669268, #ember53669268::before {
+          width: 230px;
+          height: 230px;
+        }
+        .ember53669268::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669268, #ember53669268::before {
+          width: 230px;
+          height: 230px;
+        }
+        .ember53669268::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+  </div>
+
+  <div class="l-column small-7 medium-8 large-9 small-valign-top">
+    <header class="product-header app-header product-header--padded-start" role="banner">
+<!---->
+      <h1 class="product-header__title app-header__title" data-test-product-name>
+        Sky Prayers
+          <span class="badge badge--product-title" data-test-product-rating>4+</span>
+      </h1>
+
+<!---->
+      <h2 class="product-header__identity app-header__identity" data-test-developer-name>
+        <a href="https://apps.apple.com/sg/developer/ahmed-bukhamsin/id439219752" class="link" data-metrics-click="{&quot;actionDetails&quot;:{&quot;type&quot;:&quot;developer&quot;},&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/sg/developer/ahmed-bukhamsin/id439219752&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;439219752&quot;}" data-test-developer-link dir="auto">
+          Ahmed Bukhamsin
+        </a>
+      </h2>
+
+<!---->
+        <ul class="product-header__list app-header__list">
+<!---->
+            <li class="product-header__list__item app-header__list__item--user-rating">
+              <ul class="inline-list inline-list--mobile-compact">
+                <li class="inline-list__item">
+                  <figure aria-label="5 out of 5" id="ember53669275" class="we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-5"></span>
+</span>
+  <figcaption data-test-rating-count class="we-rating-count star-rating__count">5.0 • 1 Rating</figcaption>
+</figure>
+                </li>
+              </ul>
+            </li>
+        </ul>
+
+      <ul class="product-header__list app-header__list">
+<!---->
+        <li class="product-header__list__item">
+          <ul class="inline-list inline-list--mobile-compact">
+              <li class="inline-list__item inline-list__item--bulleted app-header__list__item--price" data-test-buy-price>Free</li>
+
+<!---->          </ul>
+        </li>
+
+<!---->
+<!---->      </ul>
+
+<!---->
+<!---->
+<!---->
+<!---->    </header>
+  </div>
+</div>
+</section>
+
+<!---->
+    <section class="l-content-width section section--bordered">
+      <div class="section__nav section__nav--align-start">
+        <h2 class="section__headline" data-test-app-screenshots-title>Screenshots</h2>
+        <nav class="gallery-nav">
+          <ul class="gallery-nav__items">
+              <li class="gallery-nav__item">
+                <a href="/sg/app/id439409680#?platform=iphone" id="ember53669277" class="ember-view link link--no-decoration is-active" data-test-app-platform-link="iphone">
+                  iPhone
+                </a>
+              </li>
+              <li class="gallery-nav__item">
+                <a href="/sg/app/id439409680#?platform=ipad" id="ember53669278" class="ember-view link link--no-decoration" data-test-app-platform-link="ipad">
+                  iPad
+                </a>
+              </li>
+              <li class="gallery-nav__item">
+                <a href="/sg/app/id439409680#?platform=appleWatch" id="ember53669279" class="ember-view link link--no-decoration" data-test-app-platform-link="appleWatch">
+                  Apple Watch
+                </a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+    <div id="ember53669280" class="we-screenshot-viewer ember-view"><div class="we-screenshot-viewer__screenshots">
+  <ul class="l-row l-row--peek we-screenshot-viewer__screenshots-list">
+        <li class="l-column small-2 medium-3 large-3" data-test-we-screenshot-viewer-row>
+          <picture id="ember53669282" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait">
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/230x0w.webp 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/460x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/230x0w.jpg 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/460x0w.jpg 2x" media="(min-width: 1069px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/157x0w.webp 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/157x0w.jpg 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/314x0w.jpg 2x" media="(min-width: 735px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/300x0w.webp 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/600x0w.webp 2x" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/300x0w.jpg 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/24/02/83/240283da-f8ac-0884-c152-756933ac52ba/mzl.zjfxovna.jpg/600x0w.jpg 2x" type="image/jpeg">
+
+        <img class="we-artwork__image ember53669282" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style="background-color: #06173e;" alt height="533" width="300">
+    <style>
+      .ember53669282, #ember53669282::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669282::before {
+          padding-top: 177.66666666666666%;
+        }
+.ember53669282, #ember53669282::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669282::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 735px) {
+          .ember53669282, #ember53669282::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669282::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669282, #ember53669282::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669282::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669282, #ember53669282::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669282::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669282, #ember53669282::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669282::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3" data-test-we-screenshot-viewer-row>
+          <picture id="ember53669290" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait">
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/230x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/460x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/230x0w.jpg 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/460x0w.jpg 2x" media="(min-width: 1069px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/157x0w.jpg 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/314x0w.jpg 2x" media="(min-width: 735px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/300x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/600x0w.webp 2x" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/300x0w.jpg 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple91/v4/4d/0d/c3/4d0dc3f4-6eaf-47ab-2fbb-c894dd32d45c/mzl.kczhkxlf.jpg/600x0w.jpg 2x" type="image/jpeg">
+
+        <img class="we-artwork__image ember53669290" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style="background-color: #040e25;" alt height="533" width="300">
+    <style>
+      .ember53669290, #ember53669290::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669290::before {
+          padding-top: 177.66666666666666%;
+        }
+.ember53669290, #ember53669290::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669290::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 735px) {
+          .ember53669290, #ember53669290::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669290::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669290, #ember53669290::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669290::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669290, #ember53669290::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669290::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669290, #ember53669290::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669290::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3" data-test-we-screenshot-viewer-row>
+          <picture id="ember53669298" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait">
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/230x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/460x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/230x0w.jpg 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/460x0w.jpg 2x" media="(min-width: 1069px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/157x0w.jpg 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/314x0w.jpg 2x" media="(min-width: 735px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/300x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/600x0w.webp 2x" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/300x0w.jpg 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/33/7c/c1/337cc188-3087-edfd-3014-c3bb07701e28/mzl.hjlbwalv.jpg/600x0w.jpg 2x" type="image/jpeg">
+
+        <img class="we-artwork__image ember53669298" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style="background-color: #325b71;" alt height="533" width="300">
+    <style>
+      .ember53669298, #ember53669298::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669298::before {
+          padding-top: 177.66666666666666%;
+        }
+.ember53669298, #ember53669298::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669298::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 735px) {
+          .ember53669298, #ember53669298::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669298::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669298, #ember53669298::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669298::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669298, #ember53669298::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669298::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669298, #ember53669298::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669298::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3" data-test-we-screenshot-viewer-row>
+          <picture id="ember53669306" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait">
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/230x0w.webp 1x, https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/460x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/230x0w.jpg 1x, https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/460x0w.jpg 2x" media="(min-width: 1069px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/157x0w.webp 1x, https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/157x0w.jpg 1x, https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/314x0w.jpg 2x" media="(min-width: 735px)" type="image/jpeg">
+
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/300x0w.webp 1x, https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/600x0w.webp 2x" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/300x0w.jpg 1x, https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/19/1c/df/191cdf7e-cd03-df7c-6ffe-22e27debf7b9/mzl.yveklssa.jpg/600x0w.jpg 2x" type="image/jpeg">
+
+        <img class="we-artwork__image ember53669306" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style="background-color: #ffffff;" alt height="533" width="300">
+    <style>
+      .ember53669306, #ember53669306::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669306::before {
+          padding-top: 177.66666666666666%;
+        }
+.ember53669306, #ember53669306::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669306::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 735px) {
+          .ember53669306, #ember53669306::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669306::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669306, #ember53669306::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669306::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669306, #ember53669306::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669306::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669306, #ember53669306::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669306::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3" data-test-we-screenshot-viewer-row>
+          <picture id="ember53669314" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait">
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/230x0w.webp 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/460x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/230x0w.png 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/460x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/157x0w.webp 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/157x0w.png 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/314x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/300x0w.webp 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/600x0w.webp 2x" type="image/webp">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/300x0w.png 1x, https://is4-ssl.mzstatic.com/image/thumb/Purple82/v4/e6/01/6a/e6016a26-9875-3384-1505-7a72fc70bdaa/mzl.uspcqrhv.png/600x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember53669314" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="533" width="300">
+    <style>
+      .ember53669314, #ember53669314::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669314::before {
+          padding-top: 177.66666666666666%;
+        }
+.ember53669314, #ember53669314::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember53669314::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 735px) {
+          .ember53669314, #ember53669314::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669314::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669314, #ember53669314::before {
+          width: 157px;
+          height: 279px;
+        }
+        .ember53669314::before {
+          padding-top: 177.70700636942675%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669314, #ember53669314::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669314::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669314, #ember53669314::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember53669314::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+  </ul>
+<!----></div>
+</div>
+  </section>
+
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__description">
+        <h2 class="section__headline visuallyhidden">Description</h2>
+        <div class="l-row">
+          <div id="ember53669321" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view l-column small-12 medium-9 large-8" data-test-description>      
+
+      <p dir=true data-test-bidi>Now compatible with iOS 8 and above.<br /><br />Have you ever been in an overseas flight wondering about Muslim prayer time and Qibla direction and don&#39;t know what to do? <br /><br />There is an app for that! <br /><br />Sky Prayers is a unique app that will make finding prayer times and Qibla direction in the airplane a trouble less experience. <br /><br />How it Works? <br />The app comes with offline map where you can choose your location (you can know your location based on plane entertainment screen information). After you pick your location, the shortest path to Makka will be drawn from the plane location which shows the Qibla direction. After that you can see the prayer times at that location as well. <br /><br />Features: <br />- Offline Maps with 6 levels zoom. <br />- The most accurate Prayer times by moonsighting.com based on map location and device time zone. <br />- Prayer times notifications.<br />- Compass to find Qibla<br />- Show prayer times in different locations using different calculation methods at the same time.<br />- Draw Qibla direction on the map.<br />- Detects user location while online.<br /><br />This app is a must for every Muslim travailing overseas. <br /><br />مما قيل في البرنامج:<br />&quot;برنامج Sky Prayers يعمل كما هو مسوق له في وصف البرنامج وقمت بتجربة البرنامج في رحلة بالطائرة وعمل بشكل ممتاز جداً بوضع الـ Offline مع الخرائط،&quot; <br />موقع عالم أبل<br /><br />&quot;الآن تحققت أمنية كل مسافر مسلم باستخدام هذا البرنامج الذي يعتبر خير معين للمسلم في سفره على طاعة الله والالتزام بمواعيد صلواته من خلال إرشاده إلى اتجاه القبلة ومواعيد الصلوات بطريقة مبتكرة.&quot;<br />موقع أخبار التطبيقات<br /><br />تم عرض التطبيق في برنامج حياة تك المتميز على قناة المجد<br />http://youtu.be/QA9gi1UD3HQ<br /><br />هل سافرت يوما بالطائرة عبر المحيطات ووجدت صعوبة في تحديد اوقات الصلاة واتجاه القبلة ؟ <br />هل لاحظت خلل في اوقات الصلاة اليومية في البرامج الأخرى؟<br />الآن امنية كل مسافر مسلم أصبحت حقيقة مع هذا البرنامج! <br /><br />طريقة عمل البرنامج: <br />البرنامج يوفر لك خريطة العالم دون الحاجة للاتصال بالانترنت. كل ماعليك الرجوع لشاشة التسلية في الطائرة لتحديد مكانك على الخارطة ثم تحديده في خارطة البرنامج. سيقوم البرنامج بشكل تلقائي برسم الطريق الأقصر لمكة المكرمة وسيكون هو دليلك لاتجاه القبلة. البرنامج يحوي ايقونة بشكل طائرة يمكن تحريكها لتحديد مكانك على الخارطة ويمكن لفها في كافة الاتجاهات لتسهيل تحديد اتجاه القبلة بالنسبة للطائرة. بعد ذلك يكنك العودة للشاشة الرئيسية لعرض اوقات الصلاة. <br /><br />مميزات البرنامج: <br />- خريطة دون للاتصال بالانترنت مع ستة مستويات تكبير <br />- أدق طريقة لحساب وقت الصلاة عن طريق موقع moonsighting.com حسب المكان في الخريطة بناءً على ساعة الجهاز <br />- تنبيهات أوقات الصلاة<br />- بوصلة لتحديد القبلة<br />- أوقات الصلاة لأكثر من مكان بطرق حساب مختلفة في نفس الوقت<br />- تحديد اتجاه القبلة على الخريطة <br />- تحديد مكانك تلقائيا على الخريطة في حال عمل خدمات تحديد المواقع</p>
+  
+
+
+<!----></div>
+        </div>
+      </div>
+    </section>
+
+<!---->
+  <section class="l-content-width section section--bordered whats-new" data-test-version-history>
+    <div class="section__nav section__nav--small">
+      <h2 class="whats-new__headline">What’s New</h2>
+        <div data-test-we-modal="page-overlay" id="ember53669324" class="ember-view version-history">  <button class="we-modal__show link" id="modal-trigger-ember53669324" data-test-we-modal-trigger data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;ModalVersionHistory&quot;}" type="button">Version History</button>
+
+<!----></div>
+    </div>
+    <div class="l-row whats-new__content">
+        <div class="l-column small-12 medium-3 large-4 small-valign-top whats-new__latest" data-test-version-history>
+          <div class="l-row">
+            <time data-test-we-datetime datetime="2017-04-12T07:00:00.000Z" aria-label="12 April 2017" class="" >12 Apr 2017</time>
+            <p class="l-column small-6 medium-12 whats-new__latest__version" data-test-version-number>Version 3.08</p>
+          </div>
+        </div>
+      <div class="l-column small-12 medium-9 large-8 small-valign-top">
+        <div id="ember53669326" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view" data-test-whats-new>      
+
+      <p dir=true data-test-bidi>- دعم لساعة أبل <br />- دعم الوجوه المتعددة لساعة أبل<br />- خذف المواقع المضافة تلقائياً بعد الانتهاء منها<br />- إصلاح زر المشاركة<br />-------------------------------------------------------<br />- Adding Apple watch support<br />- Apple watch face complication support<br />- Automatic delete for the automatically added locations<br />- Fixes the share button crash issue</p>
+  
+
+
+<!----></div>
+      </div>
+    </div>
+  </section>
+
+      <section class="l-content-width section section--bordered" data-test-content-section="reviews">
+      <div class="section__nav">
+        <h2 class="section__headline" data-test-content-headline>
+          Ratings and Reviews
+        </h2>
+
+        <a data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;SeeAllReviews&quot;}" rel="nofollow" data-we-link-to-exclude href="/sg/app/id439409680#see-all/reviews" id="ember53669330" style="display: none;" class="link section__nav__see-all-link ember-view">See All</a>
+      </div>
+
+        <div id="ember53669331" class="we-customer-ratings lockup ember-view"><div class="l-row">
+  <div class="we-customer-ratings__stats l-column small-4 medium-6 large-4">
+    <div class="we-customer-ratings__averages" data-test-average-rating><span class="we-customer-ratings__averages__display">5.0</span> out of 5</div>
+      <div class="we-customer-ratings__count small-hide medium-show" data-test-rating-count>1 Rating</div>
+  </div>
+  <div class=" l-column small-8 medium-6 large-4">
+    <figure class="we-star-bar-graph">
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--5"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 100%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--4"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--3"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--2"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars "></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+    </figure>
+      <p class="we-customer-ratings__count medium-hide" data-test-rating-count>1 Rating</p>
+  </div>
+</div>
+</div>
+
+      <div class="l-row l-row--peek" data-test-app-reviews-shelf>
+          <!---->
+      </div>
+
+<!---->    </section>
+
+
+<!---->
+<!---->
+<section class="l-content-width section section--bordered">
+  <div class="l-row">
+    <div class="l-column small-12">
+      <h2 class="section__headline">Information</h2>
+      <dl class="information-list information-list--app medium-columns">
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2" data-test-app-info-seller-label>Provider</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-seller>
+              Ahmed Bukhamsin
+            </dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Size</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" aria-label="60.3 megabytes" data-test-app-info-size>60.3 MB</dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Category</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-category>
+                <a href="https://itunes.apple.com/sg/genre/id6003" class="link" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://itunes.apple.com/sg/genre/id6003&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;GenrePage&quot;}">
+                  Travel
+                </a>
+            </dd>
+          </div>
+        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Compatibility</dt>
+          <dd id="ember53669338" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view information-list__item__definition l-column medium-9 large-6" data-test-app-info-compatibility>      
+
+      <p dir=false data-test-bidi>Requires iOS 9.3 and watchOS 3.0 or later. Compatible with iPhone 5S, iPhone 6, iPhone 6 Plus, iPhone 6S, iPhone 6S Plus, iPhone SE (1st generation), iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPhone XS, iPhone XS Max, iPhone XR, iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone SE (2nd generation), iPhone 12 mini, iPhone 12, iPhone 12 Pro, iPhone 12 Pro Max, iPad Air, iPad Air Wi‑Fi + Cellular, iPad mini 2, iPad mini 2 Wi‑Fi + Cellular, iPad Air 2, iPad Air 2 Wi‑Fi + Cellular, iPad mini 3, iPad mini 3 Wi‑Fi + Cellular, iPad mini 4, iPad mini 4 Wi‑Fi + Cellular, iPad Pro (12.9‑inch), iPad Pro (12.9‑inch) Wi‑Fi + Cellular, iPad Pro (9.7‑inch), iPad Pro (9.7‑inch) Wi‑Fi + Cellular, iPad (5th generation), iPad (5th generation) Wi‑Fi + Cellular, iPad Pro (12.9‑inch) (2nd generation), iPad Pro (12.9‑inch) (2nd generation) Wi‑Fi + Cellular, iPad Pro (10.5‑inch), iPad Pro (10.5‑inch) Wi‑Fi + Cellular, iPad (6th generation), iPad (6th generation) Wi‑Fi + Cellular, iPad Pro (11‑inch), iPad Pro (11‑inch) Wi‑Fi + Cellular, iPad Pro (12.9‑inch) (3rd generation), iPad Pro (12.9‑inch) (3rd generation) Wi‑Fi + Cellular, iPad mini (5th generation), iPad mini (5th generation) Wi‑Fi + Cellular, iPad Air (3rd generation), iPad Air (3rd generation) Wi‑Fi + Cellular, iPad (7th generation), iPad (7th generation) Wi‑Fi + Cellular, iPad Pro (11‑inch) (2nd generation), iPad Pro (11‑inch) (2nd generation) Wi‑Fi + Cellular, iPad Pro (12.9‑inch) (4th generation), iPad Pro (12.9‑inch) (4th generation) Wi‑Fi + Cellular, iPad Air (4th generation), iPad Air (4th generation) Wi‑Fi + Cellular, iPad (8th generation), iPad (8th generation) Wi‑Fi + Cellular, iPod touch (6th generation) and iPod touch (7th generation).</p>
+  
+
+
+<!----></dd>
+        </div>
+<!---->        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Languages</dt>
+          <dd id="ember53669341" class="information-list__item__definition l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive ember-view">      
+
+      <p dir=false data-test-bidi>English, Arabic</p>
+  
+
+
+<!----></dd>
+        </div>
+        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Age Rating</dt>
+          <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-rating>4+</dd>
+        </div>
+<!----><!---->        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Copyright</dt>
+          <dd class="information-list__item__definition l-column medium-9 large-6 information-list__item__definition--copyright" data-test-app-info-copyright>© Techi Apps</dd>
+        </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Price</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-price>Free</dd>
+          </div>
+<!---->
+      </dl>
+    </div>
+    <div class="l-column small-hide medium-show medium-9 medium-offset-3 large-10 large-offset-2">
+      <ul class="inline-list inline-list--app-extensions">
+<!---->          <li class="inline-list__item inline-list__item--margin-inline-end-large">
+            <a class="link icon icon-after icon-external" data-test-app-info-links-support data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToAppSupport&quot;}" href="http://www.facebook.com/skyprayers">
+              App Support
+            </a>
+          </li>
+<!----><!---->      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--link-list l-content-width medium-hide">
+  <ul class="link-list link-list--a">
+<!---->      <li class="link-list__item link-list__item--a">
+        <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToAppSupport&quot;}" href="http://www.facebook.com/skyprayers">
+          App Support
+        </a>
+      </li>
+<!----><!---->  </ul>
+</section>
+
+  <section class="l-content-width section section--bordered">
+    <div class="section__nav">
+      <h2 class="section__headline">Supports</h2>
+    </div>
+    <ul class="supports-list l-row">
+        <li class="supports-list__item l-column l-column--grid small-12 medium-6 large-4" data-test-supports="family-sharing">
+          <img src="/assets/images/supports/supports-FamilySharing@2x-f58f31bc78fe9fe7be3565abccbecb34.png" class="supports-list__item__artwork" alt>
+          <div class="supports-list__item__copy">
+            <h3 dir="ltr" id="ember53669344" class="we-truncate we-truncate--single-line ember-view supports-list__item__copy__heading">  Family Sharing
+</h3>
+            <h4 id="ember53669345" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view supports-list__item__copy__description">      
+
+      <p dir=false data-test-bidi>Up to six family members will be able to use this app with Family Sharing enabled.</p>
+  
+
+
+<!----></h4>
+          </div>
+        </li>
+    </ul>
+  </section>
+
+<!---->
+    <section class="l-content-width section section--bordered" data-test-content-section="customersAlsoBoughtApps">
+      <div class="section__nav">
+        <h2 class="section__headline">
+          You May Also Like
+        </h2>
+        <a data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;SeeAllCustomersAlsoBoughtApps&quot;}" rel="nofollow" data-we-link-to-exclude href="/sg/app/id439409680#see-all/customers-also-bought-apps" id="ember53669348" style="display: none;" class="link section__nav__see-all-link ember-view">See All</a>
+      </div>
+
+      <div class="l-row l-row--peek" data-test-customers-also-bought-apps>
+            
+    
+          <a aria-label="Zabihah: Original Halal finder. Navigation." data-metrics-location="{&quot;locationType&quot;:&quot;shelfCustomersAlsoBoughtApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/sg/app/zabihah-original-halal-finder/id325383348&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;325383348&quot;}" href="https://apps.apple.com/sg/app/zabihah-original-halal-finder/id325383348" id="ember53669352" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember53669353" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/146x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/292x0w.webp 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/146x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/292x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/146x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/292x0w.png 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/146x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/292x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/314x0w.webp 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/157x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/314x0w.png 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/157x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/314x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/320x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/640x0w.webp 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/320x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/640x0w.webp 2x" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/320x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/640x0w.png 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/320x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/640x0w.png 2x" type="image/png">
+
+
+          <noscript>
+            <img class="we-artwork__image ember53669353" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt>
+          </noscript>
+
+        <img class="we-artwork__image we-artwork__image--lazyload ember53669353" src="data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 320 320%22 %2F%3E" data-src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="320" width="320">
+    <style>
+      .ember53669353, #ember53669353::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669353::before {
+          padding-top: 100%;
+        }
+.ember53669353, #ember53669353::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669353::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember53669353, #ember53669353::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669353::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669353, #ember53669353::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669353::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669353, #ember53669353::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669353::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669353, #ember53669353::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669353::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div class="we-lockup__title " data-test-we-lockup-title>
+        <div dir="ltr" id="ember53669360" class="we-truncate we-truncate--single-line ember-view targeted-link__target" data-test-we-lockup-title-text>  Zabihah: Original Halal finder
+</div>
+    </div>
+
+    <div dir="ltr" id="ember53669361" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target" data-test-we-lockup-subtitle>  Navigation
+</div>
+<!----></div>
+</a>
+        
+
+    
+    
+          <a aria-label="SalahForFalah. Navigation." data-metrics-location="{&quot;locationType&quot;:&quot;shelfCustomersAlsoBoughtApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/sg/app/salahforfalah/id372186296&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;372186296&quot;}" href="https://apps.apple.com/sg/app/salahforfalah/id372186296" id="ember53669363" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember53669364" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/146x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/292x0w.webp 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/146x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/292x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/146x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/292x0w.png 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/146x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/292x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/157x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/314x0w.webp 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/157x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/157x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/314x0w.png 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/157x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/314x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/320x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/640x0w.webp 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/320x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/640x0w.webp 2x" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/320x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/640x0w.png 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/320x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/640x0w.png 2x" type="image/png">
+
+
+          <noscript>
+            <img class="we-artwork__image ember53669364" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt>
+          </noscript>
+
+        <img class="we-artwork__image we-artwork__image--lazyload ember53669364" src="data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 320 320%22 %2F%3E" data-src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="320" width="320">
+    <style>
+      .ember53669364, #ember53669364::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669364::before {
+          padding-top: 100%;
+        }
+.ember53669364, #ember53669364::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669364::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember53669364, #ember53669364::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669364::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669364, #ember53669364::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669364::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669364, #ember53669364::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669364::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669364, #ember53669364::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669364::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div class="we-lockup__title " data-test-we-lockup-title>
+        <div dir="ltr" id="ember53669371" class="we-truncate we-truncate--single-line ember-view targeted-link__target" data-test-we-lockup-title-text>  SalahForFalah
+</div>
+    </div>
+
+    <div dir="ltr" id="ember53669372" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target" data-test-we-lockup-subtitle>  Navigation
+</div>
+<!----></div>
+</a>
+        
+
+    
+    
+          <a aria-label="mccPILOTLOG. Travel." data-metrics-location="{&quot;locationType&quot;:&quot;shelfCustomersAlsoBoughtApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/sg/app/mccpilotlog/id421126408&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;421126408&quot;}" href="https://apps.apple.com/sg/app/mccpilotlog/id421126408" id="ember53669374" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember53669375" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/146x0w.webp 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/292x0w.webp 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/146x0w.webp 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/292x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/146x0w.png 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/292x0w.png 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/146x0w.png 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/292x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/157x0w.webp 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/314x0w.webp 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/157x0w.webp 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/157x0w.png 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/314x0w.png 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/157x0w.png 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/314x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/320x0w.webp 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/640x0w.webp 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/320x0w.webp 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/640x0w.webp 2x" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/320x0w.png 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/640x0w.png 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/320x0w.png 1x, https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/640x0w.png 2x" type="image/png">
+
+
+          <noscript>
+            <img class="we-artwork__image ember53669375" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt>
+          </noscript>
+
+        <img class="we-artwork__image we-artwork__image--lazyload ember53669375" src="data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 320 320%22 %2F%3E" data-src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="320" width="320">
+    <style>
+      .ember53669375, #ember53669375::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669375::before {
+          padding-top: 100%;
+        }
+.ember53669375, #ember53669375::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669375::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember53669375, #ember53669375::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669375::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669375, #ember53669375::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669375::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669375, #ember53669375::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669375::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669375, #ember53669375::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669375::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div class="we-lockup__title " data-test-we-lockup-title>
+        <div dir="ltr" id="ember53669382" class="we-truncate we-truncate--single-line ember-view targeted-link__target" data-test-we-lockup-title-text>  mccPILOTLOG
+</div>
+    </div>
+
+    <div dir="ltr" id="ember53669383" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target" data-test-we-lockup-subtitle>  Travel
+</div>
+<!----></div>
+</a>
+        
+
+    
+    
+          <a aria-label="The Muslim Pilot. Navigation." data-metrics-location="{&quot;locationType&quot;:&quot;shelfCustomersAlsoBoughtApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/sg/app/the-muslim-pilot/id455033152&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;455033152&quot;}" href="https://apps.apple.com/sg/app/the-muslim-pilot/id455033152" id="ember53669385" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember53669386" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/146x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/292x0w.webp 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/146x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/292x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/146x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/292x0w.png 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/146x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/292x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/157x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/314x0w.webp 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/157x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/157x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/314x0w.png 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/157x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/314x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/320x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/640x0w.webp 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/320x0w.webp 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/640x0w.webp 2x" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/320x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/640x0w.png 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/320x0w.png 1x, https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/640x0w.png 2x" type="image/png">
+
+
+          <noscript>
+            <img class="we-artwork__image ember53669386" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt>
+          </noscript>
+
+        <img class="we-artwork__image we-artwork__image--lazyload ember53669386" src="data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 320 320%22 %2F%3E" data-src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="320" width="320">
+    <style>
+      .ember53669386, #ember53669386::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669386::before {
+          padding-top: 100%;
+        }
+.ember53669386, #ember53669386::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669386::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember53669386, #ember53669386::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669386::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669386, #ember53669386::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669386::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669386, #ember53669386::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669386::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669386, #ember53669386::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669386::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div class="we-lockup__title " data-test-we-lockup-title>
+        <div dir="ltr" id="ember53669393" class="we-truncate we-truncate--single-line ember-view targeted-link__target" data-test-we-lockup-title-text>  The Muslim Pilot
+</div>
+    </div>
+
+    <div dir="ltr" id="ember53669394" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target" data-test-we-lockup-subtitle>  Navigation
+</div>
+<!----></div>
+</a>
+        
+
+    
+    
+          <a aria-label="Prayer InFlight. Travel." data-metrics-location="{&quot;locationType&quot;:&quot;shelfCustomersAlsoBoughtApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/sg/app/prayer-inflight/id590346610&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;590346610&quot;}" href="https://apps.apple.com/sg/app/prayer-inflight/id590346610" id="ember53669396" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember53669397" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/146x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/292x0w.webp 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/146x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/292x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/146x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/292x0w.png 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/146x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/292x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/314x0w.webp 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/157x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/314x0w.png 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/157x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/314x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/320x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/640x0w.webp 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/320x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/640x0w.webp 2x" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/320x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/640x0w.png 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/320x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/640x0w.png 2x" type="image/png">
+
+
+          <noscript>
+            <img class="we-artwork__image ember53669397" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt>
+          </noscript>
+
+        <img class="we-artwork__image we-artwork__image--lazyload ember53669397" src="data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 320 320%22 %2F%3E" data-src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="320" width="320">
+    <style>
+      .ember53669397, #ember53669397::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669397::before {
+          padding-top: 100%;
+        }
+.ember53669397, #ember53669397::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669397::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember53669397, #ember53669397::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669397::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669397, #ember53669397::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669397::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669397, #ember53669397::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669397::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669397, #ember53669397::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669397::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div class="we-lockup__title " data-test-we-lockup-title>
+        <div dir="ltr" id="ember53669404" class="we-truncate we-truncate--single-line ember-view targeted-link__target" data-test-we-lockup-title-text>  Prayer InFlight
+</div>
+    </div>
+
+    <div dir="ltr" id="ember53669405" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target" data-test-we-lockup-subtitle>  Travel
+</div>
+<!----></div>
+</a>
+        
+
+    
+    
+          <a aria-label="Mosques Locator. Navigation." data-metrics-location="{&quot;locationType&quot;:&quot;shelfCustomersAlsoBoughtApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/sg/app/mosques-locator/id634282188&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;634282188&quot;}" href="https://apps.apple.com/sg/app/mosques-locator/id634282188" id="ember53669407" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember53669408" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/146x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/292x0w.webp 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/146x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/292x0w.webp 2x" media="(min-width: 1069px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/146x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/292x0w.png 2x" media="(min-width: 1069px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/146x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/292x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/314x0w.webp 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/157x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/314x0w.webp 2x" media="(min-width: 735px)" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/157x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/314x0w.png 2x" media="(min-width: 735px)">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/157x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/314x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/320x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/640x0w.webp 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/320x0w.webp 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/640x0w.webp 2x" type="image/webp">
+
+
+          <noscript>
+              <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/320x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/640x0w.png 2x">
+            <style>
+              .we-artwork__source--lazyload,
+              .we-artwork__image--lazyload {
+                display: none;
+              }
+            </style>
+          </noscript>
+
+          <source class="we-artwork__source we-artwork__source--lazyload" srcset data-srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/320x0w.png 1x, https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/640x0w.png 2x" type="image/png">
+
+
+          <noscript>
+            <img class="we-artwork__image ember53669408" src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt>
+          </noscript>
+
+        <img class="we-artwork__image we-artwork__image--lazyload ember53669408" src="data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 320 320%22 %2F%3E" data-src="/assets/artwork/1x1-42817eea7ade52607a760cbee00d1495.gif" style alt height="320" width="320">
+    <style>
+      .ember53669408, #ember53669408::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669408::before {
+          padding-top: 100%;
+        }
+.ember53669408, #ember53669408::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember53669408::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember53669408, #ember53669408::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669408::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 735px) {
+          .ember53669408, #ember53669408::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember53669408::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669408, #ember53669408::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669408::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember53669408, #ember53669408::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember53669408::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div class="we-lockup__title " data-test-we-lockup-title>
+        <div dir="ltr" id="ember53669415" class="we-truncate we-truncate--single-line ember-view targeted-link__target" data-test-we-lockup-title-text>  Mosques Locator
+</div>
+    </div>
+
+    <div dir="ltr" id="ember53669416" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target" data-test-we-lockup-subtitle>  Navigation
+</div>
+<!----></div>
+</a>
+        
+
+
+
+      </div>
+    </section>
+</div>
+
+<!---->
+
+<!----></div>
+</div>
+</div>
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+  </main>
+</div>
+<footer id="ac-globalfooter" class="no-js" role="contentinfo" lang="en-SG" dir="ltr"><div class="ac-gf-content"><section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		More ways to shop: <a href="https://www.apple.com/sg/retail/" data-analytics-title="find an apple store">Find an Apple Store</a> or <a href="https://locate.apple.com/sg/en/" data-analytics-title="other retailers or resellers" data-analytics-exit-link>a retailer</a> near you. <span class="nowrap">Or call 1800&#x2010;692&#x2010;7753.</span>
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="https://www.apple.com/choose-country-region/" title="Choose your country or region" aria-label="Singapore. Choose your country or region" data-analytics-title="choose your country">Singapore</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright &#xA9; 2020 Apple Inc. All rights reserved.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/sg/legal/privacy/" data-analytics-title="privacy policy">Privacy Policy</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html" data-analytics-title="terms of use">Terms of Use</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/sg/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales and Refunds</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/sg/legal/" data-analytics-title="legal">Legal</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/sg/sitemap/" data-analytics-title="site map">Site Map</a>
+		</div>
+	</div>
+</section>
+</div></footer><script type="text/javascript" src="/global-elements/2038.1.0/en_SG/ac-global-nav.40fb014033a1dce2eb83a26e023ba3e9.js" data-global-elements-nav-script async></script>
+<script type="text/javascript" src="/global-elements/2038.1.0/en_SG/ac-global-footer.87d5225f626f0b9df05fe81d34684040.js" data-global-elements-footer-script async></script>
+<script type="fastboot/shoebox" id="shoebox-language-code">"en-gb"</script><script type="fastboot/shoebox" id="shoebox-ember-data-store">{"data":[{"id":"455033152","type":"media/app","attributes":{"userRating":{"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"artistName":"Mohammed Alotaibi","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"The Muslim Pilot","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/the-muslim-pilot/id455033152","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"455033152-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/455033152","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2011-08-10","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":826830149,"editorialArtwork":{},"requirementsString":"Requires iOS 11.0 or later. Compatible with iPhone, iPad and iPod touch.","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.MohammedAlotaibi.MuslimPrayer","hasInAppPurchases":false,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© Mohammed Alotaibi","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"11.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"MOHAMMED AL OTAIBI","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"requiredCapabilities":"arm64 ","offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=455033152\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=826830149","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":5243904}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=455033152\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=826830149","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":5243904}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669163"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/455033152/genres","data":[{"id":"6010","type":"media/genre","href":"/v1/catalog/sg/genres/6010","attributes":{"name":"Navigation","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6010"}},{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}}]},"developer":{"href":"/v1/catalog/sg/apps/455033152/developer","data":{"id":"455007789","type":"media/developer","href":"/v1/catalog/sg/developers/455007789"}}}},{"id":"1248864156","type":"media/app","attributes":{"userRating":{"value":4.8,"ratingCount":12,"ratingCountList":[0,1,0,0,11],"ariaLabelForRatings":"4.8 stars"},"artistName":"Monjurul Islam","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipad","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"Muslim Prayer Times - Athan","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/muslim-prayer-times-athan/id1248864156","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"1248864156-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/1248864156","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2017-06-23","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":830987184,"editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"requirementsString":"Requires iOS 10.0 or later. Compatible with iPhone, iPad and iPod touch.","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.barid.athan","hasInAppPurchases":true,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© Monjurul Islam 2017","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"10.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"Monjurul Islam","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"requiredCapabilities":"armv7 ","offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1248864156\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=830987184","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":26370048}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1248864156\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=830987184","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":26370048}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669164"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/1248864156/genres","data":[{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}}]},"developer":{"href":"/v1/catalog/sg/apps/1248864156/developer","data":{"id":"1242000499","type":"media/developer","href":"/v1/catalog/sg/developers/1242000499"}}}},{"id":"891264546","type":"media/app","attributes":{"userRating":{"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"artistName":"Islamic GPS","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"Islamic GPS","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/islamic-gps/id891264546","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"891264546-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/891264546","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2014-06-29","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":835600431,"editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"requirementsString":"Requires iOS 7.0 or later. Compatible with iPhone, iPad and iPod touch.","subtitle":"Islamic augmented reality app","isDeliveredInIOSAppForWatchOS":false,"bundleId":"joomtech.islamicgps","hasInAppPurchases":false,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© 2018. Islamic GPS Ltd","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"7.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"Islamic GPS LTD","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"requiredCapabilities":"armv7 ","offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=891264546\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=835600431","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":55714816}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=891264546\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=835600431","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":55714816}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669165"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/891264546/genres","data":[{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}},{"id":"6012","type":"media/genre","href":"/v1/catalog/sg/genres/6012","attributes":{"name":"Lifestyle","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6012"}}]},"developer":{"href":"/v1/catalog/sg/apps/891264546/developer","data":{"id":"891123819","type":"media/developer","href":"/v1/catalog/sg/developers/891123819"}}}},{"id":"1386099984","type":"media/app","attributes":{"userRating":{"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"artistName":"Lufthansa Systems","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipad","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"Lido mBriefing","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/lido-mbriefing/id1386099984","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"1386099984-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/1386099984","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2019-03-25","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":836585422,"editorialArtwork":{},"requirementsString":"Requires iOS 11.0 or later. Compatible with iPhone, iPad and iPod touch.","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.lhsystems.mbriefing","hasInAppPurchases":false,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© Lufthansa Systems 2020","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"11.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"Lufthansa Systems Americas Inc.","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"requiredCapabilities":"arm64 ","offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1386099984\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=836585422","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":56434688}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1386099984\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=836585422","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":56434688}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669166"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/1386099984/genres","data":[{"id":"6010","type":"media/genre","href":"/v1/catalog/sg/genres/6010","attributes":{"name":"Navigation","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6010"}},{"id":"6007","type":"media/genre","href":"/v1/catalog/sg/genres/6007","attributes":{"name":"Productivity","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6007"}}]},"developer":{"href":"/v1/catalog/sg/apps/1386099984/developer","data":{"id":"413078252","type":"media/developer","href":"/v1/catalog/sg/developers/413078252"}}}},{"id":"372186296","type":"media/app","attributes":{"userRating":{"value":5,"ratingCount":1,"ratingCountList":[0,0,0,0,1],"ariaLabelForRatings":"5.0 stars"},"artistName":"Jin Technologies Private Limited","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"SalahForFalah","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/salahforfalah/id372186296","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"372186296-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/372186296","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"},{"name":"Arabic","tag":"ar"}],"supportsGameController":false,"releaseDate":"2010-05-19","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":837069604,"editorialArtwork":{},"requirementsString":"Requires iOS 7.0 or later. Compatible with iPhone, iPad and iPod touch.","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.jintech.salahforfalah","hasInAppPurchases":true,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"Copyright © 2011-2015 Jin Technologies Private Limited. All Rights Reserved.","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"7.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"Jin Technologies Pvt. Ltd.","isSiriSupported":false,"requiresRosetta":false,"languageList":["English","Arabic"],"runsOnAppleSilicon":true,"requiredCapabilities":"location-services ","offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=372186296\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=837069604","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":23442432}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=372186296\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=837069604","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":23442432}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669167"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/372186296/genres","data":[{"id":"6010","type":"media/genre","href":"/v1/catalog/sg/genres/6010","attributes":{"name":"Navigation","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6010"}},{"id":"6012","type":"media/genre","href":"/v1/catalog/sg/genres/6012","attributes":{"name":"Lifestyle","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6012"}}]},"developer":{"href":"/v1/catalog/sg/apps/372186296/developer","data":{"id":"372186299","type":"media/developer","href":"/v1/catalog/sg/developers/372186299"}}}},{"id":"590346610","type":"media/app","attributes":{"userRating":{"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"artistName":"Mohammed Alotaibi","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipod"],"familyShareEnabledDate":"2017-01-05T08:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"Prayer InFlight","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/prayer-inflight/id590346610","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"590346610-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/590346610","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2013-01-05","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":821747294,"editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"requirementsString":"Requires iOS 8.0 or later. Compatible with iPhone, iPad and iPod touch.","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.MohammedAlotaibi.Prayer-InFlight","hasInAppPurchases":false,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© Mohammed Jaeel Alotaibi","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"8.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"MOHAMMED AL OTAIBI","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"requiredCapabilities":"armv7 ","offers":[{"buyParams":"productType=C\u0026price=5980\u0026salableAdamId=590346610\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=821747294","type":"buy","priceFormatted":"S$ 5.98","price":5.98,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":4776960}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=590346610\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=821747294","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":4776960}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669168"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/590346610/genres","data":[{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}},{"id":"6010","type":"media/genre","href":"/v1/catalog/sg/genres/6010","attributes":{"name":"Navigation","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6010"}}]},"developer":{"href":"/v1/catalog/sg/apps/590346610/developer","data":{"id":"455007789","type":"media/developer","href":"/v1/catalog/sg/developers/455007789"}}}},{"id":"634282188","type":"media/app","attributes":{"userRating":{"value":5,"ratingCount":1,"ratingCountList":[0,0,0,0,1],"ariaLabelForRatings":"5.0 stars"},"artistName":"Azzure Labs","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipad","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"Mosques Locator","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/mosques-locator/id634282188","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"634282188-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/634282188","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"},{"name":"Arabic","tag":"ar"}],"supportsGameController":false,"releaseDate":"2013-05-10","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":826883810,"editorialArtwork":{},"requirementsString":"Requires iOS 9.0 or later. Compatible with iPhone, iPad and iPod touch.","subtitle":"Find Nearby Masjids, Direction","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.azzurelabs.mosqueFinder","hasInAppPurchases":true,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© Azzure Labs. All rights reserved","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"9.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"Azzure Labs","isSiriSupported":false,"requiresRosetta":false,"languageList":["English","Arabic"],"runsOnAppleSilicon":true,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=634282188\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=826883810","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":17885184}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=634282188\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=826883810","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":17885184}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669169"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/634282188/genres","data":[{"id":"6010","type":"media/genre","href":"/v1/catalog/sg/genres/6010","attributes":{"name":"Navigation","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6010"}},{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}}]},"developer":{"href":"/v1/catalog/sg/apps/634282188/developer","data":{"id":"560444371","type":"media/developer","href":"/v1/catalog/sg/developers/560444371"}}}},{"id":"325383348","type":"media/app","attributes":{"userRating":{"wasReset":true,"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"artistName":"Zabihah LLC","contentRatingsBySystem":{"appsApple":{"name":"9+","value":200,"rank":2,"advisories":["Infrequent/Mild Profanity or Crude Humour"]}},"deviceFamilies":["iphone","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":true,"isPreorder":false,"name":"Zabihah: Original Halal finder","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/zabihah-original-halal-finder/id325383348","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"325383348-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/325383348","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2009-09-18","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":832457739,"editorialArtwork":{},"requirementsString":"Requires iOS 9.0 or later. Compatible with iPhone, iPad and iPod touch.","subtitle":"Find halal places in your area","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.halalfire.zabihahlite","hasInAppPurchases":false,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© 2019 Zabihah LLC","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"9.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"Zabihah LLC","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"requiredCapabilities":"armv7 ","offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=325383348\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=832457739","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":39665664}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=325383348\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=832457739","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":39665664}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669170"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/325383348/genres","data":[{"id":"6010","type":"media/genre","href":"/v1/catalog/sg/genres/6010","attributes":{"name":"Navigation","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6010"}},{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}}]},"developer":{"href":"/v1/catalog/sg/apps/325383348/developer","data":{"id":"1353129362","type":"media/developer","href":"/v1/catalog/sg/developers/1353129362"}}}},{"id":"1294765316","type":"media/app","attributes":{"userRating":{"value":4.3,"ratingCount":47,"ratingCountList":[6,0,1,5,35],"ariaLabelForRatings":"4.3 stars"},"artistName":"MCC bvba","contentRatingsBySystem":{"appsApple":{"name":"17+","value":600,"rank":4,"advisories":["Unrestricted Web Access"]}},"deviceFamilies":["iphone","ipad","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","firstVersionSupportingInAppPurchaseApi":"2.0.51","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":false,"isPreorder":false,"name":"CONNECT - CrewLounge AERO","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/connect-crewlounge-aero/id1294765316","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"1294765316-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/1294765316","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2019-01-30","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":838481123,"editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"requirementsString":"Requires iOS 9.0 or later. Compatible with iPhone, iPad and iPod touch.","subtitle":"Airline Crew Roster Import","isDeliveredInIOSAppForWatchOS":false,"bundleId":"aero.crewlounge.connect","hasInAppPurchases":true,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© CrewLounge (Trademark)","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"9.0","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"MCC bvba","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"requiredCapabilities":"armv7 ","offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1294765316\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=838481123","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":97925120}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1294765316\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=838481123","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":97925120}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669171"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/1294765316/genres","data":[{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}},{"id":"6000","type":"media/genre","href":"/v1/catalog/sg/genres/6000","attributes":{"name":"Business","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6000"}}]},"developer":{"href":"/v1/catalog/sg/apps/1294765316/developer","data":{"id":"421126411","type":"media/developer","href":"/v1/catalog/sg/developers/421126411"}}}},{"id":"421126408","type":"media/app","attributes":{"userRating":{"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"artistName":"MCC bvba","contentRatingsBySystem":{"appsApple":{"name":"4+","value":100,"rank":1}},"deviceFamilies":["iphone","ipad","ipod"],"familyShareEnabledDate":"0001-04-23T00:00:00.000Z","hasEula":false,"isFirstPartyHideableApp":false,"isIOSBinaryMacOSCompatible":false,"isPreorder":false,"name":"mccPILOTLOG","reviewsRestricted":false,"sellerLabel":"Provider","supportsArcade":false,"url":"https://apps.apple.com/sg/app/mccpilotlog/id421126408","usesLocationBackgroundMode":false},"relationships":{"platforms":{"data":[{"id":"421126408-ios","type":"media/app-platform","href":"/v1/catalog/sg/apps/421126408","attributes":{"requires32bit":false,"hasMessagesExtension":false,"hasPrivacyPolicyText":false,"supportedLocales":[{"name":"English","tag":"en"}],"supportsGameController":false,"releaseDate":"2011-02-24","hasSafariExtension":false,"minimumMacOSVersion":"11","externalVersionId":835819790,"editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"requirementsString":"Requires iOS 9.3 or later. Compatible with iPhone, iPad and iPod touch.","subtitle":"The ultimate Pilot Logbook !","isDeliveredInIOSAppForWatchOS":false,"bundleId":"com.mccbvba.mccPILOTLOG","hasInAppPurchases":false,"isAppleWatchSupported":false,"isStandaloneForWatchOS":false,"supportsPassbook":false,"copyright":"© 2011 MCC bvba","requiresGameController":false,"isHiddenFromSpringboard":false,"isGameCenterEnabled":false,"minimumOSVersion":"9.3","hasFamilyShareableInAppPurchases":false,"runsOnIntel":false,"is32bitOnly":false,"isStandaloneWithCompanionForWatchOS":false,"seller":"MCC bvba","isSiriSupported":false,"requiresRosetta":false,"languageList":["English"],"runsOnAppleSilicon":true,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=421126408\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=835819790","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":46027776}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=421126408\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=835819790","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":46027776}]}]},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669172"}}}}]},"genres":{"href":"/v1/catalog/sg/apps/421126408/genres","data":[{"id":"6003","type":"media/genre","href":"/v1/catalog/sg/genres/6003","attributes":{"name":"Travel","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6003"}},{"id":"6002","type":"media/genre","href":"/v1/catalog/sg/genres/6002","attributes":{"name":"Utilities","parentName":"Mobile Software Applications","parentId":"36","url":"https://itunes.apple.com/sg/genre/id6002"}}]},"developer":{"href":"/v1/catalog/sg/apps/421126408/developer","data":{"id":"421126411","type":"media/developer","href":"/v1/catalog/sg/developers/421126411"}}}}],"included":[{"id":"455033152-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=455033152\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=826830149","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":5243904}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=455033152\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=826830149","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":5243904}]}],"bundleId":"com.MohammedAlotaibi.MuslimPrayer","editorialArtwork":{},"hasInAppPurchases":false,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2011-08-10T00:00:00.000Z","requiresGameController":false,"copyright":"© Mohammed Alotaibi","languageList":["English"],"requirementsString":"Requires iOS 11.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"MOHAMMED AL OTAIBI","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"11.0","requiredCapabilities":"arm64 "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669163"}}}},{"id":"1248864156-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1248864156\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=830987184","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":26370048}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1248864156\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=830987184","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":26370048}]}],"bundleId":"com.barid.athan","editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"hasInAppPurchases":true,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2017-06-23T00:00:00.000Z","requiresGameController":false,"copyright":"© Monjurul Islam 2017","languageList":["English"],"requirementsString":"Requires iOS 10.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"Monjurul Islam","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"10.0","requiredCapabilities":"armv7 "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669164"}}}},{"id":"891264546-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=891264546\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=835600431","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":55714816}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=891264546\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=835600431","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":55714816}]}],"bundleId":"joomtech.islamicgps","editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"hasInAppPurchases":false,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2014-06-29T00:00:00.000Z","requiresGameController":false,"subtitle":"Islamic augmented reality app","copyright":"© 2018. Islamic GPS Ltd","languageList":["English"],"requirementsString":"Requires iOS 7.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"Islamic GPS LTD","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"7.0","requiredCapabilities":"armv7 "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669165"}}}},{"id":"1386099984-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1386099984\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=836585422","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":56434688}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1386099984\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=836585422","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":56434688}]}],"bundleId":"com.lhsystems.mbriefing","editorialArtwork":{},"hasInAppPurchases":false,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2019-03-25T00:00:00.000Z","requiresGameController":false,"copyright":"© Lufthansa Systems 2020","languageList":["English"],"requirementsString":"Requires iOS 11.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"Lufthansa Systems Americas Inc.","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"11.0","requiredCapabilities":"arm64 "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669166"}}}},{"id":"372186296-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=372186296\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=837069604","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":23442432}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=372186296\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=837069604","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":23442432}]}],"bundleId":"com.jintech.salahforfalah","editorialArtwork":{},"hasInAppPurchases":true,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2010-05-19T00:00:00.000Z","requiresGameController":false,"copyright":"Copyright © 2011-2015 Jin Technologies Private Limited. All Rights Reserved.","languageList":["English","Arabic"],"requirementsString":"Requires iOS 7.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"Jin Technologies Pvt. Ltd.","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"7.0","requiredCapabilities":"location-services "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669167"}}}},{"id":"590346610-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=5980\u0026salableAdamId=590346610\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=821747294","type":"buy","priceFormatted":"S$ 5.98","price":5.98,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":4776960}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=590346610\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=821747294","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":4776960}]}],"bundleId":"com.MohammedAlotaibi.Prayer-InFlight","editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"hasInAppPurchases":false,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2013-01-05T00:00:00.000Z","requiresGameController":false,"copyright":"© Mohammed Jaeel Alotaibi","languageList":["English"],"requirementsString":"Requires iOS 8.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"MOHAMMED AL OTAIBI","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"8.0","requiredCapabilities":"armv7 "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669168"}}}},{"id":"634282188-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=634282188\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=826883810","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":17885184}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=634282188\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=826883810","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":17885184}]}],"bundleId":"com.azzurelabs.mosqueFinder","editorialArtwork":{},"hasInAppPurchases":true,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2013-05-10T00:00:00.000Z","requiresGameController":false,"subtitle":"Find Nearby Masjids, Direction","copyright":"© Azzure Labs. All rights reserved","languageList":["English","Arabic"],"requirementsString":"Requires iOS 9.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"Azzure Labs","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"9.0"},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669169"}}}},{"id":"325383348-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=325383348\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=832457739","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":39665664}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=325383348\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=832457739","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":39665664}]}],"bundleId":"com.halalfire.zabihahlite","editorialArtwork":{},"hasInAppPurchases":false,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2009-09-18T00:00:00.000Z","requiresGameController":false,"subtitle":"Find halal places in your area","copyright":"© 2019 Zabihah LLC","languageList":["English"],"requirementsString":"Requires iOS 9.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"Zabihah LLC","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"9.0","requiredCapabilities":"armv7 "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669170"}}}},{"id":"1294765316-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1294765316\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=838481123","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":97925120}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1294765316\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=838481123","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":97925120}]}],"bundleId":"aero.crewlounge.connect","editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"hasInAppPurchases":true,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2019-01-30T00:00:00.000Z","requiresGameController":false,"subtitle":"Airline Crew Roster Import","copyright":"© CrewLounge (Trademark)","languageList":["English"],"requirementsString":"Requires iOS 9.0 or later. Compatible with iPhone, iPad and iPod touch.","seller":"MCC bvba","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"9.0","requiredCapabilities":"armv7 "},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669171"}}}},{"id":"421126408-ios","type":"media/app-platform","attributes":{"hasMessagesExtension":false,"isHiddenFromSpringboard":false,"offers":[{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=421126408\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=835819790","type":"get","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":46027776}]},{"buyParams":"productType=C\u0026price=0\u0026salableAdamId=421126408\u0026pricingParameters=SWUPD\u0026pg=default\u0026appExtVrsId=835819790","type":"update","priceFormatted":"S$ 0.00","price":0,"currencyCode":"SGD","assets":[{"flavor":"iosSoftware","size":46027776}]}],"bundleId":"com.mccbvba.mccPILOTLOG","editorialArtwork":{"brandLogo":{"width":1080,"height":1080,"url":"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/26/0e/9e260e4d-7500-6b8d-e848-6537415289d8/source/{w}x{h}{c}.{f}","bgColor":"000000","textColor1":"f2f2f2","textColor2":"e5e5e5","textColor3":"c1c1c1","textColor4":"b7b7b7"}},"hasInAppPurchases":false,"isAppleWatchSupported":false,"isGameCenterEnabled":false,"isSiriSupported":false,"supportsGameController":false,"supportsPassbook":false,"releaseDate":"2011-02-24T00:00:00.000Z","requiresGameController":false,"subtitle":"The ultimate Pilot Logbook !","copyright":"© 2011 MCC bvba","languageList":["English"],"requirementsString":"Requires iOS 9.3 or later. Compatible with iPhone, iPad and iPod touch.","seller":"MCC bvba","isStandaloneForWatchOS":false,"is32bitOnly":false,"minimumOSVersion":"9.3"},"relationships":{"artwork":{"data":{"type":"image","id":"ember53669172"}}}},{"id":"ember53669163","type":"image","attributes":{"bgColor":"ffffff","height":1024,"textColor1":"0d0a0b","textColor2":"161666","textColor3":"3e3b3c","textColor4":"444484","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f1/7e/b0/f17eb020-fc5a-3d0d-e3aa-5e96ae6c1d20/mzl.neetngzl.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669164","type":"image","attributes":{"bgColor":"162456","height":1024,"textColor1":"ffffff","textColor2":"dadeec","textColor3":"d0d3dd","textColor4":"b3b9ce","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/da/bb/a5/dabba56c-5fbb-df8e-0806-92df7edc9df1/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669165","type":"image","attributes":{"bgColor":"15baa6","height":1024,"textColor1":"161616","textColor2":"161616","textColor3":"163733","textColor4":"163733","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/45/f4/ed/45f4ed2f-2f4c-b3c8-de09-1afc68faea48/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669166","type":"image","attributes":{"bgColor":"1d2127","height":1024,"textColor1":"4f9af1","textColor2":"4e93e6","textColor3":"4581c9","textColor4":"447cbf","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/6c/86/94/6c8694c5-7450-573e-9d71-8dccd95f283d/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669167","type":"image","attributes":{"bgColor":"474747","height":1024,"textColor1":"dbdbdb","textColor2":"53ed6d","textColor3":"bebebe","textColor4":"50cc65","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/ba/b2/5b/bab25b95-faf7-8c02-094d-038d5a590229/mzl.fjvbwjxc.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669168","type":"image","attributes":{"bgColor":"3b1010","height":1024,"textColor1":"f1f5ff","textColor2":"f2c729","textColor3":"ccc7cf","textColor4":"cda224","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/32/45/7b3245b3-d134-49ad-eca4-6e7c89fd6b02/mzl.wdnxzmjr.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669169","type":"image","attributes":{"bgColor":"890848","height":1024,"textColor1":"fefefe","textColor2":"fee5f3","textColor3":"e7cdda","textColor4":"e7b9d1","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/95/2b/e4/952be406-ced6-0d29-cc69-f08b7893a03a/AppIcon-1x_U007emarketing-85-220-3.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669170","type":"image","attributes":{"bgColor":"990000","height":1024,"textColor1":"ffffff","textColor2":"eeb2b2","textColor3":"eacbcb","textColor4":"dd8e8e","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f0/e9/70/f0e970d4-27ae-b04a-2ba8-39c6444d352a/AppIcon-0-1x_U007emarketing-0-85-220-4.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669171","type":"image","attributes":{"bgColor":"f5f5f5","height":1024,"textColor1":"012039","textColor2":"0c273e","textColor3":"324a5e","textColor4":"3a5062","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/64/9f/b0/649fb029-05fb-94b7-4574-2fd995b6b20f/AppIcon-1x_U007emarketing-0-10-0-0-85-220.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}},{"id":"ember53669172","type":"image","attributes":{"bgColor":"ffffff","height":1024,"textColor1":"051e38","textColor2":"0c253c","textColor3":"374b60","textColor4":"3c5063","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/71/c8/8471c895-6220-72f7-1c74-6a5389b14854/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/{w}x{h}{c}.{f}","width":1024},"relationships":{}}]}</script><script type="fastboot/shoebox" id="shoebox-global-elements">{"nav":"\u003caside id=\"ac-gn-segmentbar\" class=\"ac-gn-segmentbar\" lang=\"en-SG\" dir=\"ltr\" data-strings=\"{ \u0026apos;exit\u0026apos;: \u0026apos;Exit Store\u0026apos;, \u0026apos;view\u0026apos;: \u0026apos;{%STOREFRONT%} Store Home\u0026apos;, \u0026apos;segments\u0026apos;: { \u0026apos;smb\u0026apos;: \u0026apos;Business Store Home\u0026apos;, \u0026apos;eduInd\u0026apos;: \u0026apos;Education Store Home\u0026apos;, \u0026apos;other\u0026apos;: \u0026apos;Store Home\u0026apos; } }\"\u003e\n\u003c/aside\u003e\n\u003cinput type=\"checkbox\" id=\"ac-gn-menustate\" class=\"ac-gn-menustate\"\u003e\n\u003cnav id=\"ac-globalnav\" class=\"no-js\" role=\"navigation\" aria-label=\"Global\" data-hires=\"false\" data-analytics-region=\"global nav\" lang=\"en-SG\" dir=\"ltr\" data-www-domain=\"www.apple.com\" data-store-locale=\"sg\" data-store-root-path=\"/sg\" data-store-api=\"https://www.apple.com/[storefront]/shop/bag/status\" data-search-locale=\"en_SG\" data-search-suggestions-api=\"https://www.apple.com/search-services/suggestions/\" data-search-defaultlinks-api=\"https://www.apple.com/search-services/suggestions/defaultlinks/\"\u003e\n\t\u003cdiv class=\"ac-gn-content\"\u003e\n\t\t\u003cul class=\"ac-gn-header\"\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-menuicon\"\u003e\n\t\t\t\t\u003clabel class=\"ac-gn-menuicon-label\" for=\"ac-gn-menustate\" aria-hidden=\"true\"\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-menuicon-bread ac-gn-menuicon-bread-top\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top\"\u003e\u003c/span\u003e\n\t\t\t\t\t\u003c/span\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom\"\u003e\u003c/span\u003e\n\t\t\t\t\t\u003c/span\u003e\n\t\t\t\t\u003c/label\u003e\n\t\t\t\t\u003ca href=\"#ac-gn-menustate\" role=\"button\" class=\"ac-gn-menuanchor ac-gn-menuanchor-open\" id=\"ac-gn-menuanchor-open\"\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-menuanchor-label\"\u003eGlobal Nav Open Menu\u003c/span\u003e\n\t\t\t\t\u003c/a\u003e\n\t\t\t\t\u003ca href=\"#\" role=\"button\" class=\"ac-gn-menuanchor ac-gn-menuanchor-close\" id=\"ac-gn-menuanchor-close\"\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-menuanchor-label\"\u003eGlobal Nav Close Menu\u003c/span\u003e\n\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-apple\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-apple\" href=\"https://www.apple.com/sg/\" data-analytics-title=\"apple home\" id=\"ac-gn-firstfocus-small\"\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eApple\u003c/span\u003e\n\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-bag ac-gn-bag-small\" id=\"ac-gn-bag-small\"\u003e\n\t\t\t\t\u003cdiv class=\"ac-gn-bag-wrapper\"\u003e\n\t\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-bag\" href=\"https://www.apple.com/sg/shop/goto/bag\" data-analytics-title=\"bag\" data-analytics-click=\"bag\" aria-label=\"Bag\" data-string-badge=\"Shopping Bag with item count :\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eBag\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge-separator\"\u003e\u003c/span\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge-number\"\u003e\u003c/span\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge-unit\"\u003e+\u003c/span\u003e\n\t\t\t\t\t\u003c/span\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003cspan class=\"ac-gn-bagview-caret ac-gn-bagview-caret-large\"\u003e\u003c/span\u003e\n\t\t\t\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003cdiv class=\"ac-gn-search-placeholder-container\" role=\"search\"\u003e\n\t\t\t\u003cdiv class=\"ac-gn-search ac-gn-search-small\"\u003e\n\t\t\t\t\u003ca id=\"ac-gn-link-search-small\" class=\"ac-gn-link\" href=\"https://www.apple.com/sg/search\" data-analytics-title=\"search\" data-analytics-click=\"search\" data-analytics-intrapage-link aria-label=\"Search apple.com\"\u003e\n\t\t\t\t\t\u003cdiv class=\"ac-gn-search-placeholder-bar\"\u003e\n\t\t\t\t\t\t\u003cdiv class=\"ac-gn-search-placeholder-input\"\u003e\n\t\t\t\t\t\t\t\u003cdiv class=\"ac-gn-search-placeholder-input-text\" aria-hidden=\"true\"\u003e\n\t\t\t\t\t\t\t\t\u003cdiv class=\"ac-gn-link-search ac-gn-search-placeholder-input-icon\"\u003e\u003c/div\u003e\n\t\t\t\t\t\t\t\t\u003cspan class=\"ac-gn-search-placeholder\"\u003eSearch apple.com\u003c/span\u003e\n\t\t\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\t\t\u003cdiv class=\"ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close\"\u003e\n\t\t\t\t\t\t\t\u003cspan class=\"ac-gn-searchview-close-cancel\" aria-hidden=\"true\"\u003eCancel\u003c/span\u003e\n\t\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/div\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cul class=\"ac-gn-list\"\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-apple\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-apple\" href=\"https://www.apple.com/sg/\" data-analytics-title=\"apple home\" id=\"ac-gn-firstfocus\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eApple\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-mac\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-mac\" href=\"https://www.apple.com/sg/mac/\" data-analytics-title=\"mac\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eMac\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-ipad\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-ipad\" href=\"https://www.apple.com/sg/ipad/\" data-analytics-title=\"ipad\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eiPad\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-iphone\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-iphone\" href=\"https://www.apple.com/sg/iphone/\" data-analytics-title=\"iphone\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eiPhone\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-watch\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-watch\" href=\"https://www.apple.com/sg/watch/\" data-analytics-title=\"watch\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eWatch\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-tv\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-tv\" href=\"https://www.apple.com/sg/tv/\" data-analytics-title=\"tv\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eTV\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-music\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-music\" href=\"https://www.apple.com/sg/music/\" data-analytics-title=\"music\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eMusic\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-support\"\u003e\n\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-support\" href=\"https://support.apple.com/en-sg\" data-analytics-title=\"support\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eSupport\u003c/span\u003e\n\t\t\t\t\t\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-item-menu ac-gn-search\" role=\"search\"\u003e\n\t\t\t\t\u003ca id=\"ac-gn-link-search\" class=\"ac-gn-link ac-gn-link-search\" href=\"https://www.apple.com/sg/search\" data-analytics-title=\"search\" data-analytics-click=\"search\" data-analytics-intrapage-link aria-label=\"Search apple.com\"\u003e\u003c/a\u003e\n\t\t\t\u003c/li\u003e\n\t\t\t\u003cli class=\"ac-gn-item ac-gn-bag\" id=\"ac-gn-bag\"\u003e\n\t\t\t\t\u003cdiv class=\"ac-gn-bag-wrapper\"\u003e\n\t\t\t\t\t\u003ca class=\"ac-gn-link ac-gn-link-bag\" href=\"https://www.apple.com/sg/shop/goto/bag\" data-analytics-title=\"bag\" data-analytics-click=\"bag\" aria-label=\"Bag\" data-string-badge=\"Shopping Bag with item count : {%BAGITEMCOUNT%}\"\u003e\n\t\t\t\t\t\t\t\u003cspan class=\"ac-gn-link-text\"\u003eBag\u003c/span\u003e\n\t\t\t\t\t\t\u003c/a\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge\" aria-hidden=\"true\"\u003e\n\t\t\t\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge-separator\"\u003e\u003c/span\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge-number\"\u003e\u003c/span\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-bag-badge-unit\"\u003e+\u003c/span\u003e\n\t\t\t\t\t\u003c/span\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003cspan class=\"ac-gn-bagview-caret ac-gn-bagview-caret-large\"\u003e\u003c/span\u003e\n\t\t\t\u003c/li\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003caside id=\"ac-gn-searchview\" class=\"ac-gn-searchview\" role=\"search\" data-analytics-region=\"search\"\u003e\n\t\t\t\u003cdiv class=\"ac-gn-searchview-content\"\u003e\n\t\t\t\t\u003cdiv class=\"ac-gn-searchview-bar\"\u003e\n\t\t\t\t\t\u003cdiv class=\"ac-gn-searchview-bar-wrapper\"\u003e\n\t\t\t\t\t\t\u003cform id=\"ac-gn-searchform\" class=\"ac-gn-searchform\" action=\"https://www.apple.com/sg/search\" method=\"get\"\u003e\n\t\t\t\t\t\t\t\u003cdiv class=\"ac-gn-searchform-wrapper\"\u003e\n\t\t\t\t\t\t\t\t\u003cinput id=\"ac-gn-searchform-input\" class=\"ac-gn-searchform-input\" type=\"text\" aria-label=\"Search apple.com\" placeholder=\"Search apple.com\" autocorrect=\"off\" autocapitalize=\"off\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"true\" aria-owns=\"quicklinks suggestions\"\u003e\n\t\t\t\t\t\t\t\t\u003cinput id=\"ac-gn-searchform-src\" type=\"hidden\" name=\"src\" value=\"itunes_serp\"\u003e\n\t\t\t\t\t\t\t\t\u003cbutton id=\"ac-gn-searchform-submit\" class=\"ac-gn-searchform-submit\" type=\"submit\" disabled aria-label=\"Submit Search\"\u003e\u003c/button\u003e\n\t\t\t\t\t\t\t\t\u003cbutton id=\"ac-gn-searchform-reset\" class=\"ac-gn-searchform-reset\" type=\"reset\" disabled aria-label=\"Clear Search\"\u003e\n\t\t\t\t\t\t\t\t\t\t\u003cspan class=\"ac-gn-searchform-reset-background\"\u003e\u003c/span\u003e\n\t\t\t\t\t\t\t\t\t\u003c/button\u003e\n\t\t\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\t\t\u003c/form\u003e\n\t\t\t\t\t\t\u003cbutton id=\"ac-gn-searchview-close-small\" class=\"ac-gn-searchview-close ac-gn-searchview-close-small\" aria-label=\"Cancel Search\"\u003e\n\t\t\t\t\t\t\t\t\u003cspan class=\"ac-gn-searchview-close-cancel\" aria-hidden=\"true\"\u003e\n\t\t\t\t\t\t\t\t\tCancel\n\t\t\t\t\t\t\t\t\u003c/span\u003e\n\t\t\t\t\t\t\t\u003c/button\u003e\n\t\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003c/div\u003e\n\t\t\t\t\u003caside id=\"ac-gn-searchresults\" class=\"ac-gn-searchresults\" data-string-quicklinks=\"Quick Links\" data-string-suggestions=\"Suggested Searches\" data-string-noresults\u003e\u003c/aside\u003e\n\t\t\t\u003c/div\u003e\n\t\t\t\u003cbutton id=\"ac-gn-searchview-close\" class=\"ac-gn-searchview-close\" aria-label=\"Cancel Search\"\u003e\n\t\t\t\t\t\u003cspan class=\"ac-gn-searchview-close-wrapper\"\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-searchview-close-left\"\u003e\u003c/span\u003e\n\t\t\t\t\t\t\u003cspan class=\"ac-gn-searchview-close-right\"\u003e\u003c/span\u003e\n\t\t\t\t\t\u003c/span\u003e\n\t\t\t\t\u003c/button\u003e\n\t\t\u003c/aside\u003e\n\t\t\u003caside class=\"ac-gn-bagview\" data-analytics-region=\"bag\"\u003e\n\t\t\t\u003cdiv class=\"ac-gn-bagview-scrim\"\u003e\n\t\t\t\t\u003cspan class=\"ac-gn-bagview-caret ac-gn-bagview-caret-small\"\u003e\u003c/span\u003e\n\t\t\t\u003c/div\u003e\n\t\t\t\u003cdiv class=\"ac-gn-bagview-content\" id=\"ac-gn-bagview-content\"\u003e\n\t\t\t\u003c/div\u003e\n\t\t\u003c/aside\u003e\n\t\u003c/div\u003e\n\u003c/nav\u003e\n\u003cdiv class=\"ac-gn-blur\"\u003e\u003c/div\u003e\n\u003cdiv id=\"ac-gn-curtain\" class=\"ac-gn-curtain\"\u003e\u003c/div\u003e\n\u003cdiv id=\"ac-gn-placeholder\" class=\"ac-nav-placeholder\"\u003e\u003c/div\u003e\n","footer":"\u003cfooter id=\"ac-globalfooter\" class=\"no-js\" role=\"contentinfo\" lang=\"en-SG\" dir=\"ltr\"\u003e\u003cdiv class=\"ac-gf-content\"\u003e\u003csection class=\"ac-gf-footer\"\u003e\n\t\u003cdiv class=\"ac-gf-footer-shop\" x-ms-format-detection=\"none\"\u003e\n\t\tMore ways to shop: \u003ca href=\"https://www.apple.com/sg/retail/\" data-analytics-title=\"find an apple store\"\u003eFind an Apple Store\u003c/a\u003e or \u003ca href=\"https://locate.apple.com/sg/en/\" data-analytics-title=\"other retailers or resellers\" data-analytics-exit-link\u003ea retailer\u003c/a\u003e near you. \u003cspan class=\"nowrap\"\u003eOr call 1800\u0026#x2010;692\u0026#x2010;7753.\u003c/span\u003e\n\t\u003c/div\u003e\n\t\u003cdiv class=\"ac-gf-footer-locale\"\u003e\n\t\t\u003ca class=\"ac-gf-footer-locale-link\" href=\"https://www.apple.com/choose-country-region/\" title=\"Choose your country or region\" aria-label=\"Singapore. Choose your country or region\" data-analytics-title=\"choose your country\"\u003eSingapore\u003c/a\u003e\n\t\u003c/div\u003e\n\t\u003cdiv class=\"ac-gf-footer-legal\"\u003e\n\t\t\u003cdiv class=\"ac-gf-footer-legal-copyright\"\u003eCopyright \u0026#xA9; 2020 Apple Inc. All rights reserved.\u003c/div\u003e\n\t\t\u003cdiv class=\"ac-gf-footer-legal-links\"\u003e\n\t\t\t\u003ca class=\"ac-gf-footer-legal-link\" href=\"https://www.apple.com/sg/legal/privacy/\" data-analytics-title=\"privacy policy\"\u003ePrivacy Policy\u003c/a\u003e\n\t\t\t\u003ca class=\"ac-gf-footer-legal-link\" href=\"https://www.apple.com/legal/internet-services/terms/site.html\" data-analytics-title=\"terms of use\"\u003eTerms of Use\u003c/a\u003e\n\t\t\t\u003ca class=\"ac-gf-footer-legal-link\" href=\"https://www.apple.com/sg/shop/goto/help/sales_refunds\" data-analytics-title=\"sales and refunds\"\u003eSales and Refunds\u003c/a\u003e\n\t\t\t\u003ca class=\"ac-gf-footer-legal-link\" href=\"https://www.apple.com/sg/legal/\" data-analytics-title=\"legal\"\u003eLegal\u003c/a\u003e\n\t\t\t\u003ca class=\"ac-gf-footer-legal-link\" href=\"https://www.apple.com/sg/sitemap/\" data-analytics-title=\"site map\"\u003eSite Map\u003c/a\u003e\n\t\t\u003c/div\u003e\n\t\u003c/div\u003e\n\u003c/section\u003e\n\u003c/div\u003e\u003c/footer\u003e","styles":{"nav":"2038.1.0/en_SG/ac-global-nav.d915b46b2869cd416cbafe206ca74838.css","footer":"2038.1.0/en_SG/ac-global-footer.9794b123061cd3a64ef4b3225e764a47.css"},"scripts":{"nav":"2038.1.0/en_SG/ac-global-nav.40fb014033a1dce2eb83a26e023ba3e9.js","footer":"2038.1.0/en_SG/ac-global-footer.87d5225f626f0b9df05fe81d34684040.js"},"isLoaded":true}</script><script type="x/boundary" id="fastboot-body-end"></script>
+    </div>
+    <div id="modal-container"></div>
+    <script integrity="" src="/assets/vendor-92d9783ad6fa1b1545535eef9eb69cb4.js"></script>
+    <script integrity="" src="/assets/web-experience-app-e2e4b298d80e998266ccfa7282a22a11.js"></script>
+    <script src="https://js-cdn.music.apple.com/-amp/v2/musickit.js"></script>
+
+    
+  </body>
+</html>

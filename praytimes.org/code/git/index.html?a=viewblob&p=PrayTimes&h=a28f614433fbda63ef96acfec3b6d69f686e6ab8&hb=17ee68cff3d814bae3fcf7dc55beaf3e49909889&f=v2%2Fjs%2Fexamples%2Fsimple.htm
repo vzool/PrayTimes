@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Blob - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Blob a28f61 / <a href="?a=tree&amp;p=PrayTimes&amp;h=dcb3eabed973653f0b97064059b0ff02ef59d01a&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2">v2</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=53c61df6a25e71053188504754fe6cf44c132200&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2/js">js</a> / <a href="?a=tree&amp;p=PrayTimes&amp;h=ca6b5efa2ac06b19b978c8a514b442c6e8b3d635&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2/js/examples">examples</a> / <a href="?a=viewblob&amp;p=PrayTimes&amp;h=a28f614433fbda63ef96acfec3b6d69f686e6ab8&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889&amp;f=v2/js/examples/simple.htm">simple.htm</a> </div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commit</a> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="17ee68cff3d814bae3fcf7dc55beaf3e49909889" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h2>Last commit for v2/js/examples/simple.htm: <a href="?a=commit&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">c36f21f22ab69bdc840751846a2f0aa9a2195cb4</a></h2>
+<h1>v2.2: Auto TimeZone and DST detection added</h1>
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2011-03-17 05:50:02]</div>
+<div class="commitmessage">
+<pre>
+v2.2: Auto TimeZone and DST detection added
+</pre>
+</div>
+<div class="file">
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt; Daily Prayer Timetable &lt;/title&gt;
+	&lt;style&gt;
+		body, td, th {font-family: verdana; font-size: 12px; color: #404040;}
+		#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; width: 9em;}
+		#timetable td, #timetable th {border-width: 1px; border-spacing: 1px; padding: 2px 4px; border-style: inset; border-color: #CCCCCC;}
+		#timetable th {color:black; text-align: center; font-weight: bold; background-color: #F8F7F4;}
+	&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;../PrayTimes.js&quot;&gt;&lt;/script&gt;
+
+&lt;br&gt;
+&lt;p align=&quot;center&quot;&gt;Waterloo, ON, Canada&lt;p&gt;
+&lt;div align=&quot;center&quot; id=&quot;table&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+	var date = new Date(); // today
+	var times = prayTimes.getTimes(date, [43, -80], -5);
+	var list = ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight'];
+
+	var html = '&lt;table id=&quot;timetable&quot;&gt;';
+	html += '&lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;'+ date.toLocaleDateString()+ '&lt;/th&gt;&lt;/tr&gt;';
+	for(var i in list)	{
+		html += '&lt;tr&gt;&lt;td&gt;'+ list[i]+ '&lt;/td&gt;';
+		html += '&lt;td&gt;'+ times[list[i].toLowerCase()]+ '&lt;/td&gt;&lt;/tr&gt;';
+	}
+	html += '&lt;/table&gt;';
+	document.getElementById('table').innerHTML = html;
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</div>
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

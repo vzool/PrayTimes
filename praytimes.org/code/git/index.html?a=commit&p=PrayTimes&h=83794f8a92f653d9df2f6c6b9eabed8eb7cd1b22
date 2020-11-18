@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commit - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commit 83794f</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <span class="cur"><a href="?a=commit&amp;p=PrayTimes&amp;h=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22">Commit</a></span> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=2e5a0e394ef7d317fad1efb5928b87d5a5a194c1&amp;hb=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>C++ code v1.0 added</h1>
+
+<table class="commit">
+<tbody>
+<tr>
+	<td>Author</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Author date</td>
+	<td>2011-03-14 07:34:43</td>
+</tr>
+<tr>
+	<td>Author local date</td>
+	<td>2011-03-14 03:34:43 -0400</td>
+</tr>
+<tr>
+	<td>Committer</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Committer date</td>
+	<td>2011-03-14 07:34:43</td>
+</tr>
+<tr>
+	<td>Committer local date</td>
+	<td>2011-03-14 03:34:43 -0400</td>
+</tr>
+<tr>
+	<td>Commit</td>
+	<td>83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22</td>
+</tr>
+<tr>
+	<td>Tree</td>
+	<td><a href="?a=tree&amp;p=PrayTimes&amp;h=2e5a0e394ef7d317fad1efb5928b87d5a5a194c1&amp;hb=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22">2e5a0e394ef7d317fad1efb5928b87d5a5a194c1</a></td>
+</tr>
+<tr>
+	<td>Parent</td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=971b0fa43c25bf661b4775dcbafc4a893a96d8ad">971b0fa43c25bf661b4775dcbafc4a893a96d8ad</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="commitmessage"><pre>C++ code v1.0 added
+</pre></div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Affected files:</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=cc166a51ec5fb18721f785752a4675075e328c91&amp;f=v1/cpp/CMakeLists.txt">v1/cpp/CMakeLists.txt</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=431dfe1d2b4509066f809feb8c46ef1ad873fef6&amp;f=v1/cpp/prayertimes.cpp">v1/cpp/prayertimes.cpp</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=ac0fcdf9e0ec93f4a75e1cbda0ce406610a50490&amp;f=v1/cpp/prayertimes.hpp">v1/cpp/prayertimes.hpp</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

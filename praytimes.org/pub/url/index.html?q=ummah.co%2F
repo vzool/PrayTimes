@@ -1,0 +1,1728 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <title>Ummah.co &#8211; Online Islamic Learning Resource</title>
+<link rel='dns-prefetch' href='//www.ummah.co' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ummah.co &raquo; Feed" href="http://www.ummah.co/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ummah.co &raquo; Comments Feed" href="http://www.ummah.co/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.ummah.co\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.4"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://www.ummah.co/wp-includes/css/dist/block-library/style.min.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://www.ummah.co/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.ummah.co/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-v5-css'  href='http://www.ummah.co/wp-content/themes/covernews/assets/font-awesome-v5/css/fontawesome-all.min.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://www.ummah.co/wp-content/themes/covernews/assets/bootstrap/css/bootstrap.min.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='http://www.ummah.co/wp-content/themes/covernews/assets/slick/css/slick.min.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='covernews-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:400,400i,700,700i|Lato:400,300,400italic,900,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='covernews-style-css'  href='http://www.ummah.co/wp-content/themes/covernews/style.css?ver=5.4.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.ummah.co/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.ummah.co/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ummah.co/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.ummah.co/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.4" />
+        <style type="text/css">
+                        .site-title a,
+            .site-header .site-branding .site-title a:visited,
+            .site-header .site-branding .site-title a:hover,
+            .site-description {
+                color: #fcfcfc;
+            }
+
+            .site-branding .site-title {
+                font-size: 48px;
+            }
+
+            @media only screen and (max-width: 640px) {
+                .site-branding .site-title {
+                    font-size: 60px;
+
+                }
+              }   
+
+           @media only screen and (max-width: 375px) {
+                    .site-branding .site-title {
+                        font-size: 50px;
+
+                    }
+                }
+                
+            
+
+        </style>
+        		<style type="text/css" id="wp-custom-css">
+			.aft-post-thumbnail-wrapper {
+	display:none;
+}		</style>
+		</head>
+
+<body class="home blog hfeed default-content-layout align-content-left">
+
+    <div id="af-preloader">
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+    </div>
+
+<div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+    <div class="header-layout-1">
+                <header id="masthead" class="site-header">
+                        <div class="masthead-banner data-bg"
+                 data-background="http://www.ummah.co/wp-content/uploads/2019/05/eoy-feature.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="site-branding">
+                                                                    <h1 class="site-title font-family-1">
+                                        <a href="http://www.ummah.co/"
+                                           rel="home">Ummah.co</a>
+                                    </h1>
+                                
+                                                                    <p class="site-description">Online Islamic Learning Resource</p>
+                                                            </div>
+                        </div>
+                        <div class="col-md-8">
+                                        <div class="banner-promotions-wrapper">
+                                    <div class="promotion-section">
+                        <a href="https:/www.UmmahEducation.org" target="_blank">
+                            <img width="585" height="96" src="http://www.ummah.co/wp-content/uploads/2020/10/cropped-OnlineSundaySchool-1.png" class="attachment-full size-full" alt="" srcset="http://www.ummah.co/wp-content/uploads/2020/10/cropped-OnlineSundaySchool-1.png 585w, http://www.ummah.co/wp-content/uploads/2020/10/cropped-OnlineSundaySchool-1-300x49.png 300w" sizes="(max-width: 585px) 100vw, 585px" />                        </a>
+                    </div>
+                                
+            </div>
+            <!-- Trending line END -->
+                                    </div>
+                    </div>
+                </div>
+            </div>
+            <nav id="site-navigation" class="main-navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="kol-12">
+                            <div class="navigation-container">
+
+
+                                <div class="cart-search">
+
+                            <span class="af-search-click icon-search">
+                                    <i class="fa fa-search"></i>
+                            </span>
+                                </div>
+
+
+                                <span class="toggle-menu" aria-controls="primary-menu" aria-expanded="false">
+                                <span class="screen-reader-text">Primary Menu</span>
+                                 <i class="ham"></i>
+                        </span>
+                                <span class="af-mobile-site-title-wrap">
+                                                                <p class="site-title font-family-1">
+                                <a href="http://www.ummah.co/"
+                                   rel="home">Ummah.co</a>
+                            </p>
+                        </span>
+                                <div class="menu main-menu"><ul id="primary-menu" class="menu"><li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="http://ummah.co">Home</a></li>
+<li id="menu-item-112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="http://www.quranexplorer.com/quran/">Quran</a></li>
+<li id="menu-item-214" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-214"><a href="#">Prophets (AS)</a>
+<ul class="sub-menu">
+	<li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="http://www.ummah.co/place-of-abraham-in-islam-christianity-judaism/">Place of Abraham in Islam, Christianity, Judaism</a></li>
+</ul>
+</li>
+<li id="menu-item-187" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-187"><a href="#">Scientific Signs in the Quran</a>
+<ul class="sub-menu">
+	<li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a href="http://www.ummah.co/the-quran-on-human-embryonic-development/">The Quran on Human Embryonic Development</a></li>
+</ul>
+</li>
+</ul></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div id="af-search-wrap">
+            <div class="af-search-box table-block">
+                <div class="table-block-child v-center text-center">
+                    <form role="search" method="get" class="search-form" action="http://www.ummah.co/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>                </div>
+            </div>
+            <div class="af-search-close af-search-click">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+
+        <section class="af-blocks">
+            
+                <div class="container af-main-banner default-section-slider">
+                    <div class="row">
+                                    <div class="banner-exclusive-posts-wrapper clearfix">
+
+                
+                <div class="exclusive-posts">
+                    <div class="exclusive-now primary-color">
+                        <div class="alert-spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+                        <strong></strong>
+                    </div>
+                    <div class="exclusive-slides" dir="ltr">
+                                                <div class='marquee flash-slide-left' data-speed='80000' data-gap='0' data-duplicated='true' data-direction='left'>
+                                                            <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/">
+                                                                            <img src="http://www.ummah.co/wp-content/uploads/2012/03/durood-150x130.jpg" alt="Forty Salat o Salaam :: 40 Durood by Shaykh Yunus Patel (DB)">
+                                                                        Forty Salat o Salaam :: 40 Durood by Shaykh Yunus Patel (DB)                                </a>
+                                                            <a href="http://www.ummah.co/the-method-of-salaah-in-the-light-of-authentic-ahadith/">
+                                                                            <img src="http://www.ummah.co/wp-content/uploads/2012/11/qaadah.jpg" alt="The Method of Salaah in the Light of Authentic Ahadith">
+                                                                        The Method of Salaah in the Light of Authentic Ahadith                                </a>
+                                                            <a href="http://www.ummah.co/what-is-the-origin-of-the-manzil/">
+                                                                            <img src="http://www.ummah.co/wp-content/uploads/2016/11/manzil-150x150.jpg" alt="What is the Origin of the “Manzil”?">
+                                                                        What is the Origin of the “Manzil”?                                </a>
+                                                            <a href="http://www.ummah.co/righteous-deeds-with-the-same-reward-as-hajj-umrah/">
+                                                                            <img src="http://www.ummah.co/wp-content/uploads/2012/08/haram-150x150.jpg" alt="Righteous Deeds with the Same Reward as Hajj &#038; Umrah">
+                                                                        Righteous Deeds with the Same Reward as Hajj &#038; Umrah                                </a>
+                                                            <a href="http://www.ummah.co/one-minute-dhikr/">
+                                                                            <img src="http://www.ummah.co/wp-content/uploads/2013/05/zikr-150x150.jpg" alt="One Minute Dhikr">
+                                                                        One Minute Dhikr                                </a>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Excluive line END -->
+                                    <div class="for-main-row">
+                            <div class="main-story-wrapper col-sm-6">
+                                                                    <h4 class="header-after1">
+                                    <span class="header-after ">
+                                        Latest                                    </span>
+                                    </h4>
+                                                                <div class="main-slider-wrapper">
+                                <div class="main-slider full-slider-mode">
+                                                                                <figure class="slick-item">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-slide"
+                                                     data-background="http://www.ummah.co/wp-content/uploads/2012/01/rabi-alawwal.jpg">
+                                                    <a class="aft-slide-items" href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/"></a>
+                                                                                                        <figcaption class="slider-figcaption slider-figcaption-1">
+                                                        <div class="figure-categories figure-categories-bg">
+                                                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/islamic-calendar/" alt="View all posts in Islamic Calendar"> 
+                                 Islamic Calendar
+                             </a>
+                        </li></ul>                                                        </div>
+                                                        <div class="title-heading">
+                                                            <h3 class="article-title slide-title">
+                                                                <a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/">Rabi al-Awwal:  Humanity has been blessed in this month by the birth of the Holy Prophet Muhammad (Sall-Allahu alayhi wa sallam)</a>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="grid-item-metadata grid-item-metadata-1">
+                                                            
+        <span class="author-links">
+                                </span>
+                                                                </div>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                                                                    <figure class="slick-item">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-slide"
+                                                     data-background="http://www.ummah.co/wp-content/uploads/2012/03/durood.jpg">
+                                                    <a class="aft-slide-items" href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/"></a>
+                                                                                                        <figcaption class="slider-figcaption slider-figcaption-1">
+                                                        <div class="figure-categories figure-categories-bg">
+                                                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/dua-zikr-salawat/" alt="View all posts in Dua&#039; Zikr / Dhikr / Salawat"> 
+                                 Dua&#039; Zikr / Dhikr / Salawat
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                                                        </div>
+                                                        <div class="title-heading">
+                                                            <h3 class="article-title slide-title">
+                                                                <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/">Forty Salat o Salaam :: 40 Durood by Shaykh Yunus Patel (DB)</a>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="grid-item-metadata grid-item-metadata-1">
+                                                            
+        <span class="author-links">
+                                </span>
+                                                                </div>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                                                                    <figure class="slick-item">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-slide"
+                                                     data-background="http://www.ummah.co/wp-content/uploads/2018/12/Surah-Fatiha.jpg">
+                                                    <a class="aft-slide-items" href="http://www.ummah.co/surah-al-fatihah-is-a-cure-for-the-diseases-of-the-heart-and-the-body/"></a>
+                                                    <div class='em-post-format'><i class='fas fa-camera'></i></div>                                                    <figcaption class="slider-figcaption slider-figcaption-1">
+                                                        <div class="figure-categories figure-categories-bg">
+                                                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                                                        </div>
+                                                        <div class="title-heading">
+                                                            <h3 class="article-title slide-title">
+                                                                <a href="http://www.ummah.co/surah-al-fatihah-is-a-cure-for-the-diseases-of-the-heart-and-the-body/">Surah al-Fatihah is a Cure for the Diseases of the Heart and the Body</a>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="grid-item-metadata grid-item-metadata-1">
+                                                            
+        <span class="author-links">
+                                </span>
+                                                                </div>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                                                                    <figure class="slick-item">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-slide"
+                                                     data-background="">
+                                                    <a class="aft-slide-items" href="http://www.ummah.co/last-sermon-of-the-prophet-muhammad-pbuh/"></a>
+                                                                                                        <figcaption class="slider-figcaption slider-figcaption-1">
+                                                        <div class="figure-categories figure-categories-bg">
+                                                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                                                        </div>
+                                                        <div class="title-heading">
+                                                            <h3 class="article-title slide-title">
+                                                                <a href="http://www.ummah.co/last-sermon-of-the-prophet-muhammad-pbuh/">Last Sermon of the Prophet Muhammad (PBUH)</a>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="grid-item-metadata grid-item-metadata-1">
+                                                            
+        <span class="author-links">
+                                </span>
+                                                                </div>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                                                                    <figure class="slick-item">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-slide"
+                                                     data-background="http://www.ummah.co/wp-content/uploads/2018/06/hajj-umrah-rewards.jpg">
+                                                    <a class="aft-slide-items" href="http://www.ummah.co/how-to-earn-the-reward-of-hajj-umrah-everyday/"></a>
+                                                                                                        <figcaption class="slider-figcaption slider-figcaption-1">
+                                                        <div class="figure-categories figure-categories-bg">
+                                                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                                                        </div>
+                                                        <div class="title-heading">
+                                                            <h3 class="article-title slide-title">
+                                                                <a href="http://www.ummah.co/how-to-earn-the-reward-of-hajj-umrah-everyday/">How to Earn the Reward of Hajj &#038; Umrah Everyday</a>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="grid-item-metadata grid-item-metadata-1">
+                                                            
+        <span class="author-links">
+                                </span>
+                                                                </div>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                                                        </div>
+                                <div class="af-main-navcontrols "></div>
+                            </div>
+                            </div>
+                            
+                            <div class="af-main-banner-editors-picks categorized-story col-sm-3">
+                                                                    <h4 class="header-after1">
+                                        <span class="header-after ">
+                                            Featured                                        </span>
+                                    </h4>
+                                                                <div class="featured-posts-grid i-row row">
+
+                                                                                <div class="even-grid">
+                                            <div class="spotlight-post" data-mh="banner-height">
+                                                <figure class="featured-article">
+                                                    <div class="featured-article-wrapper">
+                                                        <div class="data-bg data-bg-hover data-bg-hover data-bg-featured"
+                                                             data-background="http://www.ummah.co/wp-content/uploads/2012/01/rabi-alawwal.jpg">
+                                                            <a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/"></a>
+                                                        </div>
+                                                    </div>
+                                                                                                    </figure>
+
+                                                <figcaption class="cate-fig">
+                                                    <div class="figure-categories figure-categories-bg">
+
+                                                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/islamic-calendar/" alt="View all posts in Islamic Calendar"> 
+                                 Islamic Calendar
+                             </a>
+                        </li></ul>                                                    </div>
+                                                    <div class="title-heading">
+                                                        <h3 class="article-title article-title-2">
+                                                            <a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/">
+                                                                Rabi al-Awwal:  Humanity has been blessed in this month by the birth of the Holy Prophet Muhammad (Sall-Allahu alayhi wa sallam)                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="grid-item-metadata">
+                                                        
+        <span class="author-links">
+                                </span>
+                                                            </div>
+                                                </figcaption>
+                                            </div>
+                                            </div>
+                                                                                    <div class="even-grid">
+                                            <div class="spotlight-post" data-mh="banner-height">
+                                                <figure class="featured-article">
+                                                    <div class="featured-article-wrapper">
+                                                        <div class="data-bg data-bg-hover data-bg-hover data-bg-featured"
+                                                             data-background="http://www.ummah.co/wp-content/uploads/2012/03/durood.jpg">
+                                                            <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/"></a>
+                                                        </div>
+                                                    </div>
+                                                                                                    </figure>
+
+                                                <figcaption class="cate-fig">
+                                                    <div class="figure-categories figure-categories-bg">
+
+                                                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/dua-zikr-salawat/" alt="View all posts in Dua&#039; Zikr / Dhikr / Salawat"> 
+                                 Dua&#039; Zikr / Dhikr / Salawat
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                                                    </div>
+                                                    <div class="title-heading">
+                                                        <h3 class="article-title article-title-2">
+                                                            <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/">
+                                                                Forty Salat o Salaam :: 40 Durood by Shaykh Yunus Patel (DB)                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="grid-item-metadata">
+                                                        
+        <span class="author-links">
+                                </span>
+                                                            </div>
+                                                </figcaption>
+                                            </div>
+                                            </div>
+                                        
+                                </div>
+                            </div>
+                                                        <div class="trending-story col-sm-3">
+                                                                    <h4 class="header-after1">
+                                    <span class="header-after ">
+                                        Sunnah                                    </span>
+                                    </h4>
+                                                                            <div class="banner-trending-posts-wrapper clearfix">
+
+                                <div class="trending-posts-carousel">
+                                                <div class="slick-item">
+                                <!-- <span style="margin: 0 0 10px 0; display: block;"> -->
+                                <figure class="carousel-image">
+                                    <div class="no-gutter-col">
+                                        <figure class="featured-article">
+                                            <div class="featured-article-wrapper">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-featured" data-background="http://www.ummah.co/wp-content/uploads/2012/11/salah-150x150.jpg">
+                                                    <a href="http://www.ummah.co/compulsory-acts-of-salah/"></a>
+                                                </div>
+                                            </div>
+                                            <span class="trending-no">
+                                                1                                            </span>
+                                                                                    </figure>
+
+                                        <figcaption>
+                                            <div class="figure-categories figure-categories-bg">
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sunnah-way-of-beloved-rasool-saas/" alt="View all posts in Sunnah"> 
+                                 Sunnah
+                             </a>
+                        </li></ul>                                            </div>
+                                            <div class="title-heading">
+                                                <h3 class="article-title">
+                                                    <a href="http://www.ummah.co/compulsory-acts-of-salah/">
+                                                        Compulsory Acts of Salah                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                    </figcaption>
+                                </figure>
+                                <!-- </span> -->
+                            </div>
+                                                    <div class="slick-item">
+                                <!-- <span style="margin: 0 0 10px 0; display: block;"> -->
+                                <figure class="carousel-image">
+                                    <div class="no-gutter-col">
+                                        <figure class="featured-article">
+                                            <div class="featured-article-wrapper">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-featured" data-background="http://www.ummah.co/wp-content/uploads/2016/11/beard-150x150.jpg">
+                                                    <a href="http://www.ummah.co/the-beard-between-the-salaf-khalaf/"></a>
+                                                </div>
+                                            </div>
+                                            <span class="trending-no">
+                                                2                                            </span>
+                                                                                    </figure>
+
+                                        <figcaption>
+                                            <div class="figure-categories figure-categories-bg">
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sunnah-way-of-beloved-rasool-saas/" alt="View all posts in Sunnah"> 
+                                 Sunnah
+                             </a>
+                        </li></ul>                                            </div>
+                                            <div class="title-heading">
+                                                <h3 class="article-title">
+                                                    <a href="http://www.ummah.co/the-beard-between-the-salaf-khalaf/">
+                                                        The Beard between the Salaf &#038; Khalaf                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                    </figcaption>
+                                </figure>
+                                <!-- </span> -->
+                            </div>
+                                                    <div class="slick-item">
+                                <!-- <span style="margin: 0 0 10px 0; display: block;"> -->
+                                <figure class="carousel-image">
+                                    <div class="no-gutter-col">
+                                        <figure class="featured-article">
+                                            <div class="featured-article-wrapper">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-featured" data-background="http://www.ummah.co/wp-content/uploads/2012/10/women-salah-150x150.jpg">
+                                                    <a href="http://www.ummah.co/differences-in-the-salah-of-women/"></a>
+                                                </div>
+                                            </div>
+                                            <span class="trending-no">
+                                                3                                            </span>
+                                                                                    </figure>
+
+                                        <figcaption>
+                                            <div class="figure-categories figure-categories-bg">
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sunnah-way-of-beloved-rasool-saas/" alt="View all posts in Sunnah"> 
+                                 Sunnah
+                             </a>
+                        </li></ul>                                            </div>
+                                            <div class="title-heading">
+                                                <h3 class="article-title">
+                                                    <a href="http://www.ummah.co/differences-in-the-salah-of-women/">
+                                                        Differences in the Salah of Women                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                    </figcaption>
+                                </figure>
+                                <!-- </span> -->
+                            </div>
+                                                    <div class="slick-item">
+                                <!-- <span style="margin: 0 0 10px 0; display: block;"> -->
+                                <figure class="carousel-image">
+                                    <div class="no-gutter-col">
+                                        <figure class="featured-article">
+                                            <div class="featured-article-wrapper">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-featured" data-background="http://www.ummah.co/wp-content/uploads/2012/11/qiraat-150x150.jpg">
+                                                    <a href="http://www.ummah.co/sunnahs-of-qiraat/"></a>
+                                                </div>
+                                            </div>
+                                            <span class="trending-no">
+                                                4                                            </span>
+                                                                                    </figure>
+
+                                        <figcaption>
+                                            <div class="figure-categories figure-categories-bg">
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sunnah-way-of-beloved-rasool-saas/" alt="View all posts in Sunnah"> 
+                                 Sunnah
+                             </a>
+                        </li></ul>                                            </div>
+                                            <div class="title-heading">
+                                                <h3 class="article-title">
+                                                    <a href="http://www.ummah.co/sunnahs-of-qiraat/">
+                                                        Sunnahs Of Qiraat                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                    </figcaption>
+                                </figure>
+                                <!-- </span> -->
+                            </div>
+                                                    <div class="slick-item">
+                                <!-- <span style="margin: 0 0 10px 0; display: block;"> -->
+                                <figure class="carousel-image">
+                                    <div class="no-gutter-col">
+                                        <figure class="featured-article">
+                                            <div class="featured-article-wrapper">
+                                                <div class="data-bg data-bg-hover data-bg-hover data-bg-featured" data-background="http://www.ummah.co/wp-content/uploads/2012/11/miswak-150x150.jpg">
+                                                    <a href="http://www.ummah.co/sunnah-method-of-using-miswaak/"></a>
+                                                </div>
+                                            </div>
+                                            <span class="trending-no">
+                                                5                                            </span>
+                                                                                    </figure>
+
+                                        <figcaption>
+                                            <div class="figure-categories figure-categories-bg">
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sunnah-way-of-beloved-rasool-saas/" alt="View all posts in Sunnah"> 
+                                 Sunnah
+                             </a>
+                        </li></ul>                                            </div>
+                                            <div class="title-heading">
+                                                <h3 class="article-title">
+                                                    <a href="http://www.ummah.co/sunnah-method-of-using-miswaak/">
+                                                        Sunnah Method of Using Miswaak                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                    </figcaption>
+                                </figure>
+                                <!-- </span> -->
+                            </div>
+                                        </div>
+                <div class="af-trending-navcontrols "></div>
+
+            </div>
+            <!-- Trending line END -->
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+
+            <div class="container container-full-width">
+                <div class="row">
+                    
+                        <div class="af-main-banner-featured-posts grid-layout">
+
+                            
+                                <h4 class="header-after1 ">
+                                <span class="header-after ">
+                                    Featured Story                                </span>
+
+                                </h4>
+                            
+                                        <div class="featured-posts-grid">
+                <div class="row">
+                                                <div class="col-sm-15">
+                                <div class="spotlight-post" data-mh="banner-height">
+                                    <figure class="featured-article">
+                                        <div class="featured-article-wrapper">
+                                            <div class="data-bg data-bg-hover data-bg-hover data-bg-featured"
+                                                 data-background="http://www.ummah.co/wp-content/uploads/2013/06/Muslim_Prayer_Beads.jpg">
+                                                <a href="http://www.ummah.co/companions-promised-paradise-ashara-mubashara/"></a>
+                                            </div>
+                                                                                        <div class="figure-categories figure-categories-bg">
+
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sahaba-sahabiya/" alt="View all posts in Sahaba / Sahabiya"> 
+                                 Sahaba / Sahabiya
+                             </a>
+                        </li></ul>                                            </div>
+                                        </div>
+                                    </figure>
+
+                                    <figcaption>
+
+                                        <div class="title-heading">
+                                            <h3 class="article-title article-title-1">
+                                                <a href="http://www.ummah.co/companions-promised-paradise-ashara-mubashara/">
+                                                    Companions Promised Paradise (Ashara Mubashara)                                                </a>
+                                            </h3>
+                                        </div>
+                                        <div class="grid-item-metadata">
+                                            
+        <span class="author-links">
+                                </span>
+                                                </div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                                                    <div class="col-sm-15">
+                                <div class="spotlight-post" data-mh="banner-height">
+                                    <figure class="featured-article">
+                                        <div class="featured-article-wrapper">
+                                            <div class="data-bg data-bg-hover data-bg-hover data-bg-featured"
+                                                 data-background="http://www.ummah.co/wp-content/uploads/2011/12/design7.jpg">
+                                                <a href="http://www.ummah.co/asma-bint-abu-bakr-radiallahu-anha/"></a>
+                                            </div>
+                                                                                        <div class="figure-categories figure-categories-bg">
+
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sahaba-sahabiya/" alt="View all posts in Sahaba / Sahabiya"> 
+                                 Sahaba / Sahabiya
+                             </a>
+                        </li></ul>                                            </div>
+                                        </div>
+                                    </figure>
+
+                                    <figcaption>
+
+                                        <div class="title-heading">
+                                            <h3 class="article-title article-title-1">
+                                                <a href="http://www.ummah.co/asma-bint-abu-bakr-radiallahu-anha/">
+                                                    Asma bint Abu Bakr (RadiAllahu anha)                                                </a>
+                                            </h3>
+                                        </div>
+                                        <div class="grid-item-metadata">
+                                            
+        <span class="author-links">
+                                </span>
+                                                </div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                                                    <div class="col-sm-15">
+                                <div class="spotlight-post" data-mh="banner-height">
+                                    <figure class="featured-article">
+                                        <div class="featured-article-wrapper">
+                                            <div class="data-bg data-bg-hover data-bg-hover data-bg-featured"
+                                                 data-background="http://www.ummah.co/wp-content/uploads/2011/12/design3.jpg">
+                                                <a href="http://www.ummah.co/ayshah-bint-abu-bakr/"></a>
+                                            </div>
+                                                                                        <div class="figure-categories figure-categories-bg">
+
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sahaba-sahabiya/" alt="View all posts in Sahaba / Sahabiya"> 
+                                 Sahaba / Sahabiya
+                             </a>
+                        </li></ul>                                            </div>
+                                        </div>
+                                    </figure>
+
+                                    <figcaption>
+
+                                        <div class="title-heading">
+                                            <h3 class="article-title article-title-1">
+                                                <a href="http://www.ummah.co/ayshah-bint-abu-bakr/">
+                                                    Ayshah bint Abu Bakr                                                </a>
+                                            </h3>
+                                        </div>
+                                        <div class="grid-item-metadata">
+                                            
+        <span class="author-links">
+                                </span>
+                                                </div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                                                    <div class="col-sm-15">
+                                <div class="spotlight-post" data-mh="banner-height">
+                                    <figure class="featured-article">
+                                        <div class="featured-article-wrapper">
+                                            <div class="data-bg data-bg-hover data-bg-hover data-bg-featured"
+                                                 data-background="http://www.ummah.co/wp-content/uploads/2011/12/design7.jpg">
+                                                <a href="http://www.ummah.co/khadijah-bint-khuwaylid/"></a>
+                                            </div>
+                                                                                        <div class="figure-categories figure-categories-bg">
+
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sahaba-sahabiya/" alt="View all posts in Sahaba / Sahabiya"> 
+                                 Sahaba / Sahabiya
+                             </a>
+                        </li></ul>                                            </div>
+                                        </div>
+                                    </figure>
+
+                                    <figcaption>
+
+                                        <div class="title-heading">
+                                            <h3 class="article-title article-title-1">
+                                                <a href="http://www.ummah.co/khadijah-bint-khuwaylid/">
+                                                    Khadijah bint Khuwaylid                                                </a>
+                                            </h3>
+                                        </div>
+                                        <div class="grid-item-metadata">
+                                            
+        <span class="author-links">
+                                </span>
+                                                </div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                                                    <div class="col-sm-15">
+                                <div class="spotlight-post" data-mh="banner-height">
+                                    <figure class="featured-article">
+                                        <div class="featured-article-wrapper">
+                                            <div class="data-bg data-bg-hover data-bg-hover data-bg-featured"
+                                                 data-background="http://www.ummah.co/wp-content/uploads/2011/12/Ummuhat.jpg">
+                                                <a href="http://www.ummah.co/ummhat-ul-momineen/"></a>
+                                            </div>
+                                                                                        <div class="figure-categories figure-categories-bg">
+
+                                                <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/sahaba-sahabiya/" alt="View all posts in Sahaba / Sahabiya"> 
+                                 Sahaba / Sahabiya
+                             </a>
+                        </li></ul>                                            </div>
+                                        </div>
+                                    </figure>
+
+                                    <figcaption>
+
+                                        <div class="title-heading">
+                                            <h3 class="article-title article-title-1">
+                                                <a href="http://www.ummah.co/ummhat-ul-momineen/">
+                                                    Life Sketches of Ummahat ul Momineen                                                </a>
+                                            </h3>
+                                        </div>
+                                        <div class="grid-item-metadata">
+                                            
+        <span class="author-links">
+                                </span>
+                                                </div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                                        </div>
+            </div>
+            <!-- Trending line END -->
+                                    </div>
+                                    </div>
+            </div>
+        </section>
+
+        <!-- end slider-section -->
+            <div id="content" class="container">
+<section class="section-block-upper row">
+
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main">
+                    <div class="row">
+
+                        
+
+        <article id="post-236" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-236 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-islamic-calendar tag-birthday-celebration-of-our-beloved-prophet-muhammad tag-eid-milad-un-nabi tag-mawlid-an-nabi tag-milad tag-milad-al-nabi tag-milad-un-nabi tag-rabi-al-awwal tag-rabi-ul-awwal tag-rabiul-awal"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2012/01/rabi-alawwal.jpg">
+                        <a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/islamic-calendar/" alt="View all posts in Islamic Calendar"> 
+                                 Islamic Calendar
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/">
+                        Rabi al-Awwal:  Humanity has been blessed in this month by the birth of the Holy Prophet Muhammad (Sall-Allahu alayhi wa sallam)                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>By Mufti Taqi Usmani From Superstitions into Light Islamic Celebrations No Birthdays The Origins of&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-265" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-265 post type-post status-publish format-standard has-post-thumbnail hentry category-dua-zikr-salawat category-featured tag-40-durood tag-books-of-durood tag-durood-by-maulana-yunus-patel tag-forty-salat-o-salaam tag-salaam tag-salam tag-salat"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2012/03/durood.jpg">
+                        <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/dua-zikr-salawat/" alt="View all posts in Dua&#039; Zikr / Dhikr / Salawat"> 
+                                 Dua&#039; Zikr / Dhikr / Salawat
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/">
+                        Forty Salat o Salaam :: 40 Durood by Shaykh Yunus Patel (DB)                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>Audio :: Click here Listen to Forty Salaat o Salaam :: by Maulana Yunus Patel&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-69" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-69 post type-post status-publish format-standard has-post-thumbnail hentry category-articles category-islamic-calendar tag-ashurah tag-day-of-ashurah tag-muharram"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2011/12/01-muharram-texture-e1323299030538.jpg">
+                        <a href="http://www.ummah.co/the-month-of-muharram/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/islamic-calendar/" alt="View all posts in Islamic Calendar"> 
+                                 Islamic Calendar
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/the-month-of-muharram/">
+                        The Month of Muharram                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>By Mufti Taqi Usmani Muharram is the month with which the Muslims begin their lunar&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-67" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-67 post type-post status-publish format-standard has-post-thumbnail hentry category-articles"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2011/12/dried_dates.jpg">
+                        <a href="http://www.ummah.co/the-fast-of-ashura/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/the-fast-of-ashura/">
+                        The Fast of Ashura                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>By Shaykh Abul Hasan Ali Nadwi The fast of &#8216;Ashura was prescribed before the fasts&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-483" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-483 post type-post status-publish format-standard has-post-thumbnail hentry category-miscellaneous tag-hajj-2020-live tag-hajj-live tag-live-from-makkah tag-live-taraweeh tag-makkah-live-cam tag-makkah-live-tv tag-makkah-mecque-online-web-cam tag-mecqa-live tag-taraweeh-from-makkah tag-watch-webcam-holy-mosque"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2012/10/live-makkah.jpg">
+                        <a href="http://www.ummah.co/watch-live-from-holy-makkah/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/miscellaneous/" alt="View all posts in Miscellaneous"> 
+                                 Miscellaneous
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/watch-live-from-holy-makkah/">
+                        Watch Live from Holy Makkah                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>Live Streaming from Khana Ka&#8217;aba Makkah, Saudi Arabia. Special Hajj 2020 Live Stream from Makkah&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-309" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-309 post type-post status-publish format-standard has-post-thumbnail hentry category-articles tag-arafah tag-dhikr tag-dhul-hijjah tag-hajj tag-importance-of-the-first-10-days-of-dhul-hijjah tag-islamic-calendar-2 tag-takbeer-x-tasbeeh"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2012/10/Zul-Hijjah.jpg">
+                        <a href="http://www.ummah.co/importance-of-the-first-10-days-of-dhul-hijjah/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/importance-of-the-first-10-days-of-dhul-hijjah/">
+                        Importance of the first 10 days of Dhul-Hijjah                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>Why do they matter? Even for those not performing the pilgrimage, Hajj, the first ten&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-371" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-371 post type-post status-publish format-standard has-post-thumbnail hentry category-articles tag-arafah tag-dhikr tag-dhul-hijjah tag-dua-before-salughtering tag-dua-for-slaughtering tag-duaa-before tag-during-after-slaughtering tag-hajj tag-islamic-calendar-2 tag-method-of-slaughtering-an-animal tag-qurbani tag-sacrifice tag-submission tag-surrender tag-takbeer-x-tasbeeh tag-takbeeraat-of-tashreeq tag-time-of-qurbani-udhiya tag-udhiya tag-virtue-of-qurbani-udhiya tag-zabiha"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2012/10/udhiya-qurbani.jpg">
+                        <a href="http://www.ummah.co/qurbani-udhiya-spiritvirtueduaa/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/qurbani-udhiya-spiritvirtueduaa/">
+                        Qurbani (Udhiya) Spirit/Virtue/Dua&#8217;a                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>The Spirit of Qurbani (Udhiya) Virtue of Qurbani (Udhiya) On whom is Qurbani (Udhiya) Wajib&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-1324" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-1324 post type-post status-publish format-image has-post-thumbnail hentry category-articles category-featured tag-fatihah tag-surah-al-fatihah post_format-post-format-image"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2018/12/Surah-Fatiha.jpg">
+                        <a href="http://www.ummah.co/surah-al-fatihah-is-a-cure-for-the-diseases-of-the-heart-and-the-body/"></a>
+                    </div>
+                    <div class='em-post-format'><i class='fas fa-camera'></i></div>                    <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/surah-al-fatihah-is-a-cure-for-the-diseases-of-the-heart-and-the-body/">
+                        Surah al-Fatihah is a Cure for the Diseases of the Heart and the Body                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>The disease of the heart occurs due to two basic matters: The corruption of knowledge&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-1321" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-1321 post type-post status-publish format-standard has-post-thumbnail hentry category-articles category-miscellaneous tag-love-spouse tag-romance tag-romantic-with-wife"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="http://www.ummah.co/wp-content/uploads/2011/12/wedding.jpg">
+                        <a href="http://www.ummah.co/how-to-be-romantic-with-your-spouse-prophet-%ef%b7%ba-ways/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/miscellaneous/" alt="View all posts in Miscellaneous"> 
+                                 Miscellaneous
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/how-to-be-romantic-with-your-spouse-prophet-%ef%b7%ba-ways/">
+                        How To Be Romantic With Your Spouse &#8211; Prophet (ﷺ)  Ways                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>As the days come to closer to ones marriage, excitement, ecstasy and elation pump through&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+    
+
+        <article id="post-380" class="col-lg-4 col-sm-4 col-md-4 latest-posts-grid post-380 post type-post status-publish format-standard hentry category-articles category-featured tag-last-hajj tag-last-sermon-of-the-prophet-muhammad-pbuh tag-sermon"                 data-mh="archive-layout-grid">
+            
+<div class="align-items-center">
+        <div class="spotlight-post">
+            <figure class="categorised-article inside-img">
+                <div class="categorised-article-wrapper">
+                    <div class="data-bg-hover data-bg data-bg-categorised"
+                         data-background="">
+                        <a href="http://www.ummah.co/last-sermon-of-the-prophet-muhammad-pbuh/"></a>
+                    </div>
+                                        <div class="figure-categories figure-categories-bg">
+                        <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                    </div>
+                </div>
+
+            </figure>
+            <figcaption>
+
+                <h3 class="article-title article-title-1">
+                    <a href="http://www.ummah.co/last-sermon-of-the-prophet-muhammad-pbuh/">
+                        Last Sermon of the Prophet Muhammad (PBUH)                    </a>
+                </h3>
+                <div class="grid-item-metadata">
+                    
+        <span class="author-links">
+                                </span>
+                        </div>
+                                    <div class="full-item-discription">
+                        <div class="post-description">
+                            <p>This sermon was delivered on the Ninth Day of Islamic month of Dhul-Hijjah Year 632&#8230;</p>
+
+                        </div>
+                    </div>
+                            </figcaption>
+    </div>
+    </div>
+
+
+
+
+
+
+
+        </article>
+                                <div class="col col-ten">
+                                <div class="covernews-pagination">
+                                    
+	<nav class="navigation pagination" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="http://www.ummah.co/page/2/">2</a>
+<a class="page-numbers" href="http://www.ummah.co/page/3/">3</a>
+<a class="page-numbers" href="http://www.ummah.co/page/4/">4</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="http://www.ummah.co/page/11/">11</a>
+<a class="next page-numbers" href="http://www.ummah.co/page/2/">Next</a></div>
+	</nav>                                </div>
+                            </div>
+                        
+                        </div>
+                    </main><!-- #main -->
+                </div><!-- #primary -->
+
+                <aside id="secondary" class="widget-area aft-sticky-sidebar">
+	<div id="text-2" class="widget covernews-widget widget_text">			<div class="textwidget"><h2>Makkah Live</h2>
+<table><tr>
+<td><iframe src="https://www.youtube.com/embed/7bfQJS5Thec"  frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+</td>
+</tr>
+<table>
+<table>
+<tr><td><p><a href="http://ummahnet.com/audio/99-Names-of-Allah.mp3">
+<img src="http://www.ummah.co/wp-content/uploads/2012/07/99Names.gif" alt="99 Names of Allah" /></a>
+</p>
+</td><td>
+<p><a href="http://www.ummah.co/last-sermon-of-the-prophet-muhammad-pbuh/">
+<img src="http://www.ummah.co/wp-content/uploads/2012/07/last-sermon.jpg" alt=''Last Sermon of Prophet SAW''   /></a></p></td>
+</tr>
+<tr><td>
+<p>
+<a href="http://islameasy.org"><img src="http://www.ummah.co/wp-content/uploads/2012/01/islameasy.jpg" border="1" /></a>
+</p></td><td>
+<p>
+<a href="http://ummahnet.com/ebooks.php?page=ebooks">
+<img src="http://www.ummah.co/wp-content/uploads/2012/08/quick_books.gif" border="1" /></a></p></td>
+</tr><tr>
+<td colspan='2' style="text-align:center">
+<a href="http://www.ummah.co/wp-content/uploads/2011/12/islam-guide.pdf"><img src="http://www.ummah.co/wp-content/uploads/2011/12/islam-guide.jpg" border="1"><br>A Brief Illustrated Guide to understanding Islam</a></td>
+</tr>
+</table></div>
+		</div><div id="categories-3" class="widget covernews-widget widget_categories"><h2 class="widget-title widget-title-1"><span>Categories</span></h2>		<ul>
+				<li class="cat-item cat-item-13"><a href="http://www.ummah.co/category/articles/" title="articles">Articles</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.ummah.co/category/basic-islam/" title="Basic Islam">Basic Islam</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.ummah.co/category/dua-zikr-salawat/" title="dua-zikr-salawat">Dua&#039; Zikr / Dhikr / Salawat</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.ummah.co/category/featured/" title="featured">Featured</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.ummah.co/category/islamic-calendar/" title="Islamic calendar">Islamic Calendar</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.ummah.co/category/miscellaneous/" title="Miscellaneous">Miscellaneous</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.ummah.co/category/ramadan/">Ramadan</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.ummah.co/category/sahaba-sahabiya/" title="Sahaba">Sahaba / Sahabiya</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.ummah.co/category/scholars-of-islam/" title="Scholars of Islam">Scholars of Islam</a>
+</li>
+	<li class="cat-item cat-item-291"><a href="http://www.ummah.co/category/sunnah-way-of-beloved-rasool-saas/">Sunnah</a>
+</li>
+		</ul>
+			</div>		<div id="recent-posts-4" class="widget covernews-widget widget_recent_entries">		<h2 class="widget-title widget-title-1"><span>Recent Updates</span></h2>		<ul>
+											<li>
+					<a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/">Rabi al-Awwal:  Humanity has been blessed in this month by the birth of the Holy Prophet Muhammad (Sall-Allahu alayhi wa sallam)</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/">Forty Salat o Salaam :: 40 Durood by Shaykh Yunus Patel (DB)</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/the-month-of-muharram/">The Month of Muharram</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/the-fast-of-ashura/">The Fast of Ashura</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/watch-live-from-holy-makkah/">Watch Live from Holy Makkah</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/importance-of-the-first-10-days-of-dhul-hijjah/">Importance of the first 10 days of Dhul-Hijjah</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/qurbani-udhiya-spiritvirtueduaa/">Qurbani (Udhiya) Spirit/Virtue/Dua&#8217;a</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/surah-al-fatihah-is-a-cure-for-the-diseases-of-the-heart-and-the-body/">Surah al-Fatihah is a Cure for the Diseases of the Heart and the Body</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/how-to-be-romantic-with-your-spouse-prophet-%ef%b7%ba-ways/">How To Be Romantic With Your Spouse &#8211; Prophet (ﷺ)  Ways</a>
+									</li>
+											<li>
+					<a href="http://www.ummah.co/last-sermon-of-the-prophet-muhammad-pbuh/">Last Sermon of the Prophet Muhammad (PBUH)</a>
+									</li>
+					</ul>
+		</div><div id="pages-2" class="widget covernews-widget widget_pages"><h2 class="widget-title widget-title-1"><span>Pages</span></h2>		<ul>
+			<li class="page_item page-item-8"><a href="http://www.ummah.co/islam-101/">Islam 101</a></li>
+<li class="page_item page-item-211"><a href="http://www.ummah.co/place-of-abraham-in-islam-christianity-judaism/">Place of Abraham in Islam, Christianity, Judaism</a></li>
+<li class="page_item page-item-12"><a href="http://www.ummah.co/prophets-as/">Prophets (AS)</a></li>
+<li class="page_item page-item-17"><a href="http://www.ummah.co/scientific-signs-in-quran/">Scientific Signs in Quran</a></li>
+<li class="page_item page-item-109"><a href="http://www.ummah.co/the-amazing-quran/">The Amazing Quran</a></li>
+<li class="page_item page-item-185"><a href="http://www.ummah.co/the-quran-on-human-embryonic-development/">The Quran on Human Embryonic Development</a></li>
+		</ul>
+			</div></aside><!-- #secondary -->
+
+    </section>
+
+
+</div>
+
+<div class="af-main-banner-latest-posts grid-layout">
+    <div class="container">
+        <div class="row">
+
+    <div class="widget-title-section">
+                    <h4 class="widget-title header-after1">
+                        <span class="header-after">
+                            You may have missed                            </span>
+            </h4>
+        
+    </div>
+    <div class="row">
+                <div class="col-sm-15 latest-posts-grid" data-mh="latest-posts-grid">
+                <div class="spotlight-post">
+                    <figure class="categorised-article inside-img">
+                        <div class="categorised-article-wrapper">
+                            <div class="data-bg data-bg-hover data-bg-categorised"
+                                 data-background="http://www.ummah.co/wp-content/uploads/2012/01/rabi-alawwal.jpg">
+                                <a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/"></a>
+                            </div>
+                        </div>
+                                                <div class="figure-categories figure-categories-bg">
+                            
+                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/islamic-calendar/" alt="View all posts in Islamic Calendar"> 
+                                 Islamic Calendar
+                             </a>
+                        </li></ul>                        </div>
+                    </figure>
+
+                    <figcaption>
+                        
+                        <h3 class="article-title article-title-1">
+                            <a href="http://www.ummah.co/rabi-al-awwal-humanity-has-been-blessed-in-this-month-by-the-birth-of-the-holy-prophet-muhammad-sall-allahu-alayhi-wa-sallam/">
+                                Rabi al-Awwal:  Humanity has been blessed in this month by the birth of the Holy Prophet Muhammad (Sall-Allahu alayhi wa sallam)                            </a>
+                        </h3>
+                        <div class="grid-item-metadata">
+                            
+        <span class="author-links">
+                                </span>
+                                </div>
+                    </figcaption>
+                </div>
+            </div>
+                    <div class="col-sm-15 latest-posts-grid" data-mh="latest-posts-grid">
+                <div class="spotlight-post">
+                    <figure class="categorised-article inside-img">
+                        <div class="categorised-article-wrapper">
+                            <div class="data-bg data-bg-hover data-bg-categorised"
+                                 data-background="http://www.ummah.co/wp-content/uploads/2012/03/durood.jpg">
+                                <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/"></a>
+                            </div>
+                        </div>
+                                                <div class="figure-categories figure-categories-bg">
+                            
+                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/dua-zikr-salawat/" alt="View all posts in Dua&#039; Zikr / Dhikr / Salawat"> 
+                                 Dua&#039; Zikr / Dhikr / Salawat
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/featured/" alt="View all posts in Featured"> 
+                                 Featured
+                             </a>
+                        </li></ul>                        </div>
+                    </figure>
+
+                    <figcaption>
+                        
+                        <h3 class="article-title article-title-1">
+                            <a href="http://www.ummah.co/forty-salat-o-salaam-40-durood-by-sh-yunus-patel-db/">
+                                Forty Salat o Salaam :: 40 Durood by Shaykh Yunus Patel (DB)                            </a>
+                        </h3>
+                        <div class="grid-item-metadata">
+                            
+        <span class="author-links">
+                                </span>
+                                </div>
+                    </figcaption>
+                </div>
+            </div>
+                    <div class="col-sm-15 latest-posts-grid" data-mh="latest-posts-grid">
+                <div class="spotlight-post">
+                    <figure class="categorised-article inside-img">
+                        <div class="categorised-article-wrapper">
+                            <div class="data-bg data-bg-hover data-bg-categorised"
+                                 data-background="http://www.ummah.co/wp-content/uploads/2011/12/01-muharram-texture-e1323299030538.jpg">
+                                <a href="http://www.ummah.co/the-month-of-muharram/"></a>
+                            </div>
+                        </div>
+                                                <div class="figure-categories figure-categories-bg">
+                            
+                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/islamic-calendar/" alt="View all posts in Islamic Calendar"> 
+                                 Islamic Calendar
+                             </a>
+                        </li></ul>                        </div>
+                    </figure>
+
+                    <figcaption>
+                        
+                        <h3 class="article-title article-title-1">
+                            <a href="http://www.ummah.co/the-month-of-muharram/">
+                                The Month of Muharram                            </a>
+                        </h3>
+                        <div class="grid-item-metadata">
+                            
+        <span class="author-links">
+                                </span>
+                                </div>
+                    </figcaption>
+                </div>
+            </div>
+                    <div class="col-sm-15 latest-posts-grid" data-mh="latest-posts-grid">
+                <div class="spotlight-post">
+                    <figure class="categorised-article inside-img">
+                        <div class="categorised-article-wrapper">
+                            <div class="data-bg data-bg-hover data-bg-categorised"
+                                 data-background="http://www.ummah.co/wp-content/uploads/2011/12/dried_dates.jpg">
+                                <a href="http://www.ummah.co/the-fast-of-ashura/"></a>
+                            </div>
+                        </div>
+                                                <div class="figure-categories figure-categories-bg">
+                            
+                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/articles/" alt="View all posts in Articles"> 
+                                 Articles
+                             </a>
+                        </li></ul>                        </div>
+                    </figure>
+
+                    <figcaption>
+                        
+                        <h3 class="article-title article-title-1">
+                            <a href="http://www.ummah.co/the-fast-of-ashura/">
+                                The Fast of Ashura                            </a>
+                        </h3>
+                        <div class="grid-item-metadata">
+                            
+        <span class="author-links">
+                                </span>
+                                </div>
+                    </figcaption>
+                </div>
+            </div>
+                    <div class="col-sm-15 latest-posts-grid" data-mh="latest-posts-grid">
+                <div class="spotlight-post">
+                    <figure class="categorised-article inside-img">
+                        <div class="categorised-article-wrapper">
+                            <div class="data-bg data-bg-hover data-bg-categorised"
+                                 data-background="http://www.ummah.co/wp-content/uploads/2012/10/live-makkah.jpg">
+                                <a href="http://www.ummah.co/watch-live-from-holy-makkah/"></a>
+                            </div>
+                        </div>
+                                                <div class="figure-categories figure-categories-bg">
+                            
+                            <ul class="cat-links"><li class="meta-category">
+                             <a class="covernews-categories category-color-1" href="http://www.ummah.co/category/miscellaneous/" alt="View all posts in Miscellaneous"> 
+                                 Miscellaneous
+                             </a>
+                        </li></ul>                        </div>
+                    </figure>
+
+                    <figcaption>
+                        
+                        <h3 class="article-title article-title-1">
+                            <a href="http://www.ummah.co/watch-live-from-holy-makkah/">
+                                Watch Live from Holy Makkah                            </a>
+                        </h3>
+                        <div class="grid-item-metadata">
+                            
+        <span class="author-links">
+                                </span>
+                                </div>
+                    </figcaption>
+                </div>
+            </div>
+                </div>
+    </div>
+    </div>
+</div>
+
+<footer class="site-footer">
+        
+                <div class="site-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                                                                Copyright &copy; All rights reserved.                                                                                    <span class="sep"> | </span>
+                        Developed with <img draggable="false" role="img" class="emoji" alt="❤" src="https://s.w.org/images/core/emoji/12.0.0-1/svg/2764.svg"> by <a href="https://ummahtech.com/">Ummah Technology</a>.                                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<a id="scroll-up" class="secondary-color">
+    <i class="fa fa-angle-up"></i>
+</a>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/assets/slick/js/slick.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/assets/bootstrap/js/bootstrap.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/assets/jquery-match-height/jquery.matchHeight.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/assets/marquee/jquery.marquee.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/assets/theiaStickySidebar/theia-sticky-sidebar.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/assets/script.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-content/themes/covernews/assets/fixed-header-script.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://www.ummah.co/wp-includes/js/wp-embed.min.js?ver=5.4.4'></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2089511-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2089511-15');
+</script>
+
+
+</body>
+</html>

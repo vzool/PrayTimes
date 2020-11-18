@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+		<meta name="generator" content="MediaWiki 1.16.0" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Pray Times (en)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-nc/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="&quot;Special:Contributions/Admin&quot; Atom feed" href="/w/index.php?title=Special:Contributions/Admin&amp;feed=atom&amp;limit=50&amp;target=Admin&amp;year=&amp;month=" />
+<link rel="alternate" type="application/atom+xml" title="Pray Times Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />		<title>User contributions - Pray Times</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/w/skins/common/shared.css?270";
+			@import "/w/skins/praytimes/main.css?270";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="?270" />
+		<!--[if lt IE 7]><meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script>
+var skin="praytimes",
+stylepath="/w/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/wiki/$1",
+wgScriptPath="/w",
+wgScriptExtension=".php",
+wgScript="/w/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://praytimes.org",
+wgCanonicalNamespace="Special",
+wgCanonicalSpecialPageName="Contributions",
+wgNamespaceNumber=-1,
+wgPageName="Special:Contributions",
+wgTitle="Contributions",
+wgAction="view",
+wgArticleId=0,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=0,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "Pray Times", "5": "Pray Times talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "pray_times": 4, "pray_times_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "image": 6, "image_talk": 7},
+wgSiteName="Pray Times",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script>                
+		<script type="text/javascript" src="/w/skins/common/wikibits.js?270"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+<script src="/w/skins/common/ajax.js?270"></script>
+		<script type="text/javascript" src="/w/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=praytimes"><!-- site js --></script>
+	</head>
+  <body                 >
+	<div id="titleBar">
+		<div id="titleText"><a href="/" title="Main Page">
+			<span style="color:#173A7B">PrayTimes</span><span style="color:#66f; font-size:smaller;">.org</span>
+		</a></div>
+	</div>
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="contentTop"></a>
+	  	  <h1 class="firstHeading">User contributions</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From Pray Times</h3>
+	    <div id="contentSub">For <a href="/w/index.php?title=User:Admin&amp;action=edit&amp;redlink=1" class="new" title="User:Admin (page does not exist)">Admin</a> (<a href="/w/index.php?title=User_talk:Admin&amp;action=edit&amp;redlink=1" class="new" title="User talk:Admin (page does not exist)">talk</a> | <a href="/w/index.php?title=Special:Log&amp;type=block&amp;page=User%3AAdmin" title="Special:Log">block log</a> | <a href="/w/index.php?title=Special:Log&amp;user=Admin" title="Special:Log">logs</a>)</div>
+	    	    	    <!-- start content -->
+	    <form method="get" action="/w/index.php">	<input type="hidden" value="50" name="limit" />
+	<input type="hidden" name="tagfilter" />
+	<input type="hidden" value="Special:Contributions" name="title" />
+<fieldset><legend>Search for contributions</legend><input name="contribs" type="radio" value="newbie" id="newbie" />&nbsp;<label for="newbie">Show contributions of new accounts only</label><br /><input name="contribs" type="radio" value="user" checked="checked" id="user" />&nbsp;<label for="user">IP address or username:</label> <input size="20" value="Admin" name="target" /> <span style="white-space: nowrap"><label for="namespace">Namespace:</label> <select id="namespace" name="namespace" class="namespaceselector">
+<option value="" selected="selected">all</option>
+<option value="0">(Main)</option>
+<option value="1">Talk</option>
+<option value="2">User</option>
+<option value="3">User talk</option>
+<option value="4">Pray Times</option>
+<option value="5">Pray Times talk</option>
+<option value="6">File</option>
+<option value="7">File talk</option>
+<option value="8">MediaWiki</option>
+<option value="9">MediaWiki talk</option>
+<option value="10">Template</option>
+<option value="11">Template talk</option>
+<option value="12">Help</option>
+<option value="13">Help talk</option>
+<option value="14">Category</option>
+<option value="15">Category talk</option>
+</select></span><p><span style="white-space: nowrap"><label for="year">From year (and earlier):</label> <input name="year" size="4" value="" id="year" maxlength="4" /> <label for="month">From month (and earlier):</label> <select id="month" name="month" class="mw-month-selector"><option value="-1">all</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option></select></span> <input type="submit" value="Search" /></p><p id='mw-sp-contributions-explain'></p></fieldset></form><p>(Latest | <a href="/w/index.php?title=Special:Contributions&amp;dir=prev&amp;target=Admin" title="Special:Contributions" rel="last" class="mw-lastlink">Earliest</a>) View (newer 50  |  <a href="/w/index.php?title=Special:Contributions&amp;offset=20090226085029&amp;target=Admin" title="Special:Contributions" rel="next" class="mw-nextlink">older 50</a>) (<a href="/w/index.php?title=Special:Contributions&amp;limit=20&amp;target=Admin" title="Special:Contributions" class="mw-numlink">20</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=50&amp;target=Admin" title="Special:Contributions" class="mw-numlink">50</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=100&amp;target=Admin" title="Special:Contributions" class="mw-numlink">100</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=250&amp;target=Admin" title="Special:Contributions" class="mw-numlink">250</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=500&amp;target=Admin" title="Special:Contributions" class="mw-numlink">500</a>)</p><ul>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=68" title="Add-on Translation Guide">02:54, 17 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=68" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Translation_hints" title="Add-on Translation Guide">→</a>Translation hints</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=67" title="Add-on Translation Guide">21:01, 16 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=67" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Prepare_files" title="Add-on Translation Guide">→</a>Prepare files</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=66" title="Add-on Translation Guide">20:14, 16 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=66" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Prepare_files" title="Add-on Translation Guide">→</a>Prepare files</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=65" title="Add-on Translation Guide">06:20, 16 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=65" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=64" title="Add-on Translation Guide">06:17, 16 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=64" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Start_Translation" title="Add-on Translation Guide">→</a>Start Translation</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=63" title="Add-on Translation Guide">11:43, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=63" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Start_Translation" title="Add-on Translation Guide">→</a>Start Translation</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=62" title="Add-on Translation Guide">11:37, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=62" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Copy_files" title="Add-on Translation Guide">→</a>Copy files</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=61" title="Add-on Translation Guide">11:23, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=61" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Copy_files" title="Add-on Translation Guide">→</a>Copy files</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=59" title="Add-on Translation Guide">08:45, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=59" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<a href="/w/index.php?title=Translation_Guide&amp;action=edit&amp;redlink=1" class="new" title="Translation Guide (page does not exist)">Translation Guide</a> moved to <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=58" title="Add-on Translation Guide">08:42, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=58" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Submit_Your_Translation" title="Add-on Translation Guide">→</a>Submit Your Translation</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on:_Credits&amp;oldid=56" title="Add-on: Credits">08:38, 15 March 2009</a> (<a href="/w/index.php?title=Add-on:_Credits&amp;diff=prev&amp;oldid=56" title="Add-on: Credits">diff</a> | <a href="/w/index.php?title=Add-on:_Credits&amp;action=history" title="Add-on: Credits">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a> ‎ <span class="comment">(<a href="/w/index.php?title=Pray_Times!_Credits&amp;action=edit&amp;redlink=1" class="new" title="Pray Times! Credits (page does not exist)">Pray Times! Credits</a> moved to <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=55" title="Add-on Translation Guide">08:30, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=55" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Start_Translation" title="Add-on Translation Guide">→</a>Start Translation</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=54" title="Add-on Translation Guide">08:29, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=54" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Set_Up_the_Environment" title="Add-on Translation Guide">→</a>Set Up the Environment</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=53" title="Add-on Translation Guide">08:20, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=53" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=52" title="Add-on Translation Guide">08:04, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=52" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Add-on_Translation_Guide#Start_Translation" title="Add-on Translation Guide">→</a>Start Translation</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=51" title="Add-on Translation Guide">08:01, 15 March 2009</a> (<a href="/w/index.php?title=Add-on_Translation_Guide&amp;diff=prev&amp;oldid=51" title="Add-on Translation Guide">diff</a> | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>)  <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Add-on_Translation_Guide&amp;oldid=50" title="Add-on Translation Guide">23:40, 14 March 2009</a> (diff | <a href="/w/index.php?title=Add-on_Translation_Guide&amp;action=history" title="Add-on Translation Guide">hist</a>) <abbr class="newpage" title="This edit created a new page">N</abbr> <a href="/wiki/Add-on_Translation_Guide" title="Add-on Translation Guide">Add-on Translation Guide</a> ‎ <span class="comment">(New page: This is a simple guide for translating Pray Times Firefox add-on.  == Preparing Environment ==   === Copy files ===  Download the addon zip file from here and extract it in a directory on ...)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on:_Credits&amp;oldid=49" title="Add-on: Credits">16:47, 12 March 2009</a> (<a href="/w/index.php?title=Add-on:_Credits&amp;diff=prev&amp;oldid=49" title="Add-on: Credits">diff</a> | <a href="/w/index.php?title=Add-on:_Credits&amp;action=history" title="Add-on: Credits">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Add-on:_Credits&amp;oldid=48" title="Add-on: Credits">10:06, 12 March 2009</a> (<a href="/w/index.php?title=Add-on:_Credits&amp;diff=prev&amp;oldid=48" title="Add-on: Credits">diff</a> | <a href="/w/index.php?title=Add-on:_Credits&amp;action=history" title="Add-on: Credits">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Add-on:_Credits&amp;oldid=47" title="Add-on: Credits">10:04, 12 March 2009</a> (<a href="/w/index.php?title=Add-on:_Credits&amp;diff=prev&amp;oldid=47" title="Add-on: Credits">diff</a> | <a href="/w/index.php?title=Add-on:_Credits&amp;action=history" title="Add-on: Credits">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Add-on:_Credits&amp;oldid=45" title="Add-on: Credits">10:03, 12 March 2009</a> (<a href="/w/index.php?title=Add-on:_Credits&amp;diff=prev&amp;oldid=45" title="Add-on: Credits">diff</a> | <a href="/w/index.php?title=Add-on:_Credits&amp;action=history" title="Add-on: Credits">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a> ‎ <span class="comment">(<a href="/w/index.php?title=Pray_Times!_Add-on_Credits&amp;action=edit&amp;redlink=1" class="new" title="Pray Times! Add-on Credits (page does not exist)">Pray Times! Add-on Credits</a> moved to <a href="/w/index.php?title=Pray_Times!_Credits&amp;action=edit&amp;redlink=1" class="new" title="Pray Times! Credits (page does not exist)">Pray Times! Credits</a>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Category:Add-on&amp;oldid=44" title="Category:Add-on">10:03, 12 March 2009</a> (<a href="/w/index.php?title=Category:Add-on&amp;diff=prev&amp;oldid=44" title="Category:Add-on">diff</a> | <a href="/w/index.php?title=Category:Add-on&amp;action=history" title="Category:Add-on">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Category:Add-on" title="Category:Add-on">Category:Add-on</a> ‎ <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/w/index.php?title=Add-on:_Credits&amp;oldid=43" title="Add-on: Credits">09:42, 12 March 2009</a> (<a href="/w/index.php?title=Add-on:_Credits&amp;diff=prev&amp;oldid=43" title="Add-on: Credits">diff</a> | <a href="/w/index.php?title=Add-on:_Credits&amp;action=history" title="Add-on: Credits">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Category:Add-on&amp;oldid=42" title="Category:Add-on">09:39, 12 March 2009</a> (diff | <a href="/w/index.php?title=Category:Add-on&amp;action=history" title="Category:Add-on">hist</a>) <abbr class="newpage" title="This edit created a new page">N</abbr> <a href="/wiki/Category:Add-on" title="Category:Add-on">Category:Add-on</a> ‎ <span class="comment">(New page: Pray Times! is a Firefox add-on that displays daily prayer times on Firefox browsers. This page links to the articles related to this add-on.)</span>  </li>
+<li class=""><a href="/w/index.php?title=Add-on:_Credits&amp;oldid=41" title="Add-on: Credits">09:36, 12 March 2009</a> (diff | <a href="/w/index.php?title=Add-on:_Credits&amp;action=history" title="Add-on: Credits">hist</a>) <abbr class="newpage" title="This edit created a new page">N</abbr> <a href="/wiki/Add-on:_Credits" title="Add-on: Credits">Add-on: Credits</a> ‎ <span class="comment">(New page: ;Developer: [http://zarrabi.info/ Hamid Zarrabi-Zadeh]  ;Contributors: [http://www.derakhshani.org/ Mohammad Derakhshani] (test and Linux packaging)  ;Translators: * Arabic: [http://oraij....)</span>  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=40" title="Code Manual">09:18, 12 March 2009</a> (<a href="/w/index.php?title=Code_Manual&amp;diff=prev&amp;oldid=40" title="Code Manual">diff</a> | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Code_Manual#Downloads_and_Examples" title="Code Manual">→</a>Downloads and Examples</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=A_note_on_Dhuhr&amp;oldid=39" title="A note on Dhuhr">20:41, 4 March 2009</a> (<a href="/w/index.php?title=A_note_on_Dhuhr&amp;diff=prev&amp;oldid=39" title="A note on Dhuhr">diff</a> | <a href="/w/index.php?title=A_note_on_Dhuhr&amp;action=history" title="A note on Dhuhr">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/A_note_on_Dhuhr" title="A note on Dhuhr">A note on Dhuhr</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=38" title="Code Manual">08:30, 3 March 2009</a> (<a href="/w/index.php?title=Code_Manual&amp;diff=prev&amp;oldid=38" title="Code Manual">diff</a> | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Code_Manual#Download_and_Examples" title="Code Manual">→</a>Download and Examples</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=37" title="Code Manual">08:27, 3 March 2009</a> (<a href="/w/index.php?title=Code_Manual&amp;diff=prev&amp;oldid=37" title="Code Manual">diff</a> | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=36" title="Code Manual">08:23, 3 March 2009</a> (<a href="/w/index.php?title=Code_Manual&amp;diff=prev&amp;oldid=36" title="Code Manual">diff</a> | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Code_Manual#Download_and_Examples" title="Code Manual">→</a>Download and Examples</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=35" title="Prayer Times Calculation">08:04, 3 March 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=35" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Prayer_Times_Calculation#Zuhr" title="Prayer Times Calculation">→</a>Zuhr</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=A_note_on_Dhuhr&amp;oldid=34" title="A note on Dhuhr">07:56, 3 March 2009</a> (<a href="/w/index.php?title=A_note_on_Dhuhr&amp;diff=prev&amp;oldid=34" title="A note on Dhuhr">diff</a> | <a href="/w/index.php?title=A_note_on_Dhuhr&amp;action=history" title="A note on Dhuhr">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/A_note_on_Dhuhr" title="A note on Dhuhr">A note on Dhuhr</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=A_note_on_Dhuhr&amp;oldid=33" title="A note on Dhuhr">07:52, 3 March 2009</a> (<a href="/w/index.php?title=A_note_on_Dhuhr&amp;diff=prev&amp;oldid=33" title="A note on Dhuhr">diff</a> | <a href="/w/index.php?title=A_note_on_Dhuhr&amp;action=history" title="A note on Dhuhr">hist</a>)  <a href="/wiki/A_note_on_Dhuhr" title="A note on Dhuhr">A note on Dhuhr</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=A_note_on_Dhuhr&amp;oldid=32" title="A note on Dhuhr">07:35, 3 March 2009</a> (diff | <a href="/w/index.php?title=A_note_on_Dhuhr&amp;action=history" title="A note on Dhuhr">hist</a>) <abbr class="newpage" title="This edit created a new page">N</abbr> <a href="/wiki/A_note_on_Dhuhr" title="A note on Dhuhr">A note on Dhuhr</a> ‎ <span class="comment">(New page: The time for Zuhr has been defined in several ways in the literature:  # When the Sun begins to decline (Zawaal) after reaching its highest point in the sky. # When the shadow of an indica...)</span>  </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=31" title="Prayer Times Calculation">05:34, 3 March 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=31" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Prayer_Times_Calculation#Zuhr" title="Prayer Times Calculation">→</a>Zuhr</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=30" title="Prayer Times Calculation">05:19, 3 March 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=30" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Prayer_Times_Calculation#Sunrise.2FSunset" title="Prayer Times Calculation">→</a>Sunrise/Sunset</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=29" title="Prayer Times Calculation">04:51, 3 March 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=29" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Prayer_Times_Calculation#Fajr_and_Isha" title="Prayer Times Calculation">→</a>Fajr and Isha</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=28" title="Prayer Times Calculation">04:32, 3 March 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=28" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Prayer_Times_Calculation#Definitions" title="Prayer Times Calculation">→</a>Definitions</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=27" title="Prayer Times Calculation">04:26, 3 March 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=27" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>)  <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(change Dhuhr to Zhur)</span>  </li>
+<li class=""><a href="/w/index.php?title=Contact&amp;oldid=26" title="Contact">06:52, 1 March 2009</a> (<a href="/w/index.php?title=Contact&amp;diff=prev&amp;oldid=26" title="Contact">diff</a> | <a href="/w/index.php?title=Contact&amp;action=history" title="Contact">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Contact" title="Contact">Contact</a> ‎ <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/w/index.php?title=Contact&amp;oldid=25" title="Contact">06:47, 1 March 2009</a> (diff | <a href="/w/index.php?title=Contact&amp;action=history" title="Contact">hist</a>) <abbr class="newpage" title="This edit created a new page">N</abbr><abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Contact" title="Contact">Contact</a> ‎ <span class="comment">(New page: &lt;iframe&gt;  width=100% http://praytimes.org/php/contact/ height=400px name=frame &lt;/iframe&gt;)</span>  </li>
+<li class=""><a href="/w/index.php?title=MediaWiki:Sidebar&amp;oldid=24" title="MediaWiki:Sidebar">08:25, 27 February 2009</a> (<a href="/w/index.php?title=MediaWiki:Sidebar&amp;diff=prev&amp;oldid=24" title="MediaWiki:Sidebar">diff</a> | <a href="/w/index.php?title=MediaWiki:Sidebar&amp;action=history" title="MediaWiki:Sidebar">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/MediaWiki:Sidebar" title="MediaWiki:Sidebar">MediaWiki:Sidebar</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=MediaWiki:Sidebar&amp;oldid=23" title="MediaWiki:Sidebar">08:22, 27 February 2009</a> (<a href="/w/index.php?title=MediaWiki:Sidebar&amp;diff=prev&amp;oldid=23" title="MediaWiki:Sidebar">diff</a> | <a href="/w/index.php?title=MediaWiki:Sidebar&amp;action=history" title="MediaWiki:Sidebar">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/MediaWiki:Sidebar" title="MediaWiki:Sidebar">MediaWiki:Sidebar</a> ‎  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=22" title="Code Manual">07:47, 27 February 2009</a> (<a href="/w/index.php?title=Code_Manual&amp;diff=prev&amp;oldid=22" title="Code Manual">diff</a> | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Code_Manual#Adjusting_Parameters" title="Code Manual">→</a>Adjusting Parameters</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=21" title="Code Manual">07:44, 27 February 2009</a> (<a href="/w/index.php?title=Code_Manual&amp;diff=prev&amp;oldid=21" title="Code Manual">diff</a> | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Code_Manual#Get_Prayer_Times" title="Code Manual">→</a>Get Prayer Times</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=20" title="Code Manual">07:42, 27 February 2009</a> (<a href="/w/index.php?title=Code_Manual&amp;diff=prev&amp;oldid=20" title="Code Manual">diff</a> | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎ <span class="comment">(<span class="autocomment"><a href="/wiki/Code_Manual#Adjusting_Parameters" title="Code Manual">→</a>Adjusting Parameters</span>)</span>  </li>
+<li class=""><a href="/w/index.php?title=Code_Manual&amp;oldid=19" title="Code Manual">09:02, 26 February 2009</a> (diff | <a href="/w/index.php?title=Code_Manual&amp;action=history" title="Code Manual">hist</a>) <abbr class="newpage" title="This edit created a new page">N</abbr> <a href="/wiki/Code_Manual" title="Code Manual">Code Manual</a> ‎ <span class="comment">(New page: PrayTimes is a small program providing a set of handy functions to calculate prayer times for any date and location, based on a variety of calculation methods currently used in Muslim comm...)</span>  </li>
+<li class=""><a href="/w/index.php?title=Calculation&amp;oldid=18" title="Calculation">08:52, 26 February 2009</a> (diff | <a href="/w/index.php?title=Calculation&amp;action=history" title="Calculation">hist</a>) <abbr class="newpage" title="This edit created a new page">N</abbr> <a href="/w/index.php?title=Calculation&amp;redirect=no" class="mw-redirect" title="Calculation">Calculation</a> ‎ <span class="comment">(<a href="/wiki/Calculation" class="mw-redirect" title="Calculation">Calculation</a> moved to <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> over redirect: Alias)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=17" title="Prayer Times Calculation">08:52, 26 February 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=17" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(<a href="/wiki/Calculation" class="mw-redirect" title="Calculation">Calculation</a> moved to <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> over redirect: Alias)</span>  </li>
+<li class=""><a href="/w/index.php?title=Prayer_Times_Calculation&amp;oldid=15" title="Prayer Times Calculation">08:50, 26 February 2009</a> (<a href="/w/index.php?title=Prayer_Times_Calculation&amp;diff=prev&amp;oldid=15" title="Prayer Times Calculation">diff</a> | <a href="/w/index.php?title=Prayer_Times_Calculation&amp;action=history" title="Prayer Times Calculation">hist</a>) <abbr class="minor" title="This is a minor edit">m</abbr> <a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> ‎ <span class="comment">(<a href="/wiki/Prayer_Times_Calculation" title="Prayer Times Calculation">Prayer Times Calculation</a> moved to <a href="/wiki/Calculation" class="mw-redirect" title="Calculation">Calculation</a>: Alias)</span>  </li>
+</ul>
+<p>(Latest | <a href="/w/index.php?title=Special:Contributions&amp;dir=prev&amp;target=Admin" title="Special:Contributions" rel="last" class="mw-lastlink">Earliest</a>) View (newer 50  |  <a href="/w/index.php?title=Special:Contributions&amp;offset=20090226085029&amp;target=Admin" title="Special:Contributions" rel="next" class="mw-nextlink">older 50</a>) (<a href="/w/index.php?title=Special:Contributions&amp;limit=20&amp;target=Admin" title="Special:Contributions" class="mw-numlink">20</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=50&amp;target=Admin" title="Special:Contributions" class="mw-numlink">50</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=100&amp;target=Admin" title="Special:Contributions" class="mw-numlink">100</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=250&amp;target=Admin" title="Special:Contributions" class="mw-numlink">250</a> | <a href="/w/index.php?title=Special:Contributions&amp;limit=500&amp;target=Admin" title="Special:Contributions" class="mw-numlink">500</a>)</p><div class="printfooter">
+Retrieved from "<a href="http://praytimes.org/wiki/Special:Contributions/Admin">http://praytimes.org/wiki/Special:Contributions/Admin</a>"</div>
+	    <div id="catlinkswrap"><div id='catlinks' class='catlinks catlinks-allhidden'></div></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/w/skins/common/images/wiki.png);"
+	    href="/wiki/Main_Page"
+	    title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-Site'>
+	  <h5>Site</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-Home"><a href="http://praytimes.org/">Home</a></li>
+	     	      <li id="n-Calculation"><a href="http://praytimes.org/calculation">Calculation</a></li>
+	     	      <li id="n-Manual"><a href="http://praytimes.org/manual">Manual</a></li>
+	     	      <li id="n-Code"><a href="http://praytimes.org/code/">Code</a></li>
+	     	      <li id="n-Audio"><a href="http://praytimes.org/audio/">Audio</a></li>
+	     	      <li id="n-About"><a href="http://praytimes.org/about">About</a></li>
+	     	      <li id="n-Contact"><a href="http://praytimes.org/contact">Contact</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/wiki/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Go"
+	        />&nbsp;<input type='submit' name="fulltext"
+	        class="searchButton"
+	        value="Search" />
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		                	      <li id="feedlinks"><span id="feed-atom"><a href="/w/index.php?title=Special:Contributions/Admin&amp;feed=atom&amp;limit=50&amp;target=Admin&amp;year=&amp;month=">Atom</a>&nbsp;</span>
+	        </li>	      	      	      	      	      	      	      	      <li id="t-specialpages"><a href="/wiki/Special:SpecialPages">Special pages</a></li>	      	      	    </ul>
+	  </div>
+	</div>
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-special"
+	       class="selected"	       ><a href="/wiki/Special:Contributions/Admin">Special page</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-anonuserpage"><a href="/wiki/User:77.30.104.229" class="new">77.30.104.229</a></li><li id="pt-anontalk"><a href="/wiki/User_talk:77.30.104.229" class="new">Talk for this IP address</a></li><li id="pt-anonlogin"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Special:Contributions/Admin">Log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<!--
+	-->
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+		<table width = "100%">
+			<tr><td width="5%" align="left" nowrap='nowrap'><div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-nc/3.0/"><img src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" alt="Attribution-NonCommercial 3.0 Unported" width="88" height="31" /></a></div></td>
+				<td align="center">
+	  Copyright &copy; 2007-2020 <a href="http://PrayTimes.org/">PrayTimes.org</a> -
+	   	  	  	  	  <a href="http://www.ipbwiki.com/forums/index.php?showtopic=403">Skin</a> - 
+	  	  <a href="/wiki/Pray_Times:General_disclaimer" title="Pray Times:General disclaimer">Disclaimers</a> - 	  <a href="/wiki/Pray_Times:About" title="Pray Times:About">About Pray Times</a>	</td>
+			<td width="5%" align="right" nowrap='nowrap'><div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/w/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div></td></tr></table>
+      </div>
+    </div>
+    <!-- Served in 0.125 secs. -->  </body>
+</html>

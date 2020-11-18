@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commit - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commit HEAD</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <span class="cur"><a href="?a=commit&amp;p=PrayTimes&amp;h=HEAD">Commit</a></span> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=HEAD">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=HEAD">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="HEAD" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>All code licences changed to LGPL v3.0</h1>
+
+<table class="commit">
+<tbody>
+<tr>
+	<td>Author</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Author date</td>
+	<td>2012-07-05 10:38:10</td>
+</tr>
+<tr>
+	<td>Author local date</td>
+	<td>2012-07-05 06:38:10 -0400</td>
+</tr>
+<tr>
+	<td>Committer</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Committer date</td>
+	<td>2012-07-05 10:38:10</td>
+</tr>
+<tr>
+	<td>Committer local date</td>
+	<td>2012-07-05 06:38:10 -0400</td>
+</tr>
+<tr>
+	<td>Commit</td>
+	<td>HEAD</td>
+</tr>
+<tr>
+	<td>Tree</td>
+	<td><a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=HEAD">637f054682333b708187333b6a566223af62a6c7</a></td>
+</tr>
+<tr>
+	<td>Parent</td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194">971d9f097150ae5eb5940470fb71c64a70b13194</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="commitmessage"><pre>All code licences changed to LGPL v3.0
+</pre></div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Affected files:</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=69a03c4fc8041faa9e76c67e0836a694a075f60f&amp;f=v1/cpp/prayertimes.cpp">v1/cpp/prayertimes.cpp</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=5f43359fa9a38ac597acdf67a3589bee24fd64f0&amp;f=v1/cpp/prayertimes.hpp">v1/cpp/prayertimes.hpp</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=cff3aa7fbc9ad958c5bfbb12fd64e5e7b9e26fb4&amp;f=v1/csharp/PrayTime.cs">v1/csharp/PrayTime.cs</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=093f77d6cc83b53fb12e9900803d5fa75dacd110&amp;f=v1/java/PrayTime.java">v1/java/PrayTime.java</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=9c3a3bf328670f4fe2f3f29e3c8cca87b2b573fc&amp;f=v1/objc/PrayTime.h">v1/objc/PrayTime.h</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=2a8a62cf2c6622cbe8582a757a2a4487ad7082ea&amp;f=v1/objc/PrayTime.m">v1/objc/PrayTime.m</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=673041d7d7946221d98aa269a73b930ae6ff8468&amp;f=v1/php/PrayTime.php">v1/php/PrayTime.php</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=3bb79fa250d1a1fa3e97924078db7629d9c376dd&amp;f=v1/php/sample.php">v1/php/sample.php</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

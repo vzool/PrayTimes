@@ -1,0 +1,173 @@
+From 17ee68cff3d814bae3fcf7dc55beaf3e49909889 Mon Sep 17 00:00:00 2001
+From: Hamid <admin@praytimes>
+Date: Thu, 5 Jul 2012 06:38:10 -0400
+Subject: [PATCH] All code licences changed to LGPL v3.0
+
+---
+ v1/cpp/prayertimes.cpp | 47 ++++++++++++++++++++++++++++++-----------------
+ v1/cpp/prayertimes.hpp |  2 +-
+ v1/csharp/PrayTime.cs  |  2 +-
+ v1/java/PrayTime.java  |  2 +-
+ v1/objc/PrayTime.h     |  2 +-
+ v1/objc/PrayTime.m     |  2 +-
+ v1/php/PrayTime.php    |  2 +-
+ v1/php/sample.php      |  2 +-
+ 8 files changed, 37 insertions(+), 24 deletions(-)
+
+diff --git a/v1/cpp/prayertimes.cpp b/v1/cpp/prayertimes.cpp
+index 431dfe1..69a03c4 100644
+--- a/v1/cpp/prayertimes.cpp
++++ b/v1/cpp/prayertimes.cpp
+@@ -1,29 +1,42 @@
+-/*-------------------- In the name of God ----------------------*\
+-
++/*-------------------------- In the name of God ----------------------------*\
++ 
+     PrayerTimes 0.3
+     Islamic prayer times calculator
++    Based on PrayTimes 1.1 JavaScript library
++
++----------------------------- Copyright Block --------------------------------
++
++Copyright (C) 2007-2010 PrayTimes.org
++
++Developed By: Mohammad Ebrahim Mohammadi Panah <ebrahim at mohammadi dot ir>
++Based on a JavaScript Code By: Hamid Zarrabi-Zadeh
++
++License: GNU LGPL v3.0
++
++TERMS OF USE:
++    Permission is granted to use this code, with or
++    without modification, in any website or application
++    provided that credit is given to the original work
++    with a link back to PrayTimes.org.
++
++This program is distributed in the hope that it will
++be useful, but WITHOUT ANY WARRANTY.
+ 
+-Developed by:
+-  Mohammad Ebrahim Mohammadi Panah <ebrahim at mohammadi dot ir>
++PLEASE DO NOT REMOVE THIS COPYRIGHT BLOCK.
+ 
+-------------------------------------------------------------------
++------------------------------------------------------------------------------
+ 
+-Copyright 2009, Mohammad Ebrahim Mohammadi Panah
++User's Manual:
++http://praytimes.org/manual
+ 
+-This program is free software; you can redistribute it and/or
+-modify it under the terms of the GNU General Public License
+-as published by the Free Software Foundation; either version 2
+-of the License, or (at your option) any later version.
++Calculating Formulas:
++http://praytimes.org/calculation
+ 
+-This program is distributed in the hope that it will be useful,
+-but WITHOUT ANY WARRANTY; without even the implied warranty of
+-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-GNU General Public License for more details.
++Code Repository:
++http://code.ebrahim.ir/prayertimes/
+ 
+-You can get a copy of the GNU General Public License from
+-http://www.gnu.org/copyleft/gpl.html
++\*--------------------------------------------------------------------------*/
+ 
+-\*--------------------------------------------------------------*/
+ 
+ #include <ctime>
+ #include <cmath>
+diff --git a/v1/cpp/prayertimes.hpp b/v1/cpp/prayertimes.hpp
+index ac0fcdf..5f43359 100644
+--- a/v1/cpp/prayertimes.hpp
++++ b/v1/cpp/prayertimes.hpp
+@@ -11,7 +11,7 @@ Copyright (C) 2007-2010 PrayTimes.org
+ Developed By: Mohammad Ebrahim Mohammadi Panah <ebrahim at mohammadi dot ir>
+ Based on a JavaScript Code By: Hamid Zarrabi-Zadeh
+ 
+-License: GNU General Public License, ver 3
++License: GNU LGPL v3.0
+ 
+ TERMS OF USE:
+     Permission is granted to use this code, with or
+diff --git a/v1/csharp/PrayTime.cs b/v1/csharp/PrayTime.cs
+index c8fc4c6..cff3aa7 100644
+--- a/v1/csharp/PrayTime.cs
++++ b/v1/csharp/PrayTime.cs
+@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org
+ C# Code By: Jandost Khoso
+ Original JS Code By: Hamid Zarrabi-Zadeh
+ 
+-License: GNU General Public License, ver 3
++License: GNU LGPL v3.0
+ 
+ TERMS OF USE:
+ 	Permission is granted to use this code, with or 
+diff --git a/v1/java/PrayTime.java b/v1/java/PrayTime.java
+index 25cce82..093f77d 100644
+--- a/v1/java/PrayTime.java
++++ b/v1/java/PrayTime.java
+@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org
+ Java Code By: Hussain Ali Khan
+ Original JS Code By: Hamid Zarrabi-Zadeh
+ 
+-License: GNU General Public License, ver 3
++License: GNU LGPL v3.0
+ 
+ TERMS OF USE:
+ 	Permission is granted to use this code, with or 
+diff --git a/v1/objc/PrayTime.h b/v1/objc/PrayTime.h
+index 7d5d875..9c3a3bf 100644
+--- a/v1/objc/PrayTime.h
++++ b/v1/objc/PrayTime.h
+@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org
+ Objective C Code By: Hussain Ali Khan
+ Original JS Code By: Hamid Zarrabi-Zadeh
+ 
+-License: GNU General Public License, ver 3
++License: GNU LGPL v3.0
+ 
+ TERMS OF USE:
+ 	Permission is granted to use this code, with or 
+diff --git a/v1/objc/PrayTime.m b/v1/objc/PrayTime.m
+index 0474428..2a8a62c 100644
+--- a/v1/objc/PrayTime.m
++++ b/v1/objc/PrayTime.m
+@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org
+ Objective C Code By: Hussain Ali Khan
+ Original JS Code By: Hamid Zarrabi-Zadeh
+ 
+-License: GNU General Public License, ver 3
++License: GNU LGPL v3.0
+ 
+ TERMS OF USE:
+ 	Permission is granted to use this code, with or 
+diff --git a/v1/php/PrayTime.php b/v1/php/PrayTime.php
+index 91c59f0..673041d 100644
+--- a/v1/php/PrayTime.php
++++ b/v1/php/PrayTime.php
+@@ -7,7 +7,7 @@ PrayTime.php: Prayer Times Calculator (ver 1.2.2)
+ Copyright (C) 2007-2010 PrayTimes.org
+ 
+ Developer: Hamid Zarrabi-Zadeh
+-License: GNU General Public License, ver 3
++License: GNU LGPL v3.0
+ 
+ TERMS OF USE:
+     Permission is granted to use this code, with or
+diff --git a/v1/php/sample.php b/v1/php/sample.php
+index 2174353..3bb79fa 100644
+--- a/v1/php/sample.php
++++ b/v1/php/sample.php
+@@ -1,6 +1,6 @@
+ <?php
+ 	
+-	// Prayer Time Calculator
++	// Prayer Times Calculator, Sample Usage
+ 	// By: Hamid Zarrabi-Zadeh
+ 	// Inputs : $method, $year, $latitude, $longitude, $timeZone
+ 	
+-- 
+1.7.12.4
+

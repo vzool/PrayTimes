@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Shortlog - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Shortlog</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <span class="cur"><a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a></span> | <a href="?a=commit&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commit</a> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="17ee68cff3d814bae3fcf7dc55beaf3e49909889" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1><a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a></h1>
+
+<table class="shortlog">
+<thead>
+<tr>
+	<th class="date">Date</th>
+	<th class="author">Author</th>
+	<th class="message">Message</th>
+	<th class="actions">Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+	<td>12-07-05 10:38</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">All code licences changed to LGPL v3.0</a><span class="label head" title="heads/master">master</span></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="even">
+	<td>11-04-17 05:48</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194">v2.3: Fixed midinght for Jafari method</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=f109b49bfe8d8ca0b89f7f0c493a0c236e447c27&amp;hb=971d9f097150ae5eb5940470fb71c64a70b13194" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=f109b49bfe8d8ca0b89f7f0c493a0c236e447c27&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=f109b49bfe8d8ca0b89f7f0c493a0c236e447c27&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=971d9f097150ae5eb5940470fb71c64a70b13194" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="odd">
+	<td>11-03-17 05:50</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">v2.2: Auto TimeZone and DST detection added</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=2c00898ae20a544862059bca1e82e6842c48be86&amp;hb=c36f21f22ab69bdc840751846a2f0aa9a2195cb4" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=2c00898ae20a544862059bca1e82e6842c48be86&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=2c00898ae20a544862059bca1e82e6842c48be86&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="even">
+	<td>11-03-14 07:34</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22">C++ code v1.0 added</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=2e5a0e394ef7d317fad1efb5928b87d5a5a194c1&amp;hb=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=2e5a0e394ef7d317fad1efb5928b87d5a5a194c1&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=2e5a0e394ef7d317fad1efb5928b87d5a5a194c1&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=83794f8a92f653d9df2f6c6b9eabed8eb7cd1b22" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="odd">
+	<td>11-02-20 05:09</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=971b0fa43c25bf661b4775dcbafc4a893a96d8ad">Python v2.1 added</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=971b0fa43c25bf661b4775dcbafc4a893a96d8ad" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=035f00cf4630058f3f304a5ae9b98a6e84716b51&amp;hb=971b0fa43c25bf661b4775dcbafc4a893a96d8ad" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=035f00cf4630058f3f304a5ae9b98a6e84716b51&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=035f00cf4630058f3f304a5ae9b98a6e84716b51&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=971b0fa43c25bf661b4775dcbafc4a893a96d8ad" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="even">
+	<td>10-12-08 06:30</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=69e03bfe798d9c00129d6eafbff32ed02d055e12">Small bug fix in php v1</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=69e03bfe798d9c00129d6eafbff32ed02d055e12" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=af74d8914bfea2cc4c63b8030df2b0a685e89315&amp;hb=69e03bfe798d9c00129d6eafbff32ed02d055e12" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=af74d8914bfea2cc4c63b8030df2b0a685e89315&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=af74d8914bfea2cc4c63b8030df2b0a685e89315&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=69e03bfe798d9c00129d6eafbff32ed02d055e12" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="odd">
+	<td>10-11-24 04:37</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">ver 2.1: Licence changed to LGPL v3.0</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="even">
+	<td>10-10-29 05:14</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24">JavaScript ver 2.0 uploaded</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=02dc065d16f8664cd5540825a4232f89d6e7a15d&amp;hb=1c500fff7f21d1993f205d3e36dc17ee56efdf24" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=02dc065d16f8664cd5540825a4232f89d6e7a15d&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=02dc065d16f8664cd5540825a4232f89d6e7a15d&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24" class="patch_link" title="Patch">patch</a></td>
+</tr>
+<tr class="odd">
+	<td>10-10-28 21:15</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a></td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=3e3ae7fe013affaf25ace97b82ef0b55e9da30e4">First Commit</a></td>
+	<td><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=3e3ae7fe013affaf25ace97b82ef0b55e9da30e4" class="cdiff_link" title="Commit Diff">commitdiff</a> <a href="?a=tree&amp;p=PrayTimes&amp;h=aa7c3a08cd7b74865dc71893a5dd510de484347e&amp;hb=3e3ae7fe013affaf25ace97b82ef0b55e9da30e4" class="tree_link" title="Tree">tree</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=aa7c3a08cd7b74865dc71893a5dd510de484347e&amp;t=targz" rel="nofollow" class="tar_link" title="tar/gz">tar/gz</a> <a href="?a=archive&amp;p=PrayTimes&amp;h=aa7c3a08cd7b74865dc71893a5dd510de484347e&amp;t=zip" rel="nofollow" class="zip_link" title="zip">zip</a> <a href="?a=patch&amp;p=PrayTimes&amp;h=3e3ae7fe013affaf25ace97b82ef0b55e9da30e4" class="patch_link" title="Patch">patch</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<p><a href="?a=shortlog&amp;p=PrayTimes&amp;h=HEAD&amp;pg=1">more &raquo;</a></p><div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

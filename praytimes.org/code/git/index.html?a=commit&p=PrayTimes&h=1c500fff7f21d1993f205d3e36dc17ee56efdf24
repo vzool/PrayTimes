@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commit - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commit 1c500f</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <span class="cur"><a href="?a=commit&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24">Commit</a></span> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=02dc065d16f8664cd5540825a4232f89d6e7a15d&amp;hb=1c500fff7f21d1993f205d3e36dc17ee56efdf24">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="1c500fff7f21d1993f205d3e36dc17ee56efdf24" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>JavaScript ver 2.0 uploaded</h1>
+
+<table class="commit">
+<tbody>
+<tr>
+	<td>Author</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Author date</td>
+	<td>2010-10-29 05:14:09</td>
+</tr>
+<tr>
+	<td>Author local date</td>
+	<td>2010-10-29 01:14:09 -0400</td>
+</tr>
+<tr>
+	<td>Committer</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Committer date</td>
+	<td>2010-10-29 05:14:50</td>
+</tr>
+<tr>
+	<td>Committer local date</td>
+	<td>2010-10-29 01:14:50 -0400</td>
+</tr>
+<tr>
+	<td>Commit</td>
+	<td>1c500fff7f21d1993f205d3e36dc17ee56efdf24</td>
+</tr>
+<tr>
+	<td>Tree</td>
+	<td><a href="?a=tree&amp;p=PrayTimes&amp;h=02dc065d16f8664cd5540825a4232f89d6e7a15d&amp;hb=1c500fff7f21d1993f205d3e36dc17ee56efdf24">02dc065d16f8664cd5540825a4232f89d6e7a15d</a></td>
+</tr>
+<tr>
+	<td>Parent</td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=3e3ae7fe013affaf25ace97b82ef0b55e9da30e4">3e3ae7fe013affaf25ace97b82ef0b55e9da30e4</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="commitmessage"><pre>JavaScript ver 2.0 uploaded
+</pre></div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Affected files:</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=d086dd4e20256802cc83d63aaefaa71cd8f1aa14&amp;f=v1/csharp/sample.cs">v1/csharp/sample.cs</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=f6e9f627c9df101cda228d1b5f7dc3014510814e&amp;f=v1/js/examples/monthly.htm">v1/js/examples/monthly.htm</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=213e703df222ef7cb12daca856866a6dd47b2058&amp;f=v1/js/examples/simple.htm">v1/js/examples/simple.htm</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=f1e743475167e028af443f07ab3283645eff7f06&amp;f=v1/js/examples/yearly.htm">v1/js/examples/yearly.htm</a></td><td></td></tr><tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=d4d81d8acd5ed574d249480e79f37df6e33a2ed6&amp;f=v2/js/PrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

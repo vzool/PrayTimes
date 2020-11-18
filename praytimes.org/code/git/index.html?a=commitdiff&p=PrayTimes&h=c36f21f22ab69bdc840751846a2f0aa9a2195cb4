@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commitdiff - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commitdiff c36f21</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">Commit</a> | <span class="cur"><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">Commitdiff</a></span> | <a href="?a=tree&amp;p=PrayTimes&amp;h=2c00898ae20a544862059bca1e82e6842c48be86&amp;hb=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="c36f21f22ab69bdc840751846a2f0aa9a2195cb4" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>v2.2: Auto TimeZone and DST detection added</h1>
+
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2011-03-17 05:50:02]</div>
+
+<div class="commitmessage">
+<pre>
+v2.2: Auto TimeZone and DST detection added
+</pre>
+</div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Filename</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#v2%2Fjs%2FPrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr>
+<tr>
+<td><a href="#v2%2Fjs%2Fexamples%2Fmonthly.htm">v2/js/examples/monthly.htm</a></td><td></td></tr>
+<tr>
+<td><a href="#v2%2Fjs%2Fexamples%2Fsimple.htm">v2/js/examples/simple.htm</a></td><td></td></tr>
+<tr>
+<td><a href="#v2%2Fjs%2Fexamples%2Fyearly.htm">v2/js/examples/yearly.htm</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="diff">
+<pre>
+<span class="diffline"><a name="v2%2Fjs%2FPrayTimes.js">diff --git a/v2/js/PrayTimes.js b/v2/js/PrayTimes.js</a></span>
+<span class="etc">index 2481924..ca4429a 100644</span>
+<span class="del">--- a/v2/js/PrayTimes.js</span>
+<span class="add">+++ b/v2/js/PrayTimes.js</span>
+<span class="pos">@@ -1,7 +1,7 @@</span>
+<span class="etc"> //--------------------- Copyright Block ----------------------</span>
+<span class="etc"> /*</span>
+<span class="etc">
+<span class="del">-PrayTimes.js: Prayer Times Calculator (ver 2.1)</span></span>
+<span class="add">+PrayTimes.js: Prayer Times Calculator (ver 2.2)</span>
+<span class="etc"> Copyright (C) 2007-2011 PrayTimes.org</span>
+<span class="etc">
+ Developer: Hamid Zarrabi-Zadeh</span>
+<span class="pos">@@ -35,7 +35,7 @@ http://praytimes.org/calculation</span>
+<span class="etc"> //------------------------ User Interface -------------------------</span>
+<span class="etc">
+</span><span class="etc">
+<span class="del">-	getTimes (date, coordinates, timeZone [, dst [, timeFormat]])</span></span>
+<span class="add">+	getTimes (date, coordinates [, timeZone [, dst [, timeFormat]]])</span>
+<span class="etc">
+ 	setMethod (method)       // set calculation method</span>
+<span class="etc"> 	adjust (parameters)      // adjust calculation parameters</span>
+<span class="pos">@@ -247,7 +247,11 @@ function PrayTimes(method) {</span>
+<span class="etc"> 		timeFormat = format || timeFormat;</span>
+<span class="etc"> 		if (date.constructor === Date)</span>
+<span class="etc"> 			date = [date.getFullYear(), date.getMonth()+ 1, date.getDate()];</span>
+<span class="del">-		timeZone = 1* timezone+ (dst ? 1 : 0);</span>
+<span class="add">+		if (typeof(timezone) == 'undefined' || timezone == 'auto')</span>
+<span class="add">+			timezone = this.getTimeZone(date);</span>
+<span class="add">+		if (typeof(dst) == 'undefined' || dst == 'auto')</span>
+<span class="add">+			dst = this.getDst(date);</span>
+<span class="add">+		timeZone = 1* timezone+ (1* dst ? 1 : 0);</span>
+<span class="etc"> 		jDate = this.julian(date[0], date[1], date[2])- lng/ (15* 24);</span>
+<span class="etc">
+ 		return this.computeTimes();</span>
+<span class="pos">@@ -447,6 +451,7 @@ function PrayTimes(method) {</span>
+<span class="etc"> 		return times;</span>
+<span class="etc"> 	},</span>
+<span class="etc">
+<span class="add">+</span></span>
+<span class="etc"> 	// adjust a time for higher latitudes</span>
+<span class="etc"> 	adjustHLTime: function(time, base, angle, night, direction) {</span>
+<span class="etc"> 		var portion = this.nightPortion(angle, night);</span>
+<span class="pos">@@ -458,6 +463,7 @@ function PrayTimes(method) {</span>
+<span class="etc"> 		return time;</span>
+<span class="etc"> 	},</span>
+<span class="etc">
+<span class="add">+</span></span>
+<span class="etc"> 	// the night portion used for adjusting times in higher latitudes</span>
+<span class="etc"> 	nightPortion: function(angle, night) {</span>
+<span class="etc"> 		var method = setting.highLats;</span>
+<span class="pos">@@ -478,9 +484,35 @@ function PrayTimes(method) {</span>
+<span class="etc"> 	},</span>
+<span class="etc">
+</span><span class="etc">
+<span class="add">+	//---------------------- Time Zone Functions -----------------------</span></span>
+<span class="etc">
+<span class="del">-	//---------------------- Misc Functions -----------------------</span></span>
+<span class="etc">
+<span class="add">+	// get local time zone</span></span>
+<span class="add">+	getTimeZone: function(date) {</span>
+<span class="add">+		var year = date[0];</span>
+<span class="add">+		var t1 = this.gmtOffset([year, 0, 1]);</span>
+<span class="add">+		var t2 = this.gmtOffset([year, 6, 1]);</span>
+<span class="add">+		return Math.min(t1, t2);</span>
+<span class="add">+	},</span>
+<span class="add">+</span>
+<span class="add">+</span>
+<span class="add">+	// get daylight saving for a given date</span>
+<span class="add">+	getDst: function(date) {</span>
+<span class="add">+		return 1* (this.gmtOffset(date) != this.getTimeZone(date));</span>
+<span class="add">+	},</span>
+<span class="add">+</span>
+<span class="add">+</span>
+<span class="add">+	// GMT offset for a given date</span>
+<span class="add">+	gmtOffset: function(date) {</span>
+<span class="add">+		var localDate = new Date(date[0], date[1]- 1, date[2], 12, 0, 0, 0);</span>
+<span class="add">+		var GMTString = localDate.toGMTString();</span>
+<span class="add">+		var GMTDate = new Date(GMTString.substring(0, GMTString.lastIndexOf(' ')- 1));</span>
+<span class="add">+		var hoursDiff = (localDate- GMTDate) / (1000* 60* 60);</span>
+<span class="add">+		return hoursDiff;</span>
+<span class="add">+	},</span>
+<span class="add">+</span>
+<span class="add">+</span>
+<span class="add">+	//---------------------- Misc Functions -----------------------</span>
+<span class="etc">
+ 	// convert given string into a number</span>
+<span class="etc"> 	eval: function(str) {</span>
+<span class="diffline"><a name="v2%2Fjs%2Fexamples%2Fmonthly.htm">diff --git a/v2/js/examples/monthly.htm b/v2/js/examples/monthly.htm</a></span>
+<span class="etc">index 8ba7d31..f5ac374 100644</span>
+<span class="del">--- a/v2/js/examples/monthly.htm</span>
+<span class="add">+++ b/v2/js/examples/monthly.htm</span>
+<span class="pos">@@ -1,21 +1,22 @@</span>
+<span class="add">+&lt;!DOCTYPE html&gt;</span>
+<span class="etc"> &lt;html&gt;</span>
+<span class="etc"> &lt;head&gt;</span>
+<span class="del">-&lt;title&gt; Monthly Prayer Timetable &lt;/title&gt;</span>
+<span class="del">-&lt;style&gt;</span>
+<span class="del">-	body, tr, form {font-family: tahoma; font-size: 12px; color: #404040; text-align: center; margin: 0; padding: 0}</span>
+<span class="del">-	pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}</span>
+<span class="del">-	input {font-size: 12px;}</span>
+<span class="del">-	.header {background:#eef; border-bottom: 1px solid #ddd; padding: 7px;}</span>
+<span class="del">-	.caption {font-size: 20px; color: #d95722; text-align: center; width: 10em;}</span>
+<span class="del">-	.arrow {font-weight: bold; text-decoration: none; color: #3D3D3D; }</span>
+<span class="del">-	.arrow:hover {text-decoration: underline;}</span>
+<span class="del">-	.command {font-weight: bold; text-decoration: none; color: #AAAAAA; }</span>
+<span class="del">-	.command:hover {text-decoration: underline;}</span>
+<span class="del">-	.timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; margin: 0 auto;}</span>
+<span class="del">-	.timetable td {border-width: 1px; border-spacing: 1px; padding: 1px; border-style: inset; border-color: #CCCCCC;}</span>
+<span class="del">-	.head-row {color: black; background-color: #eef;}</span>
+<span class="del">-	.today-row {background-color: #F8F7F4; color: black}</span>
+<span class="del">-&lt;/style&gt;</span>
+<span class="add">+	&lt;title&gt; Monthly Prayer Timetable &lt;/title&gt;</span>
+<span class="add">+	&lt;style&gt;</span>
+<span class="add">+		body, tr, form {font-family: tahoma; font-size: 12px; color: #404040; text-align: center; margin: 0; padding: 0}</span>
+<span class="add">+		pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}</span>
+<span class="add">+		input {font-size: 12px;}</span>
+<span class="add">+		.header {background:#eef; border-bottom: 1px solid #ddd; padding: 7px;}</span>
+<span class="add">+		.caption {font-size: 20px; color: #d95722; text-align: center; width: 10em;}</span>
+<span class="add">+		.arrow {font-weight: bold; text-decoration: none; color: #3D3D3D; }</span>
+<span class="add">+		.arrow:hover {text-decoration: underline;}</span>
+<span class="add">+		.command {font-weight: bold; text-decoration: none; color: #AAAAAA; }</span>
+<span class="add">+		.command:hover {text-decoration: underline;}</span>
+<span class="add">+		.timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; margin: 0 auto;}</span>
+<span class="add">+		.timetable td {border-width: 1px; border-spacing: 1px; padding: 1px; border-style: inset; border-color: #CCCCCC;}</span>
+<span class="add">+		.head-row {color: black; background-color: #eef;}</span>
+<span class="add">+		.today-row {background-color: #F8F7F4; color: black}</span>
+<span class="add">+	&lt;/style&gt;</span>
+<span class="etc"> &lt;/head&gt;</span>
+<span class="etc">
+ &lt;body&gt;</span>
+<span class="pos">@@ -24,13 +25,19 @@</span>
+<span class="etc">
+ &lt;div class="header"&gt;</span>
+<span class="etc"> &lt;form class="form" action="javascript:update();"&gt;</span>
+<span class="del">-	Latitude: &lt;input type="text" value="43" id="latitude" size="2" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="del">-	Longitude: &lt;input type="text" value="-80" id="longitude" size="2" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="del">-	Time Zone: &lt;input type="text" value="-5" id="timezone" size="2" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="add">+	Latitude: &lt;input type="text" value="43" id="latitude" size="2" onchange="update();" /&gt;&amp;nbsp;</span>
+<span class="add">+	Longitude: &lt;input type="text" value="-80" id="longitude" size="2" onchange="update();" /&gt;&amp;nbsp;</span>
+<span class="add">+	Time Zone: &lt;input type="text" value="-5" id="timezone" size="2" onchange="update();" /&gt;&amp;nbsp;</span>
+<span class="add">+	DST:</span>
+<span class="add">+	&lt;select id="dst" size="1" style="font-size: 12px;" onchange="update()"&gt;</span>
+<span class="add">+		&lt;option value="auto" selected="selected"&gt;Auto&lt;/option&gt;</span>
+<span class="add">+		&lt;option value="0"&gt;0&lt;/option&gt;</span>
+<span class="add">+		&lt;option value="1"&gt;1&lt;/option&gt;</span>
+<span class="add">+    &lt;/select&gt;&amp;nbsp;</span>
+<span class="etc"> 	Method:</span>
+<span class="etc"> 	&lt;select id="method" size="1" style="font-size: 12px;" onchange="update()"&gt;</span>
+<span class="del">-		&lt;option value="MWL"&gt;Muslim World League (MWL)&lt;/option&gt;</span>
+<span class="del">-		&lt;option value="ISNA" selected="selected"&gt;Islamic Society of North America (ISNA)&lt;/option&gt;</span>
+<span class="add">+		&lt;option value="MWL" selected="selected"&gt;Muslim World League (MWL)&lt;/option&gt;</span>
+<span class="add">+		&lt;option value="ISNA"&gt;Islamic Society of North America (ISNA)&lt;/option&gt;</span>
+<span class="etc"> 		&lt;option value="Egypt"&gt;Egyptian General Authority of Survey&lt;/option&gt;</span>
+<span class="etc"> 		&lt;option value="Makkah"&gt;Umm al-Qura University, Makkah&lt;/option&gt;</span>
+<span class="etc"> 		&lt;option value="Karachi"&gt;University of Islamic Sciences, Karachi&lt;/option&gt;</span>
+<span class="pos">@@ -70,6 +77,7 @@</span>
+<span class="etc"> 		var lat = $('latitude').value;</span>
+<span class="etc"> 		var lng = $('longitude').value;</span>
+<span class="etc"> 		var timeZone = $('timezone').value;</span>
+<span class="add">+		var dst = $('dst').value;</span>
+<span class="etc"> 		var method = $('method').value;</span>
+<span class="etc">
+ 		prayTimes.setMethod(method);</span>
+<span class="pos">@@ -78,11 +86,11 @@</span>
+<span class="etc"> 		var year = currentDate.getFullYear();</span>
+<span class="etc"> 		var title = monthFullName(month)+ ' '+ year;</span>
+<span class="etc"> 		$('table-title').innerHTML = title;</span>
+<span class="del">-		makeTable(year, month, lat, lng, timeZone);</span>
+<span class="add">+		makeTable(year, month, lat, lng, timeZone, dst);</span>
+<span class="etc"> 	}</span>
+<span class="etc">
+ 	// make monthly timetable</span>
+<span class="del">-	function makeTable(year, month, lat, lng, timeZone) {</span>
+<span class="add">+	function makeTable(year, month, lat, lng, timeZone, dst) {</span>
+<span class="etc"> 		var items = {day: 'Day', fajr: 'Fajr', sunrise: 'Sunrise',</span>
+<span class="etc"> 					dhuhr: 'Dhuhr', asr: 'Asr', // sunset: 'Sunset',</span>
+<span class="etc"> 					maghrib: 'Maghrib', isha: 'Isha'};</span>
+<span class="pos">@@ -95,7 +103,7 @@</span>
+<span class="etc"> 		var format = timeFormat ? '12hNS' : '24h';</span>
+<span class="etc">
+ 		while (date &lt; endDate) {</span>
+<span class="del">-			var times = prayTimes.getTimes(date, [lat, lng], timeZone, 0, format);</span>
+<span class="add">+			var times = prayTimes.getTimes(date, [lat, lng], timeZone, dst, format);</span>
+<span class="etc"> 			times.day = date.getDate();</span>
+<span class="etc"> 			var today = new Date();</span>
+<span class="etc"> 			var isToday = (date.getMonth() == today.getMonth()) &amp;&amp; (date.getDate() == today.getDate());</span>
+<span class="diffline"><a name="v2%2Fjs%2Fexamples%2Fsimple.htm">diff --git a/v2/js/examples/simple.htm b/v2/js/examples/simple.htm</a></span>
+<span class="etc">index 48b25a2..a28f614 100644</span>
+<span class="del">--- a/v2/js/examples/simple.htm</span>
+<span class="add">+++ b/v2/js/examples/simple.htm</span>
+<span class="pos">@@ -1,12 +1,13 @@</span>
+<span class="add">+&lt;!DOCTYPE html&gt;</span>
+<span class="etc"> &lt;html&gt;</span>
+<span class="etc"> &lt;head&gt;</span>
+<span class="del">-&lt;title&gt; Daily Prayer Timetable &lt;/title&gt;</span>
+<span class="del">-&lt;style&gt;</span>
+<span class="del">-	body, td, th {font-family: verdana; font-size: 12px; color: #404040;}</span>
+<span class="del">-	#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; width: 9em;}</span>
+<span class="del">-	#timetable td, #timetable th {border-width: 1px; border-spacing: 1px; padding: 2px 4px; border-style: inset; border-color: #CCCCCC;}</span>
+<span class="del">-	#timetable th {color:black; text-align: center; font-weight: bold; background-color: #F8F7F4;}</span>
+<span class="del">-&lt;/style&gt;</span>
+<span class="add">+	&lt;title&gt; Daily Prayer Timetable &lt;/title&gt;</span>
+<span class="add">+	&lt;style&gt;</span>
+<span class="add">+		body, td, th {font-family: verdana; font-size: 12px; color: #404040;}</span>
+<span class="add">+		#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; width: 9em;}</span>
+<span class="add">+		#timetable td, #timetable th {border-width: 1px; border-spacing: 1px; padding: 2px 4px; border-style: inset; border-color: #CCCCCC;}</span>
+<span class="add">+		#timetable th {color:black; text-align: center; font-weight: bold; background-color: #F8F7F4;}</span>
+<span class="add">+	&lt;/style&gt;</span>
+<span class="etc"> &lt;/head&gt;</span>
+<span class="etc">
+ &lt;body&gt;</span>
+<span class="diffline"><a name="v2%2Fjs%2Fexamples%2Fyearly.htm">diff --git a/v2/js/examples/yearly.htm b/v2/js/examples/yearly.htm</a></span>
+<span class="etc">index 80e4717..359ca8f 100644</span>
+<span class="del">--- a/v2/js/examples/yearly.htm</span>
+<span class="add">+++ b/v2/js/examples/yearly.htm</span>
+<span class="pos">@@ -1,11 +1,12 @@</span>
+<span class="add">+&lt;!DOCTYPE html&gt;</span>
+<span class="etc"> &lt;html&gt;</span>
+<span class="etc"> &lt;head&gt;</span>
+<span class="del">-&lt;title&gt; Yearly Prayer Timetable &lt;/title&gt;</span>
+<span class="del">-&lt;style&gt;</span>
+<span class="del">-	body, form {font-family: tahoma; font-size: 12px; color: #404040; text-align: center; margin: 0; padding: 0}</span>
+<span class="del">-	pre {font-family: courier, serif, size: 10pt; margin: 0px auto;}</span>
+<span class="del">-	.header {background:#eef; border-bottom: 1px solid #ddd; padding: 7px;}</span>
+<span class="del">-&lt;/style&gt;</span>
+<span class="add">+	&lt;title&gt; Yearly Prayer Timetable &lt;/title&gt;</span>
+<span class="add">+	&lt;style&gt;</span>
+<span class="add">+		body, form {font-family: tahoma; font-size: 12px; color: #404040; text-align: center; margin: 0; padding: 0}</span>
+<span class="add">+		pre {font-family: courier, serif, size: 10pt; margin: 0px auto;}</span>
+<span class="add">+		.header {background:#eef; border-bottom: 1px solid #ddd; padding: 7px;}</span>
+<span class="add">+	&lt;/style&gt;</span>
+<span class="etc"> &lt;/head&gt;</span>
+<span class="etc">
+ &lt;body&gt;</span>
+<span class="pos">@@ -16,8 +17,14 @@</span>
+<span class="etc"> &lt;form class="form" action="javascript:update();"&gt;</span>
+<span class="etc"> 	Latitude: &lt;input type="text" value="43" id="latitude" size="2" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="etc"> 	Longitude: &lt;input type="text" value="-80" id="longitude" size="2" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="add">+	Year: &lt;input type="text" value="2011" id="year" size="4" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="etc"> 	Time Zone: &lt;input type="text" value="-5" id="timezone" size="2" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="del">-	Year: &lt;input type="text" value="2009" id="year" size="4" onchange="update();"&gt;&amp;nbsp;</span>
+<span class="add">+	DST:</span>
+<span class="add">+	&lt;select id="dst" size="1" style="font-size: 12px;" onchange="update()"&gt;</span>
+<span class="add">+		&lt;option value="auto" selected="selected"&gt;Auto&lt;/option&gt;</span>
+<span class="add">+		&lt;option value="0"&gt;0&lt;/option&gt;</span>
+<span class="add">+		&lt;option value="1"&gt;1&lt;/option&gt;</span>
+<span class="add">+    &lt;/select&gt;&amp;nbsp;</span>
+<span class="etc"> 	Method:</span>
+<span class="etc"> 	&lt;select id="method" size="1" style="font-size: 12px;" onchange="update()"&gt;</span>
+<span class="etc"> 		&lt;option value="MWL"&gt;Muslim World League (MWL)&lt;/option&gt;</span>
+<span class="pos">@@ -48,20 +55,23 @@</span>
+<span class="etc">
+ &lt;script type="text/javascript"&gt;</span>
+<span class="etc">
+<span class="add">+	var date = new Date();</span></span>
+<span class="add">+	$('year').value = date.getFullYear();</span>
+<span class="etc"> 	update();</span>
+<span class="etc">
+ 	function update() {</span>
+<span class="etc"> 		var lat = $('latitude').value;</span>
+<span class="etc"> 		var lng = $('longitude').value;</span>
+<span class="etc"> 		var timeZone = $('timezone').value;</span>
+<span class="add">+		var dst = $('dst').value;</span>
+<span class="etc"> 		var year = $('year').value;</span>
+<span class="etc"> 		var method = $('method').value;</span>
+<span class="del">-		var html = makeTable(method, year, lat, lng, timeZone);</span>
+<span class="add">+		var html = makeTable(method, year, lat, lng, timeZone, dst);</span>
+<span class="etc"> 		$('timetable').innerHTML = '&lt;pre&gt;'+ html+ '&lt;/pre&gt;';</span>
+<span class="etc"> 	}</span>
+<span class="etc">
+</span><span class="etc">
+<span class="del">-	function makeTable(method, year, lat, lng, timeZone) {</span></span>
+<span class="add">+	function makeTable(method, year, lat, lng, timeZone, dst) {</span>
+<span class="etc"> 		var table = '';</span>
+<span class="etc"> 		var monthNames = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May',</span>
+<span class="etc"> 				'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');</span>
+<span class="pos">@@ -72,7 +82,7 @@</span>
+<span class="etc"> 		var output = ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha'];</span>
+<span class="etc">
+ 		while (date &lt; endDate) {</span>
+<span class="del">-			var times = prayTimes.getTimes(date, [lat, lng], timeZone);</span>
+<span class="add">+			var times = prayTimes.getTimes(date, [lat, lng], timeZone, dst);</span>
+<span class="etc"> 			var day = date.getDate();</span>
+<span class="etc"> 			day = (day &lt;10) ? '0'+ day : day;</span>
+<span class="etc"> 			table += monthNames[date.getMonth()]+ ' '+ day+ '\t';</span></pre>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

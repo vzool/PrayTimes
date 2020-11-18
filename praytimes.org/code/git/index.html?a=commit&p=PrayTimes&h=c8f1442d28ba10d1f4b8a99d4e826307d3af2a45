@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commit - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commit c8f144</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <span class="cur"><a href="?a=commit&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commit</a></span> | <a href="?a=commitdiff&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commitdiff</a> | <a href="?a=tree&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="c8f1442d28ba10d1f4b8a99d4e826307d3af2a45" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>ver 2.1: Licence changed to LGPL v3.0</h1>
+
+<table class="commit">
+<tbody>
+<tr>
+	<td>Author</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Author date</td>
+	<td>2010-11-24 04:37:21</td>
+</tr>
+<tr>
+	<td>Author local date</td>
+	<td>2010-11-23 23:37:21 -0500</td>
+</tr>
+<tr>
+	<td>Committer</td>
+	<td><a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> &lt;admin@praytimes&gt;</td>
+</tr>
+<tr>
+	<td>Committer date</td>
+	<td>2010-11-24 04:37:21</td>
+</tr>
+<tr>
+	<td>Committer local date</td>
+	<td>2010-11-23 23:37:21 -0500</td>
+</tr>
+<tr>
+	<td>Commit</td>
+	<td>c8f1442d28ba10d1f4b8a99d4e826307d3af2a45</td>
+</tr>
+<tr>
+	<td>Tree</td>
+	<td><a href="?a=tree&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">1cfe13ad91fd1504eacdce52bc312eb74db5ad99</a></td>
+</tr>
+<tr>
+	<td>Parent</td>
+	<td><a href="?a=commit&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24">1c500fff7f21d1993f205d3e36dc17ee56efdf24</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="commitmessage"><pre>ver 2.1: Licence changed to LGPL v3.0
+</pre></div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Affected files:</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td><a href="?a=viewblob&amp;p=PrayTimes&amp;h=dece204618cc7c640a333e1937e7a487e3d2c03c&amp;f=v2/js/PrayTimes.js">v2/js/PrayTimes.js</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

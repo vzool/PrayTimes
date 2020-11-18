@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>PrayTimes - Commitdiff - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".">Index</a>
+ &raquo; <a href="?a=summary&amp;p=PrayTimes">PrayTimes</a> : Commitdiff 17ee68</div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="?a=summary&amp;p=PrayTimes">Summary</a> | <a href="?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="?a=commit&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commit</a> | <span class="cur"><a href="?a=commitdiff&amp;p=PrayTimes&amp;h=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Commitdiff</a></span> | <a href="?a=tree&amp;p=PrayTimes&amp;h=637f054682333b708187333b6a566223af62a6c7&amp;hb=17ee68cff3d814bae3fcf7dc55beaf3e49909889">Tree</a> | 
+<form action="?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="17ee68cff3d814bae3fcf7dc55beaf3e49909889" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h1>All code licences changed to LGPL v3.0</h1>
+
+<div class="authorinfo">
+<a href="?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2012-07-05 10:38:10]</div>
+
+<div class="commitmessage">
+<pre>
+All code licences changed to LGPL v3.0
+</pre>
+</div>
+
+<div class="filelist">
+<table>
+<thead>
+<tr>
+	<th>Filename</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#v1%2Fcpp%2Fprayertimes.cpp">v1/cpp/prayertimes.cpp</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fcpp%2Fprayertimes.hpp">v1/cpp/prayertimes.hpp</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fcsharp%2FPrayTime.cs">v1/csharp/PrayTime.cs</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fjava%2FPrayTime.java">v1/java/PrayTime.java</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fobjc%2FPrayTime.h">v1/objc/PrayTime.h</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fobjc%2FPrayTime.m">v1/objc/PrayTime.m</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fphp%2FPrayTime.php">v1/php/PrayTime.php</a></td><td></td></tr>
+<tr>
+<td><a href="#v1%2Fphp%2Fsample.php">v1/php/sample.php</a></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="diff">
+<pre>
+<span class="diffline"><a name="v1%2Fcpp%2Fprayertimes.cpp">diff --git a/v1/cpp/prayertimes.cpp b/v1/cpp/prayertimes.cpp</a></span>
+<span class="etc">index 431dfe1..69a03c4 100644</span>
+<span class="del">--- a/v1/cpp/prayertimes.cpp</span>
+<span class="add">+++ b/v1/cpp/prayertimes.cpp</span>
+<span class="pos">@@ -1,29 +1,42 @@</span>
+<span class="del">-/*-------------------- In the name of God ----------------------*\</span>
+<span class="del">-</span>
+<span class="add">+/*-------------------------- In the name of God ----------------------------*\</span>
+<span class="add">+</span>
+<span class="etc">     PrayerTimes 0.3</span>
+<span class="etc">     Islamic prayer times calculator</span>
+<span class="add">+    Based on PrayTimes 1.1 JavaScript library</span>
+<span class="add">+</span>
+<span class="add">+----------------------------- Copyright Block --------------------------------</span>
+<span class="add">+</span>
+<span class="add">+Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="add">+</span>
+<span class="add">+Developed By: Mohammad Ebrahim Mohammadi Panah &lt;ebrahim at mohammadi dot ir&gt;</span>
+<span class="add">+Based on a JavaScript Code By: Hamid Zarrabi-Zadeh</span>
+<span class="add">+</span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="add">+</span>
+<span class="add">+TERMS OF USE:</span>
+<span class="add">+    Permission is granted to use this code, with or</span>
+<span class="add">+    without modification, in any website or application</span>
+<span class="add">+    provided that credit is given to the original work</span>
+<span class="add">+    with a link back to PrayTimes.org.</span>
+<span class="add">+</span>
+<span class="add">+This program is distributed in the hope that it will</span>
+<span class="add">+be useful, but WITHOUT ANY WARRANTY.</span>
+<span class="etc">
+<span class="del">-Developed by:</span></span>
+<span class="del">-  Mohammad Ebrahim Mohammadi Panah &lt;ebrahim at mohammadi dot ir&gt;</span>
+<span class="add">+PLEASE DO NOT REMOVE THIS COPYRIGHT BLOCK.</span>
+<span class="etc">
+<span class="del">-------------------------------------------------------------------</span></span>
+<span class="add">+------------------------------------------------------------------------------</span>
+<span class="etc">
+<span class="del">-Copyright 2009, Mohammad Ebrahim Mohammadi Panah</span></span>
+<span class="add">+User's Manual:</span>
+<span class="add">+http://praytimes.org/manual</span>
+<span class="etc">
+<span class="del">-This program is free software; you can redistribute it and/or</span></span>
+<span class="del">-modify it under the terms of the GNU General Public License</span>
+<span class="del">-as published by the Free Software Foundation; either version 2</span>
+<span class="del">-of the License, or (at your option) any later version.</span>
+<span class="add">+Calculating Formulas:</span>
+<span class="add">+http://praytimes.org/calculation</span>
+<span class="etc">
+<span class="del">-This program is distributed in the hope that it will be useful,</span></span>
+<span class="del">-but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="del">-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="del">-GNU General Public License for more details.</span>
+<span class="add">+Code Repository:</span>
+<span class="add">+http://code.ebrahim.ir/prayertimes/</span>
+<span class="etc">
+<span class="del">-You can get a copy of the GNU General Public License from</span></span>
+<span class="del">-http://www.gnu.org/copyleft/gpl.html</span>
+<span class="add">+\*--------------------------------------------------------------------------*/</span>
+<span class="etc">
+<span class="del">-\*--------------------------------------------------------------*/</span></span>
+<span class="etc">
+ #include &lt;ctime&gt;</span>
+<span class="etc"> #include &lt;cmath&gt;</span>
+<span class="diffline"><a name="v1%2Fcpp%2Fprayertimes.hpp">diff --git a/v1/cpp/prayertimes.hpp b/v1/cpp/prayertimes.hpp</a></span>
+<span class="etc">index ac0fcdf..5f43359 100644</span>
+<span class="del">--- a/v1/cpp/prayertimes.hpp</span>
+<span class="add">+++ b/v1/cpp/prayertimes.hpp</span>
+<span class="pos">@@ -11,7 +11,7 @@ Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc"> Developed By: Mohammad Ebrahim Mohammadi Panah &lt;ebrahim at mohammadi dot ir&gt;</span>
+<span class="etc"> Based on a JavaScript Code By: Hamid Zarrabi-Zadeh</span>
+<span class="etc">
+<span class="del">-License: GNU General Public License, ver 3</span></span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="etc">     Permission is granted to use this code, with or</span>
+<span class="diffline"><a name="v1%2Fcsharp%2FPrayTime.cs">diff --git a/v1/csharp/PrayTime.cs b/v1/csharp/PrayTime.cs</a></span>
+<span class="etc">index c8fc4c6..cff3aa7 100644</span>
+<span class="del">--- a/v1/csharp/PrayTime.cs</span>
+<span class="add">+++ b/v1/csharp/PrayTime.cs</span>
+<span class="pos">@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc"> C# Code By: Jandost Khoso</span>
+<span class="etc"> Original JS Code By: Hamid Zarrabi-Zadeh</span>
+<span class="etc">
+<span class="del">-License: GNU General Public License, ver 3</span></span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="etc"> 	Permission is granted to use this code, with or</span>
+<span class="diffline"><a name="v1%2Fjava%2FPrayTime.java">diff --git a/v1/java/PrayTime.java b/v1/java/PrayTime.java</a></span>
+<span class="etc">index 25cce82..093f77d 100644</span>
+<span class="del">--- a/v1/java/PrayTime.java</span>
+<span class="add">+++ b/v1/java/PrayTime.java</span>
+<span class="pos">@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc"> Java Code By: Hussain Ali Khan</span>
+<span class="etc"> Original JS Code By: Hamid Zarrabi-Zadeh</span>
+<span class="etc">
+<span class="del">-License: GNU General Public License, ver 3</span></span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="etc"> 	Permission is granted to use this code, with or</span>
+<span class="diffline"><a name="v1%2Fobjc%2FPrayTime.h">diff --git a/v1/objc/PrayTime.h b/v1/objc/PrayTime.h</a></span>
+<span class="etc">index 7d5d875..9c3a3bf 100644</span>
+<span class="del">--- a/v1/objc/PrayTime.h</span>
+<span class="add">+++ b/v1/objc/PrayTime.h</span>
+<span class="pos">@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc"> Objective C Code By: Hussain Ali Khan</span>
+<span class="etc"> Original JS Code By: Hamid Zarrabi-Zadeh</span>
+<span class="etc">
+<span class="del">-License: GNU General Public License, ver 3</span></span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="etc"> 	Permission is granted to use this code, with or</span>
+<span class="diffline"><a name="v1%2Fobjc%2FPrayTime.m">diff --git a/v1/objc/PrayTime.m b/v1/objc/PrayTime.m</a></span>
+<span class="etc">index 0474428..2a8a62c 100644</span>
+<span class="del">--- a/v1/objc/PrayTime.m</span>
+<span class="add">+++ b/v1/objc/PrayTime.m</span>
+<span class="pos">@@ -7,7 +7,7 @@ Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc"> Objective C Code By: Hussain Ali Khan</span>
+<span class="etc"> Original JS Code By: Hamid Zarrabi-Zadeh</span>
+<span class="etc">
+<span class="del">-License: GNU General Public License, ver 3</span></span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="etc"> 	Permission is granted to use this code, with or</span>
+<span class="diffline"><a name="v1%2Fphp%2FPrayTime.php">diff --git a/v1/php/PrayTime.php b/v1/php/PrayTime.php</a></span>
+<span class="etc">index 91c59f0..673041d 100644</span>
+<span class="del">--- a/v1/php/PrayTime.php</span>
+<span class="add">+++ b/v1/php/PrayTime.php</span>
+<span class="pos">@@ -7,7 +7,7 @@ PrayTime.php: Prayer Times Calculator (ver 1.2.2)</span>
+<span class="etc"> Copyright (C) 2007-2010 PrayTimes.org</span>
+<span class="etc">
+ Developer: Hamid Zarrabi-Zadeh</span>
+<span class="del">-License: GNU General Public License, ver 3</span>
+<span class="add">+License: GNU LGPL v3.0</span>
+<span class="etc">
+ TERMS OF USE:</span>
+<span class="etc">     Permission is granted to use this code, with or</span>
+<span class="diffline"><a name="v1%2Fphp%2Fsample.php">diff --git a/v1/php/sample.php b/v1/php/sample.php</a></span>
+<span class="etc">index 2174353..3bb79fa 100644</span>
+<span class="del">--- a/v1/php/sample.php</span>
+<span class="add">+++ b/v1/php/sample.php</span>
+<span class="pos">@@ -1,6 +1,6 @@</span>
+<span class="etc"> &lt;?php</span>
+<span class="etc">
+<span class="del">-	// Prayer Time Calculator</span></span>
+<span class="add">+	// Prayer Times Calculator, Sample Usage</span>
+<span class="etc"> 	// By: Hamid Zarrabi-Zadeh</span>
+<span class="etc"> 	// Inputs : $method, $year, $latitude, $longitude, $timeZone</span>
+</pre>
+</div>
+
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+</html>

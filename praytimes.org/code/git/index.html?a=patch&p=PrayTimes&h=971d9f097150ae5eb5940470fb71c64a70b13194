@@ -1,0 +1,85 @@
+From 971d9f097150ae5eb5940470fb71c64a70b13194 Mon Sep 17 00:00:00 2001
+From: Hamid <admin@praytimes>
+Date: Sun, 17 Apr 2011 01:48:00 -0400
+Subject: [PATCH] v2.3: Fixed midinght for Jafari method
+
+---
+ v2/js/PrayTimes.js     | 10 +++++-----
+ v2/python/praytimes.py |  6 +++---
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/v2/js/PrayTimes.js b/v2/js/PrayTimes.js
+index ca4429a..ab1c603 100644
+--- a/v2/js/PrayTimes.js
++++ b/v2/js/PrayTimes.js
+@@ -1,7 +1,7 @@
+ //--------------------- Copyright Block ----------------------
+ /* 
+ 
+-PrayTimes.js: Prayer Times Calculator (ver 2.2)
++PrayTimes.js: Prayer Times Calculator (ver 2.3)
+ Copyright (C) 2007-2011 PrayTimes.org
+ 
+ Developer: Hamid Zarrabi-Zadeh
+@@ -126,7 +126,7 @@ function PrayTimes(method) {
+ 	// Midnight Mode
+ 	midnightMethods = [ 
+ 		'Standard',    // Mid Sunset to Sunrise
+-		'Jafari'       // Mid Maghrib to Fajr
++		'Jafari'       // Mid Sunset to Fajr
+ 	],
+ 
+ 
+@@ -269,8 +269,8 @@ function PrayTimes(method) {
+ 		var hours = Math.floor(time); 
+ 		var minutes = Math.floor((time- hours)* 60);
+ 		var suffix = (format == '12h') ? suffixes[hours < 12 ? 0 : 1] : '';
+-		hours = (format == '24h') ? this.twoDigitsFormat(hours) : ((hours+ 12 -1)% 12+ 1);
+-		return hours+ ':'+ this.twoDigitsFormat(minutes)+ (suffix ? ' '+ suffix : '');
++		var hour = (format == '24h') ? this.twoDigitsFormat(hours) : ((hours+ 12 -1)% 12+ 1);
++		return hour+ ':'+ this.twoDigitsFormat(minutes)+ (suffix ? ' '+ suffix : '');
+ 	},
+ 
+ 
+@@ -377,7 +377,7 @@ function PrayTimes(method) {
+ 		
+ 		// add midnight time
+ 		times.midnight = (setting.midnight == 'Jafari') ? 
+-				times.maghrib+ this.timeDiff(times.maghrib, times.fajr)/ 2 :
++				times.sunset+ this.timeDiff(times.sunset, times.fajr)/ 2 :
+ 				times.sunset+ this.timeDiff(times.sunset, times.sunrise)/ 2;
+ 
+ 		times = this.tuneTimes(times);
+diff --git a/v2/python/praytimes.py b/v2/python/praytimes.py
+index 10a1170..ce20d8c 100644
+--- a/v2/python/praytimes.py
++++ b/v2/python/praytimes.py
+@@ -7,7 +7,7 @@ import re
+ '''
+ --------------------- Copyright Block ----------------------
+ 
+-praytimes.py: Prayer Times Calculator (ver 2.1)
++praytimes.py: Prayer Times Calculator (ver 2.3)
+ Copyright (C) 2007-2011 PrayTimes.org
+ 
+ Python Code: Saleem Shafi, Hamid Zarrabi-Zadeh
+@@ -291,7 +291,7 @@ class PrayTimes():
+ 		times = self.adjustTimes(times)
+ 		# add midnight time
+ 		if self.settings['midnight'] == 'Jafari':
+-			times['midnight'] = times['maghrib'] + self.timeDiff(times['maghrib'], times['fajr']) / 2
++			times['midnight'] = times['sunset'] + self.timeDiff(times['sunset'], times['fajr']) / 2
+ 		else:
+ 			times['midnight'] = times['sunset'] + self.timeDiff(times['sunset'], times['sunrise']) / 2
+ 
+@@ -428,6 +428,6 @@ if __name__ == "__main__":
+ 	from datetime import date
+ 	print('Prayer Times for today in Waterloo/Canada\n'+ ('='* 41))
+ 	times = prayTimes.getTimes(date.today(), (43, -80), -5);
+-	for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha']:
++	for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight']:
+ 		print(i+ ': '+ times[i.lower()])
+ 
+-- 
+1.7.12.4
+
