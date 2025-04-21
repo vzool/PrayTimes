@@ -1,0 +1,231 @@
+HTTrack3.49-2 launched on Mon, 21 Apr 2025 15:22:56 at praytimes.org
+(httrack -w praytimes.org )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:23:51	Error: 	"Not Found" (404) at link praytimes.org/http (from praytimes.org/)
+15:25:34	Error: 	"Forbidden" (403) at link praytimes.org/audio/ (from praytimes.org/)
+15:25:57	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Main_Page not scanned (follow robots meta tag)
+15:25:57	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Main_Page not scanned (follow robots meta tag)
+15:25:57	Warning: 	Link praytimes.org/wiki/Special:SpecialPages not scanned (follow robots meta tag)
+15:26:00	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Main_Page (from praytimes.org/)
+15:26:00	Warning: 	Link praytimes.org/w/index.php?title=Main_Page&action=edit not scanned (follow robots meta tag)
+15:26:00	Warning: 	Link praytimes.org/w/index.php?title=Main_Page&action=history not scanned (follow robots meta tag)
+15:26:00	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Main_Page not scanned (follow robots meta tag)
+15:26:00	Error: 	"Not Found" (404) at link praytimes.org/wiki/Pray_Times:General_disclaimer (from praytimes.org/)
+15:26:05	Error: 	"Not Found" (404) at link praytimes.org/wiki/Http (from praytimes.org/wiki/Main_Page)
+15:26:06	Error: 	"Not Found" (404) at link praytimes.org/wiki/Masjid-art.jpg (from praytimes.org/wiki/File:Masjid-art.jpg)
+15:26:06	Error: 	"Not Found" (404) at link praytimes.org/wiki/User:Hamid (from praytimes.org/wiki/File:Masjid-art.jpg)
+15:26:06	Error: 	"Not Found" (404) at link praytimes.org/wiki/User_talk:Hamid (from praytimes.org/wiki/File:Masjid-art.jpg)
+15:26:06	Warning: 	Link praytimes.org/wiki/Special:Contributions/Hamid not scanned (follow robots meta tag)
+15:26:06	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/File:Masjid-art.jpg not scanned (follow robots meta tag)
+15:26:06	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/File:Masjid-art.jpg not scanned (follow robots meta tag)
+15:26:08	Error: 	"Not Found" (404) at link praytimes.org/wiki/File_talk:Masjid-art.jpg (from praytimes.org/wiki/File:Masjid-art.jpg)
+15:26:08	Warning: 	Link praytimes.org/w/index.php?title=File:Masjid-art.jpg&action=edit not scanned (follow robots meta tag)
+15:26:08	Warning: 	Link praytimes.org/w/index.php?title=File:Masjid-art.jpg&action=history not scanned (follow robots meta tag)
+15:26:08	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Masjid-art.jpg not scanned (follow robots meta tag)
+15:27:30	Warning: 	Link praytimes.org/wiki/Special:Categories not scanned (follow robots meta tag)
+15:27:40	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Prayer_Times_Calculation not scanned (follow robots meta tag)
+15:27:40	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Prayer_Times_Calculation not scanned (follow robots meta tag)
+15:27:41	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Prayer_Times_Calculation (from praytimes.org/wiki/Prayer_Times_Calculation)
+15:27:41	Warning: 	Link praytimes.org/w/index.php?title=Prayer_Times_Calculation&action=edit not scanned (follow robots meta tag)
+15:27:41	Warning: 	Link praytimes.org/w/index.php?title=Prayer_Times_Calculation&action=history not scanned (follow robots meta tag)
+15:27:41	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Prayer_Times_Calculation not scanned (follow robots meta tag)
+15:28:25	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Code not scanned (follow robots meta tag)
+15:28:26	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Code not scanned (follow robots meta tag)
+15:28:29	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Code (from praytimes.org/wiki/Code)
+15:28:30	Warning: 	Link praytimes.org/w/index.php?title=Code&action=edit not scanned (follow robots meta tag)
+15:28:31	Warning: 	Link praytimes.org/w/index.php?title=Code&action=history not scanned (follow robots meta tag)
+15:28:32	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code not scanned (follow robots meta tag)
+15:28:44	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Code_Manual not scanned (follow robots meta tag)
+15:28:45	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Code_Manual not scanned (follow robots meta tag)
+15:28:48	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Code_Manual (from praytimes.org/wiki/Code_Manual)
+15:28:48	Warning: 	Link praytimes.org/w/index.php?title=Code_Manual&action=edit not scanned (follow robots meta tag)
+15:28:48	Warning: 	Link praytimes.org/w/index.php?title=Code_Manual&action=history not scanned (follow robots meta tag)
+15:28:48	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code_Manual not scanned (follow robots meta tag)
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=praytime.info
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=praytime.info to http://praytime.info
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=islamicstudies.info/prayertime/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=islamicstudies.info/prayertime/ to http://islamicstudies.info/prayertime/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=www.namaz.me/ipa/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=www.namaz.me/ipa/ to http://www.namaz.me/ipa/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=prayertimes.info/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=prayertimes.info/ to http://prayertimes.info/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=ummah.co/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=ummah.co/ to http://ummah.co/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=ghadir.ca/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=ghadir.ca/ to http://ghadir.ca/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=nafsadh.com/waqtscope/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=nafsadh.com/waqtscope/ to http://nafsadh.com/waqtscope/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=hyderi.org.uk/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=hyderi.org.uk/ to http://hyderi.org.uk/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=time.al-shia.ru/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=time.al-shia.ru/ to http://time.al-shia.ru/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=prayer.rbash.info/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=prayer.rbash.info/ to http://prayer.rbash.info/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=www.rakain.com/prayer/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=www.rakain.com/prayer/ to http://www.rakain.com/prayer/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=intime.ir
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=intime.ir to http://intime.ir
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=addons.mozilla.org/en-US/firefox/addon/pray-times/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=addons.mozilla.org/en-US/firefox/addon/pray-times/ to http://addons.mozilla.org/en-US/firefox/addon/pray-times/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=eqibla.com/tools/iphone/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=eqibla.com/tools/iphone/ to http://eqibla.com/tools/iphone/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=sabily.org/website/fr/islam/muezzin-bot.html
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=sabily.org/website/fr/islam/muezzin-bot.html to http://sabily.org/website/fr/islam/muezzin-bot.html
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=itunes.apple.com/sg/app/id356110608
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=itunes.apple.com/sg/app/id356110608 to http://itunes.apple.com/sg/app/id356110608
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=myadhan.com/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=myadhan.com/ to http://myadhan.com/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=itunes.apple.com/sg/app/id439409680
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=itunes.apple.com/sg/app/id439409680 to http://itunes.apple.com/sg/app/id439409680
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=qiblaplus.com/
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=qiblaplus.com/ to http://qiblaplus.com/
+15:28:50	Warning: 	Moved Temporarily for praytimes.org/pub/url/?q=play.google.com/store/apps/details?id=com.smustafa.praytimes
+15:28:50	Warning: 	File has moved from praytimes.org/pub/url/?q=play.google.com/store/apps/details?id=com.smustafa.praytimes to http://play.google.com/store/apps/details?id=com.smustafa.praytimes
+15:28:50	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Who_is_using_PrayTimes not scanned (follow robots meta tag)
+15:28:50	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Who_is_using_PrayTimes not scanned (follow robots meta tag)
+15:28:51	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Who_is_using_PrayTimes (from praytimes.org/wiki/Who_is_using_PrayTimes)
+15:28:51	Warning: 	Link praytimes.org/w/index.php?title=Who_is_using_PrayTimes&action=edit not scanned (follow robots meta tag)
+15:28:51	Warning: 	Link praytimes.org/w/index.php?title=Who_is_using_PrayTimes&action=history not scanned (follow robots meta tag)
+15:28:51	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Who_is_using_PrayTimes not scanned (follow robots meta tag)
+15:28:52	Error: 	"Not Found" (404) at link praytimes.org/wiki/Addon-popup.png (from praytimes.org/wiki/File:Addon-popup.png)
+15:28:52	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/File:Addon-popup.png not scanned (follow robots meta tag)
+15:28:52	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/File:Addon-popup.png not scanned (follow robots meta tag)
+15:28:54	Error: 	"Not Found" (404) at link praytimes.org/wiki/File_talk:Addon-popup.png (from praytimes.org/wiki/File:Addon-popup.png)
+15:28:54	Warning: 	Link praytimes.org/w/index.php?title=File:Addon-popup.png&action=edit not scanned (follow robots meta tag)
+15:28:54	Warning: 	Link praytimes.org/w/index.php?title=File:Addon-popup.png&action=history not scanned (follow robots meta tag)
+15:28:54	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Addon-popup.png not scanned (follow robots meta tag)
+15:28:54	Error: 	"Not Found" (404) at link praytimes.org/code/http (from praytimes.org/code/)
+15:29:07	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/About not scanned (follow robots meta tag)
+15:29:07	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/About not scanned (follow robots meta tag)
+15:29:08	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:About (from praytimes.org/about)
+15:29:08	Warning: 	Link praytimes.org/w/index.php?title=About&action=edit not scanned (follow robots meta tag)
+15:29:08	Warning: 	Link praytimes.org/w/index.php?title=About&action=history not scanned (follow robots meta tag)
+15:29:08	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=About not scanned (follow robots meta tag)
+15:29:11	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Contact not scanned (follow robots meta tag)
+15:29:11	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Contact not scanned (follow robots meta tag)
+15:29:12	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Contact (from praytimes.org/contact)
+15:29:12	Warning: 	Link praytimes.org/w/index.php?title=Contact&action=edit not scanned (follow robots meta tag)
+15:29:12	Warning: 	Link praytimes.org/w/index.php?title=Contact&action=history not scanned (follow robots meta tag)
+15:29:12	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Contact not scanned (follow robots meta tag)
+15:29:12	Error: 	"Not Found" (404) at link praytimes.org/w/http (from praytimes.org/w/index.php?title=Main_Page&printable=yes)
+15:29:12	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Main_Page&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:29:23	Error: 	"Not Found" (404) at link praytimes.org/wiki/User:209.95.51.187 (from praytimes.org/wiki/Pray_Times:About)
+15:29:23	Error: 	"Not Found" (404) at link praytimes.org/wiki/User_talk:209.95.51.187 (from praytimes.org/wiki/Pray_Times:About)
+15:29:23	Error: 	"Not Found" (404) at link praytimes.org/w/Masjid-art.jpg (from praytimes.org/w/index.php?title=File:Masjid-art.jpg&printable=yes)
+15:29:23	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Masjid-art.jpg&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:29:24	Error: 	"Not Found" (404) at link praytimes.org/wiki/Equation_of_time.png (from praytimes.org/wiki/File:Equation_of_time.png)
+15:29:24	Error: 	"Not Found" (404) at link praytimes.org/wiki/User:Admin (from praytimes.org/wiki/File:Equation_of_time.png)
+15:29:24	Error: 	"Not Found" (404) at link praytimes.org/wiki/User_talk:Admin (from praytimes.org/wiki/File:Equation_of_time.png)
+15:29:24	Warning: 	Link praytimes.org/wiki/Special:Contributions/Admin not scanned (follow robots meta tag)
+15:29:24	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/File:Equation_of_time.png not scanned (follow robots meta tag)
+15:29:24	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/File:Equation_of_time.png not scanned (follow robots meta tag)
+15:29:26	Error: 	"Not Found" (404) at link praytimes.org/wiki/File_talk:Equation_of_time.png (from praytimes.org/wiki/File:Equation_of_time.png)
+15:29:26	Warning: 	Link praytimes.org/w/index.php?title=File:Equation_of_time.png&action=edit not scanned (follow robots meta tag)
+15:29:26	Warning: 	Link praytimes.org/w/index.php?title=File:Equation_of_time.png&action=history not scanned (follow robots meta tag)
+15:29:26	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Equation_of_time.png not scanned (follow robots meta tag)
+15:29:27	Error: 	"Not Found" (404) at link praytimes.org/wiki/Declination.png (from praytimes.org/wiki/File:Declination.png)
+15:29:27	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/File:Declination.png not scanned (follow robots meta tag)
+15:29:27	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/File:Declination.png not scanned (follow robots meta tag)
+15:29:29	Error: 	"Not Found" (404) at link praytimes.org/wiki/File_talk:Declination.png (from praytimes.org/wiki/File:Declination.png)
+15:29:29	Warning: 	Link praytimes.org/w/index.php?title=File:Declination.png&action=edit not scanned (follow robots meta tag)
+15:29:29	Warning: 	Link praytimes.org/w/index.php?title=File:Declination.png&action=history not scanned (follow robots meta tag)
+15:29:29	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Declination.png not scanned (follow robots meta tag)
+15:29:30	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/A_note_on_Dhuhr not scanned (follow robots meta tag)
+15:29:30	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/A_note_on_Dhuhr not scanned (follow robots meta tag)
+15:29:31	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:A_note_on_Dhuhr (from praytimes.org/wiki/A_note_on_Dhuhr)
+15:29:31	Warning: 	Link praytimes.org/w/index.php?title=A_note_on_Dhuhr&action=edit not scanned (follow robots meta tag)
+15:29:31	Warning: 	Link praytimes.org/w/index.php?title=A_note_on_Dhuhr&action=history not scanned (follow robots meta tag)
+15:29:31	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=A_note_on_Dhuhr not scanned (follow robots meta tag)
+15:29:32	Error: 	"Not Found" (404) at link praytimes.org/wiki/Twilight-formula.gif (from praytimes.org/wiki/File:Twilight-formula.gif)
+15:29:32	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/File:Twilight-formula.gif not scanned (follow robots meta tag)
+15:29:32	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/File:Twilight-formula.gif not scanned (follow robots meta tag)
+15:29:34	Error: 	"Not Found" (404) at link praytimes.org/wiki/File_talk:Twilight-formula.gif (from praytimes.org/wiki/File:Twilight-formula.gif)
+15:29:34	Warning: 	Link praytimes.org/w/index.php?title=File:Twilight-formula.gif&action=edit not scanned (follow robots meta tag)
+15:29:34	Warning: 	Link praytimes.org/w/index.php?title=File:Twilight-formula.gif&action=history not scanned (follow robots meta tag)
+15:29:34	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Twilight-formula.gif not scanned (follow robots meta tag)
+15:29:35	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Calculation_Methods not scanned (follow robots meta tag)
+15:29:35	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Calculation_Methods not scanned (follow robots meta tag)
+15:29:36	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Calculation_Methods (from praytimes.org/wiki/Calculation_Methods)
+15:29:36	Warning: 	Link praytimes.org/w/index.php?title=Calculation_Methods&action=edit not scanned (follow robots meta tag)
+15:29:36	Warning: 	Link praytimes.org/w/index.php?title=Calculation_Methods&action=history not scanned (follow robots meta tag)
+15:29:36	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Calculation_Methods not scanned (follow robots meta tag)
+15:29:37	Error: 	"Not Found" (404) at link praytimes.org/wiki/Asr-formula.gif (from praytimes.org/wiki/File:Asr-formula.gif)
+15:29:37	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/File:Asr-formula.gif not scanned (follow robots meta tag)
+15:29:37	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/File:Asr-formula.gif not scanned (follow robots meta tag)
+15:29:39	Error: 	"Not Found" (404) at link praytimes.org/wiki/File_talk:Asr-formula.gif (from praytimes.org/wiki/File:Asr-formula.gif)
+15:29:39	Warning: 	Link praytimes.org/w/index.php?title=File:Asr-formula.gif&action=edit not scanned (follow robots meta tag)
+15:29:39	Warning: 	Link praytimes.org/w/index.php?title=File:Asr-formula.gif&action=history not scanned (follow robots meta tag)
+15:29:39	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Asr-formula.gif not scanned (follow robots meta tag)
+15:29:40	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Category:Code not scanned (follow robots meta tag)
+15:29:40	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Category:Code not scanned (follow robots meta tag)
+15:29:41	Error: 	"Not Found" (404) at link praytimes.org/wiki/Category_talk:Code (from praytimes.org/wiki/Category:Code)
+15:29:41	Warning: 	Link praytimes.org/w/index.php?title=Category:Code&action=edit not scanned (follow robots meta tag)
+15:29:41	Warning: 	Link praytimes.org/w/index.php?title=Category:Code&action=history not scanned (follow robots meta tag)
+15:29:41	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Category:Code not scanned (follow robots meta tag)
+15:29:41	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Prayer_Times_Calculation&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:30:26	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Code_Manual_(ver_1) not scanned (follow robots meta tag)
+15:30:28	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Code_Manual_(ver_1) not scanned (follow robots meta tag)
+15:30:33	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Code_Manual_(ver_1) (from praytimes.org/wiki/Code_Manual_(ver_1))
+15:30:37	Warning: 	Link praytimes.org/w/index.php?title=Code_Manual_(ver_1)&action=edit not scanned (follow robots meta tag)
+15:30:39	Warning: 	Link praytimes.org/w/index.php?title=Code_Manual_(ver_1)&action=history not scanned (follow robots meta tag)
+15:30:40	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code_Manual_(ver_1) not scanned (follow robots meta tag)
+15:30:44	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Code_ChangeLog not scanned (follow robots meta tag)
+15:30:45	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Code_ChangeLog not scanned (follow robots meta tag)
+15:30:52	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Code_ChangeLog (from praytimes.org/wiki/Code_ChangeLog)
+15:30:53	Warning: 	Link praytimes.org/w/index.php?title=Code_ChangeLog&action=edit not scanned (follow robots meta tag)
+15:30:54	Warning: 	Link praytimes.org/w/index.php?title=Code_ChangeLog&action=history not scanned (follow robots meta tag)
+15:30:55	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code_ChangeLog not scanned (follow robots meta tag)
+15:31:22	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:31:46	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code_Manual&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:31:51	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Who_is_using_PrayTimes&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:31:53	Error: 	"Not Found" (404) at link praytimes.org/w/Addon-popup.png (from praytimes.org/w/index.php?title=File:Addon-popup.png&printable=yes)
+15:31:54	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Addon-popup.png&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:31:57	Error: 	"Not Found" (404) at link praytimes.org/wiki/Icon-48.png (from praytimes.org/wiki/File:Icon-48.png)
+15:31:58	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/File:Icon-48.png not scanned (follow robots meta tag)
+15:31:59	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/File:Icon-48.png not scanned (follow robots meta tag)
+15:32:05	Error: 	"Not Found" (404) at link praytimes.org/wiki/File_talk:Icon-48.png (from praytimes.org/wiki/File:Icon-48.png)
+15:32:06	Warning: 	Link praytimes.org/w/index.php?title=File:Icon-48.png&action=edit not scanned (follow robots meta tag)
+15:32:06	Warning: 	Link praytimes.org/w/index.php?title=File:Icon-48.png&action=history not scanned (follow robots meta tag)
+15:32:06	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Icon-48.png not scanned (follow robots meta tag)
+15:32:06	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=About&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:06	Error: 	"Not Found" (404) at link praytimes.org/images/ajax-loader.gif (from praytimes.org/php/contact/)
+15:32:06	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Contact&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:06	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Pray_Times:About not scanned (follow robots meta tag)
+15:32:06	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Pray_Times:About not scanned (follow robots meta tag)
+15:32:07	Error: 	"Not Found" (404) at link praytimes.org/wiki/Pray_Times_talk:About (from praytimes.org/w/index.php?title=Pray_Times:About&redirect=no)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Pray_Times:About&action=edit not scanned (follow robots meta tag)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Pray_Times:About&action=history not scanned (follow robots meta tag)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Pray_Times:About&returntoquery=redirect%3Dno not scanned (follow robots meta tag)
+15:32:07	Error: 	"Not Found" (404) at link praytimes.org/w/Equation of time.png (from praytimes.org/w/index.php?title=File:Equation_of_time.png&printable=yes)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Equation_of_time.png&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:07	Error: 	"Not Found" (404) at link praytimes.org/w/Declination.png (from praytimes.org/w/index.php?title=File:Declination.png&printable=yes)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Declination.png&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=A_note_on_Dhuhr&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:07	Error: 	"Not Found" (404) at link praytimes.org/w/Twilight-formula.gif (from praytimes.org/w/index.php?title=File:Twilight-formula.gif&printable=yes)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Twilight-formula.gif&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Calculation_Methods&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:07	Error: 	"Not Found" (404) at link praytimes.org/w/Asr-formula.gif (from praytimes.org/w/index.php?title=File:Asr-formula.gif&printable=yes)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Asr-formula.gif&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:32:07	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Category:Code&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:34:47	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code_Manual_(ver_1)&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:34:47	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Code_ChangeLog&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:34:51	Warning: 	Link praytimes.org/wiki/Special:WhatLinksHere/Calculation not scanned (follow robots meta tag)
+15:34:51	Warning: 	Link praytimes.org/wiki/Special:RecentChangesLinked/Calculation not scanned (follow robots meta tag)
+15:34:52	Error: 	"Not Found" (404) at link praytimes.org/wiki/Talk:Calculation (from praytimes.org/w/index.php?title=Calculation&redirect=no)
+15:34:52	Warning: 	Link praytimes.org/w/index.php?title=Calculation&action=edit not scanned (follow robots meta tag)
+15:34:52	Warning: 	Link praytimes.org/w/index.php?title=Calculation&action=history not scanned (follow robots meta tag)
+15:34:52	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Calculation&returntoquery=redirect%3Dno not scanned (follow robots meta tag)
+15:34:52	Error: 	"Not Found" (404) at link praytimes.org/w/Icon-48.png (from praytimes.org/w/index.php?title=File:Icon-48.png&printable=yes)
+15:34:52	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=File:Icon-48.png&returntoquery=printable%3Dyes not scanned (follow robots meta tag)
+15:34:52	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Pray_Times:About&returntoquery=redirect%3Dno%26printable%3Dyes not scanned (follow robots meta tag)
+15:37:48	Error: 	"Not Found" (404) at link praytimes.org/code/PrayTimes.js (from praytimes.org/code/git/?a=blob&p=PrayTimes&h=f5ac3741b8e7632225fb6ad5b0c7adbb35119ff2&n=monthly.htm)
+15:38:04	Error: 	"Not Found" (404) at link praytimes.org/code/PrayTime.js (from praytimes.org/code/git/?a=blob&p=PrayTimes&h=f6e9f627c9df101cda228d1b5f7dc3014510814e&n=monthly.htm)
+15:38:13	Warning: 	Link praytimes.org/w/index.php?title=Special:UserLogin&returnto=Calculation&returntoquery=redirect%3Dno%26printable%3Dyes not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.49-2 mirror complete in 32 minutes 23 seconds : 2325 links scanned, 2254 files written (17263046 bytes overall) [11931077 bytes received at 6140 bytes/sec], 11361819 bytes transferred using HTTP compression in 1797 files, ratio 31%, 51.1 requests per connection
+(50 errors, 170 warnings, 0 messages)

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from praytimes.org/code/git/.?a=viewblob&p=PrayTimes&h=d086dd4e20256802cc83d63aaefaa71cd8f1aa14&hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&f=v1/csharp/sample.cs by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Apr 2025 12:52:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>PrayTimes - Blob - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="a4ff?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".html">Index</a>
+ &raquo; <a href="c0f0.html?a=summary&amp;p=PrayTimes">PrayTimes</a> : Blob d086dd / <a href="1aaf.html?a=tree&amp;p=PrayTimes&amp;h=acedbb7357a9bc04eb5bbbd98f33a401f76b8156&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&amp;f=v1">v1</a> / <a href="7adf.html?a=tree&amp;p=PrayTimes&amp;h=98bbbf7c50687f0350fa06811ad69dbfeaaae721&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&amp;f=v1/csharp">csharp</a> / <a href="d1ba.html?a=viewblob&amp;p=PrayTimes&amp;h=d086dd4e20256802cc83d63aaefaa71cd8f1aa14&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&amp;f=v1/csharp/sample.cs">sample.cs</a> </div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="c0f0.html?a=summary&amp;p=PrayTimes">Summary</a> | <a href="07b3.html?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="260a.html?a=commit&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commit</a> | <a href="43f7.html?a=commitdiff&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commitdiff</a> | <a href="e180.html?a=tree&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Tree</a> | 
+<form action="http://praytimes.org/code/git/.?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="c8f1442d28ba10d1f4b8a99d4e826307d3af2a45" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h2>Last commit for v1/csharp/sample.cs: <a href="cd55.html?a=commit&amp;p=PrayTimes&amp;h=1c500fff7f21d1993f205d3e36dc17ee56efdf24">1c500fff7f21d1993f205d3e36dc17ee56efdf24</a></h2>
+<h1>JavaScript ver 2.0 uploaded</h1>
+<div class="authorinfo">
+<a href="ac17.html?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2010-10-29 05:14:09]</div>
+<div class="commitmessage">
+<pre>
+JavaScript ver 2.0 uploaded
+</pre>
+</div>
+<div class="file">
+<pre>
+
+// Pray Times Example
+// By: Jandost Khoso
+
+class Program
+{
+    static void Main ( string [ ] args )
+    {
+        PrayerTime p = new PrayTime();
+        double lo = 25;
+        double la = 55;
+        int y = 0 , m = 0 , d = 0 , tz = 0;
+
+        DateTime cc = DateTime.Now;
+        y = cc.Year;
+        m = cc.Month;
+        d = cc.Day;
+        tz = TimeZone.CurrentTimeZone.GetUtcOffset(new DateTime (y,m,d)).Hours;
+        String [] s ;
+
+        p.setCalcMethod ( 2 );
+        p . setAsrMethod ( 0 );
+        s = p . getDatePrayerTimes ( y , m , d , lo , la , tz );
+        for(int i = 0 ; i &lt; s.Length ; ++i )
+        {
+            Console . WriteLine ( s [ i ] );
+        }
+    }
+}</pre>
+</div>
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+
+<!-- Mirrored from praytimes.org/code/git/.?a=viewblob&p=PrayTimes&h=d086dd4e20256802cc83d63aaefaa71cd8f1aa14&hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&f=v1/csharp/sample.cs by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Apr 2025 12:52:40 GMT -->
+</html>

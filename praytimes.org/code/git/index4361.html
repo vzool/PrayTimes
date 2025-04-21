@@ -1,0 +1,50 @@
+From c8f1442d28ba10d1f4b8a99d4e826307d3af2a45 Mon Sep 17 00:00:00 2001
+From: Hamid <admin@praytimes>
+Date: Tue, 23 Nov 2010 23:37:21 -0500
+Subject: [PATCH] ver 2.1: Licence changed to LGPL v3.0
+
+---
+ v2/js/PrayTimes.js | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/v2/js/PrayTimes.js b/v2/js/PrayTimes.js
+index d4d81d8..dece204 100644
+--- a/v2/js/PrayTimes.js
++++ b/v2/js/PrayTimes.js
+@@ -1,11 +1,11 @@
+ //--------------------- Copyright Block ----------------------
+ /* 
+ 
+-PrayTimes.js: Prayer Times Calculator (ver 2.0)
++PrayTimes.js: Prayer Times Calculator (ver 2.1)
+ Copyright (C) 2007-2010 PrayTimes.org
+ 
+ Developer: Hamid Zarrabi-Zadeh
+-License: GNU General Public License, ver 3
++License: GNU LGPL v3.0
+ 
+ TERMS OF USE:
+ 	Permission is granted to use this code, with or 
+@@ -99,7 +99,7 @@ function PrayTimes(method) {
+ 			params: { fajr: 18, isha: 18 } },
+ 		Tehran: {
+ 			name: 'Institute of Geophysics, University of Tehran',
+-			params: { fajr: 17.7, isha: 14, maghrib: 4.5, midnight: 'Jafari' } },  // isha is not explicitely specified in this method
++			params: { fajr: 17.7, isha: 14, maghrib: 4.5, midnight: 'Jafari' } },  // isha is not explicitly specified in this method
+ 		Jafari: {
+ 			name: 'Shia Ithna-Ashari, Leva Institute, Qum',
+ 			params: { fajr: 16, isha: 14, maghrib: 4, midnight: 'Jafari' } }
+@@ -241,8 +241,8 @@ function PrayTimes(method) {
+ 
+ 	// return prayer times for a given date
+ 	getTimes: function(date, coords, timezone, dst, format) {
+-		lng = 1* coords[0];
+-		lat = 1* coords[1]; 
++		lat = 1* coords[0];
++		lng = 1* coords[1]; 
+ 		elv = coords[2] ? 1* coords[2] : 0;
+ 		timeFormat = format || timeFormat;
+ 		if (date.constructor === Date)
+-- 
+1.7.12.4
+

@@ -1,0 +1,147 @@
+From 69e03bfe798d9c00129d6eafbff32ed02d055e12 Mon Sep 17 00:00:00 2001
+From: Hamid <admin@praytimes>
+Date: Wed, 8 Dec 2010 01:30:14 -0500
+Subject: [PATCH] Small bug fix in php v1
+
+---
+ v1/php/PrayTime.php | 10 ++++------
+ v1/php/sample.php   | 45 +++++++++++++++++----------------------------
+ 2 files changed, 21 insertions(+), 34 deletions(-)
+
+diff --git a/v1/php/PrayTime.php b/v1/php/PrayTime.php
+index 3800a64..91c59f0 100644
+--- a/v1/php/PrayTime.php
++++ b/v1/php/PrayTime.php
+@@ -3,12 +3,10 @@
+ //--------------------- Copyright Block ----------------------
+ /*
+ 
+-PrayTime.php: Prayer Times Calculator (ver 1.2.1)
++PrayTime.php: Prayer Times Calculator (ver 1.2.2)
+ Copyright (C) 2007-2010 PrayTimes.org
+ 
+-PHP Code By: Hamid Zarrabi-Zadeh
+-Original JS Code By: Hamid Zarrabi-Zadeh
+-
++Developer: Hamid Zarrabi-Zadeh
+ License: GNU General Public License, ver 3
+ 
+ TERMS OF USE:
+@@ -199,7 +197,7 @@ class PrayTime
+     function getPrayerTimes($timestamp, $latitude, $longitude, $timeZone)
+     {
+         $date = @getdate($timestamp);
+-        return $this->getDatePrayerTimes($date[year], $date[mon], $date[mday],
++        return $this->getDatePrayerTimes($date['year'], $date['mon'], $date['mday'],
+                     $latitude, $longitude, $timeZone);
+     }
+ 
+@@ -504,7 +502,7 @@ class PrayTime
+     // add a leading 0 if necessary
+     function twoDigitsFormat($num)
+     {
+-        return ($num <10) ? '0'+ $num : $num;
++        return ($num <10) ? '0'. $num : $num;
+     }
+ 
+ 
+diff --git a/v1/php/sample.php b/v1/php/sample.php
+index a7a1c86..2174353 100644
+--- a/v1/php/sample.php
++++ b/v1/php/sample.php
+@@ -1,13 +1,14 @@
+-<? 
++<?php
++	
+ 	// Prayer Time Calculator
+ 	// By: Hamid Zarrabi-Zadeh
+-	// Inputs : $method, $year, $lat, $lng, $timeZone
++	// Inputs : $method, $year, $latitude, $longitude, $timeZone
+ 	
+-	import_request_variables("gpc");
++	import_request_variables("p");
+ 	include('PrayTime.php');
+ 
+ 	if (!isset($method) || !isset($year) )
+-		list($method, $year, $lat, $lng, $timeZone) = array(0, 2007, 43, -80, -5);
++		list($method, $year, $latitude, $longitude, $timeZone) = array(0, 2007, 43, -80, -5);
+ ?>
+ <html>
+ <head>
+@@ -20,15 +21,15 @@
+ <body>
+ 
+ <h1> Prayer Timetable </h1>
+-<form name=form method="post" action="" onSubmit="submit_form();">
++<form name="form" method="post" action="<?php echo $PHP_SELF ?>">
+ <div style="padding:10px; background-color: #F8F7F4; border: 1px dashed #EAE9CD;">
+ 
+-	Latitude: <input type="text" value="<?= $lat ?>" id="latitude" size="4">
+-	Longitude: <input type="text" value="<?= $lng ?>" id="longitude" size="4">
+-	Time Zone: <input type="text" value="<?= $timeZone ?>" id="timezone" size="2"> 
+-	Year: <input type="text" value="<?= $year ?>" id="year" size="4"> <br>
++	Latitude: <input type="text" value="<?php echo $latitude ?>" name="latitude" size="4">
++	Longitude: <input type="text" value="<?php echo $longitude ?>" name="longitude" size="4">
++	Time Zone: <input type="text" value="<?php echo $timeZone ?>" name="timeZone" size="2"> 
++	Year: <input type="text" value="<?php echo $year ?>" name="year" size="4"> <br>
+ 	Method: 
+-	<select id="method" name="method" size="1">
++	<select id="method" name="method" size="1" onchange="document.form.submit()">
+ 		<option value="0">Shia Ithna-Ashari</option>
+ 		<option value="1">University of Islamic Sciences, Karachi</option>
+ 		<option value="2">Islamic Society of North America (ISNA)</option>
+@@ -37,7 +38,7 @@
+ 		<option value="5">Egyptian General Authority of Survey</option>
+ 		<option value="7">Institute of Geophysics, University of Tehran</option>
+     </select>	
+-	<input type="submit" value="Make Timetable" onclick="submit_form();">
++	<input type="submit" value="Make Timetable">
+ 
+ </div>
+ </form>
+@@ -45,7 +46,7 @@
+ <pre>
+  Date   Fajr   Sunrise  Dhuhr    Asr   Sunset  Maghrib  Isha 
+ -------------------------------------------------------------
+-<?
++<?php
+ 
+ 	$prayTime = new PrayTime($method);
+ 
+@@ -54,7 +55,7 @@
+ 
+ 	while ($date < $endDate)
+ 	{
+-		$times = $prayTime->getPrayerTimes($date, $lat, $lng, $timeZone);
++		$times = $prayTime->getPrayerTimes($date, $latitude, $longitude, $timeZone);
+ 		$day = date('M d', $date);
+ 		print $day. "\t". implode("\t", $times). "\n";
+ 		$date += 24* 60* 60;  // next day
+@@ -64,21 +65,9 @@
+ </pre>
+ 
+ <script type="text/javascript">
+-
+-	function submit_form()
+-	{
+-		var lat = document.getElementById('latitude').value;
+-		var lng = document.getElementById('longitude').value;
+-		var timeZone = document.getElementById('timezone').value;
+-		var year = document.getElementById('year').value;
+-		var method = document.getElementById('method').value;
+-		var table = document.getElementById('timetable');
+-		var link = '<?= $PHP_SELF ?>'+ '?method='+ method+ '&year='+ year+ '&lat='+ lat+ '&lng='+ lng+ '&timeZone='+ timeZone;
+-		document.form.action = link;
+-		document.form.submit();
+-	}
+-
+-	document.getElementById('method').selectedIndex = <?= $method ?>;
++	
++	var method = <?php echo $method ?>;
++	document.getElementById('method').selectedIndex = Math.min(method, 6);
+ 
+ </script>
+ 
+-- 
+1.7.12.4
+

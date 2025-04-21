@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from praytimes.org/code/git/.?a=viewblob&p=PrayTimes&h=48b25a26198a0104d0090d80551a3bdf6dbf16c6&hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&f=v2/js/examples/simple.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Apr 2025 12:55:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>PrayTimes - Blob - ViewGit</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="alternate" type="application/rss+xml" title="PrayTimes log" href="a4ff?a=rss-log&amp;p=PrayTimes" />
+	<meta name="generator" content="ViewGit" />
+</head>
+<body>
+
+
+<div class="nav">
+<a href=".html">Index</a>
+ &raquo; <a href="c0f0.html?a=summary&amp;p=PrayTimes">PrayTimes</a> : Blob 48b25a / <a href="3844.html?a=tree&amp;p=PrayTimes&amp;h=769625049716939aff54e138c07f05d0bc4a591d&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&amp;f=v2">v2</a> / <a href="004c.html?a=tree&amp;p=PrayTimes&amp;h=5cda334d4b508b08292e5c28dcfd109aadd13afb&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&amp;f=v2/js">js</a> / <a href="304a.html?a=tree&amp;p=PrayTimes&amp;h=2881784a96de8e37bacd71bd3ab091f3deab4ef6&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&amp;f=v2/js/examples">examples</a> / <a href="7383.html?a=viewblob&amp;p=PrayTimes&amp;h=48b25a26198a0104d0090d80551a3bdf6dbf16c6&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&amp;f=v2/js/examples/simple.htm">simple.htm</a> </div>
+<div id="page_body">
+
+<div class="pagenav">
+<a href="c0f0.html?a=summary&amp;p=PrayTimes">Summary</a> | <a href="07b3.html?a=shortlog&amp;p=PrayTimes">Shortlog</a> | <a href="260a.html?a=commit&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commit</a> | <a href="43f7.html?a=commitdiff&amp;p=PrayTimes&amp;h=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Commitdiff</a> | <a href="e180.html?a=tree&amp;p=PrayTimes&amp;h=1cfe13ad91fd1504eacdce52bc312eb74db5ad99&amp;hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45">Tree</a> | 
+<form action="http://praytimes.org/code/git/.?" method="get" class="search">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="p" value="PrayTimes" />
+<input type="hidden" name="h" value="c8f1442d28ba10d1f4b8a99d4e826307d3af2a45" />
+<select name="st">
+	<option>commit</option>
+	<option>change</option>
+	<option>author</option>
+	<option>committer</option>
+</select>
+<input type="text" name="s" />
+</form>
+</div>
+
+<h2>Last commit for v2/js/examples/simple.htm: <a href="9333.html?a=commit&amp;p=PrayTimes&amp;h=c36f21f22ab69bdc840751846a2f0aa9a2195cb4">c36f21f22ab69bdc840751846a2f0aa9a2195cb4</a></h2>
+<h1>v2.2: Auto TimeZone and DST detection added</h1>
+<div class="authorinfo">
+<a href="ac17.html?a=search&amp;p=PrayTimes&amp;h=HEAD&amp;st=author&amp;s=Hamid">Hamid</a> [2011-03-17 05:50:02]</div>
+<div class="commitmessage">
+<pre>
+v2.2: Auto TimeZone and DST detection added
+</pre>
+</div>
+<div class="file">
+<pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt; Daily Prayer Timetable &lt;/title&gt;
+&lt;style&gt;
+	body, td, th {font-family: verdana; font-size: 12px; color: #404040;}
+	#timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; width: 9em;}
+	#timetable td, #timetable th {border-width: 1px; border-spacing: 1px; padding: 2px 4px; border-style: inset; border-color: #CCCCCC;}
+	#timetable th {color:black; text-align: center; font-weight: bold; background-color: #F8F7F4;}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;../PrayTimes.js&quot;&gt;&lt;/script&gt;
+
+&lt;br&gt;
+&lt;p align=&quot;center&quot;&gt;Waterloo, ON, Canada&lt;p&gt;
+&lt;div align=&quot;center&quot; id=&quot;table&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+	var date = new Date(); // today
+	var times = prayTimes.getTimes(date, [43, -80], -5);
+	var list = ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight'];
+
+	var html = '&lt;table id=&quot;timetable&quot;&gt;';
+	html += '&lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;'+ date.toLocaleDateString()+ '&lt;/th&gt;&lt;/tr&gt;';
+	for(var i in list)	{
+		html += '&lt;tr&gt;&lt;td&gt;'+ list[i]+ '&lt;/td&gt;';
+		html += '&lt;td&gt;'+ times[list[i].toLowerCase()]+ '&lt;/td&gt;&lt;/tr&gt;';
+	}
+	html += '&lt;/table&gt;';
+	document.getElementById('table').innerHTML = html;
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</div>
+<div class="ad"><a href="http://viewgit.sourceforge.net/" title="Visit the ViewGit homepage">ViewGit</a></div></div>
+</body>
+
+<!-- Mirrored from praytimes.org/code/git/.?a=viewblob&p=PrayTimes&h=48b25a26198a0104d0090d80551a3bdf6dbf16c6&hb=c8f1442d28ba10d1f4b8a99d4e826307d3af2a45&f=v2/js/examples/simple.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Apr 2025 12:55:04 GMT -->
+</html>
